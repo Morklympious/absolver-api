@@ -1,0 +1,33 @@
+{
+  "name": "absolver-data",
+  "version": "0.0.1",
+  "description": "Generated JSON for Absolver moves",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^4.13.1",
+    "eslint-config-arenanet": "^3.3.1"
+  },
+  "devDependencies": {
+    "rollup": "^0.53.1"
+  },
+  "scripts": {
+    "generate": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Morklympious/absolver-data.git"
+  },
+  "keywords": [
+    "json",
+    "data",
+    "absolver",
+    "games"
+  ],
+  "author": "Morklympious",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Morklympious/absolver-data/issues"
+  },
+  "homepage": "https://github.com/Morklympious/absolver-data#readme"
+}
