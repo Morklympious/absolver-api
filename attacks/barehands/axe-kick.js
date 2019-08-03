@@ -4,7 +4,7 @@ module.exports =  {
     name  : "Axe Kick",
     style : "forsaken",
 
-    stances : stances("front", "horizontal", true),
+    stances : stances("back", "horizontal", true),
 
     height : "mid",
     type   : "vertical",
