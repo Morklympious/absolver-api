@@ -5,7 +5,7 @@
         name  : "Spinning Wide Hook",
         style : "forsaken",
 
-        stances : null,
+        stances : stances("back", "horizontal", false),
 
         height : "high",
         type   : "horizontal",
