@@ -1,11 +1,16 @@
 
-    const stances = require("../../utilities/stances.js");
-
+    
     module.exports =  {
         name  : "Wallop Blow",
         style : "kahlt",
 
-        stances : stances("back", "none", true),
+           stance : {
+        begins : "B",
+        ends   : "B",
+    
+        pivot : false,
+        side  : "same",
+    },
 
         height : "mid",
         type   : "thrust",

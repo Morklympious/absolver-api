@@ -1,10 +1,14 @@
-const stances = require("../../utilities/stances.js");
-
 module.exports =  {
     name  : "Axe Kick",
     style : "forsaken",
 
-    stances : stances("back", "horizontal", true),
+    stance : {
+        begins : "B",
+        ends   : "F",
+
+        pivot : true,
+        side  : "same",
+    },
 
     height : "mid",
     type   : "vertical",

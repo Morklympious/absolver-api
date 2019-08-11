@@ -1,15 +1,18 @@
+module.exports =  {
+    name  : "Hadrunken",
+    style : "stagger",
 
-    const stances = require("../../utilities/stances.js");
+    stance : {
+        begins : "F",
+        ends   : "F",
+    
+        pivot : false,
+        side  : "same",
+    },
 
-    module.exports =  {
-        name  : "Hadrunken",
-        style : "stagger",
+    height : "high",
+    type   : "thrust",
 
-        stances : stances("front", "none", true, true),
-
-        height : "high",
-        type   : "thrust",
-
-        properties : [ "charge" ]
-    };
+    properties : [ "charge" ]
+};
     

@@ -1,11 +1,16 @@
 
-    const stances = require("../../utilities/stances.js");
-
+    
     module.exports =  {
         name  : "Spin Elbow",
         style : "forsaken",
 
-        stances : stances("back", "vertical", false),
+        stance : {
+            begins : "B",
+            ends   : "B",
+        
+            pivot : true,
+            side  : "diff",
+        },
 
         height : "high",
         type   : "thrust",

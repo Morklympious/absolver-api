@@ -1,11 +1,16 @@
 
-    const stances = require("../../utilities/stances.js");
-
+    
     module.exports =  {
         name  : "Side Kick",
         style : "khalt",
 
-        stances : stances("front", "vertical", true),
+        stance : {
+        begins : "F",
+        ends   : "F",
+    
+        pivot : true,
+        side  : "same",
+    },
 
         height : "high",
         type   : "horizontal",

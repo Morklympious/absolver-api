@@ -1,10 +1,14 @@
-const stances = require("../../utilities/stances.js");
-
 module.exports =  {
     name  : "Double Fist Stretch",
     style : "stagger",
 
-    stances : stances("front", "horizontal", false),
+    stance : {
+        begins : "F",
+        ends   : "B",
+    
+        pivot : false,
+        side  : "diff",
+    },
 
     height : "high",
     type   : "horizontal",

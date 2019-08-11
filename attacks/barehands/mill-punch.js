@@ -1,11 +1,17 @@
 
-    const stances = require("../../utilities/stances.js");
-
+    
     module.exports =  {
         name  : "Mill Punch",
         style : "forsaken",
 
-        stances : stances("front", "diagonal", false),
+        stance : {
+            begins : "F",
+            ends   : "B",
+        
+            pivot : true,
+            side  : "diff",
+        },
+    
 
         height : "mid",
         type   : "thrust",

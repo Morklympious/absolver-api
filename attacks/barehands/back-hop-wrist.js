@@ -1,10 +1,14 @@
-const stances = require("../../utilities/stances.js");
-
 module.exports =  {
     name  : "Back Hop Wrist",
     style : "stagger",
 
-    stances : stances("back", "none", true),
+    stance : {
+        begins : "BF",
+        ends   : "B",
+
+        pivot : false,
+        side  : "same",
+    },
 
     height : "high",
     type   : "thrust",

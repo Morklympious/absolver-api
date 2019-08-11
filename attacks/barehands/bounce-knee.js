@@ -1,10 +1,14 @@
-const stances = require("../../utilities/stances.js");
-
 module.exports =  {
     name  : "Bounce Knee",
     style : "kahlt",
 
-    stances : stances("front", "diagonal", true),
+    stance : {
+        begins : "F",
+        ends   : "B",
+    
+        pivot : true,
+        side  : "same",
+    },
 
     height : "high",
     type   : "thrust",

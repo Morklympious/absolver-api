@@ -1,15 +1,18 @@
+module.exports =  {
+    name  : "Handstand Kick",
+    style : "stagger",
 
-    const stances = require("../../utilities/stances.js");
+    stance : {
+        begins : "F",
+        ends   : "B",
+    
+        pivot : true,
+        side  : "diff",
+    },
 
-    module.exports =  {
-        name  : "Handstand Kick",
-        style : "stagger",
+    height : "high",
+    type   : "horizontal",
 
-        stances : stances("front", "diagonal", false),
-
-        height : "high",
-        type   : "horizontal",
-
-        properties : [ "double", "low" ]
-    };
+    properties : [ "double", "low" ]
+};
     

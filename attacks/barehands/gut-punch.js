@@ -1,15 +1,18 @@
+module.exports =  {
+    name  : "Gut Punch",
+    style : "stagger",
 
-    const stances = require("../../utilities/stances.js");
-
-    module.exports =  {
-        name  : "Gut Punch",
-        style : "stagger",
-
-        stances : stances("back", "diagonal", true),
-
-        height : "mid",
-        type   : "thrust",
-
-        properties : []
-    };
+    stance : {
+        begins : "B",
+        ends   : "F",
     
+        pivot : true,
+        side  : "same",
+    },
+
+    height : "mid",
+    type   : "thrust",
+
+    properties : []
+};
+

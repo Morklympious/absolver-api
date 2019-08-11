@@ -1,10 +1,14 @@
-const stances = require("../../utilities/stances.js");
-
 module.exports =  {
     name  : "Curled Up Uppercut",
     style : "kahlt",
 
-    stances : stances("front", "vertical", true),
+    stance : {
+        begins : "F",
+        ends   : "F",
+    
+        pivot : true,
+        side  : "same",
+    },
 
     height : "mid",
     type   : "vertical",

@@ -1,15 +1,18 @@
+module.exports =  {
+    name  : "Jumped Spin kick",
+    style : "kahlt",
+    
+    stance : {
+        begins : "B",
+        ends   : "B",
+    
+        pivot : true,
+        side  : "same",
+    },
+    
+    height : "high",
+    type   : "horizontal",
 
-    const stances = require("../../utilities/stances.js");
-
-    module.exports =  {
-        name  : "Jumped Spin kick",
-        style : "kahlt",
-
-        stances : stances("back", "vertical", true),
-
-        height : "high",
-        type   : "horizontal",
-
-        properties : [ "jump" ]
-    };
+    properties : [ "jump" ]
+};
     

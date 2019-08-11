@@ -1,10 +1,14 @@
-const stances = require("../../utilities/stances.js");
-
 module.exports =  {
     name  : "Cross Punch",
     style : "forsaken",
 
-    stances : stances("front", "none", true),
+        stance : {
+        begins : "B",
+        ends   : "B",
+    
+        pivot : false,
+        side  : "same",
+    },
 
     height : "high",
     type   : "thrust",

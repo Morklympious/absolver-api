@@ -1,10 +1,14 @@
-const stances = require("../../utilities/stances.js");
-
 module.exports =  {
     name  : "Double Palm",
     style : "windfall",
 
-    stances : stances("back", "horizontal", true),
+    stance : {
+        begins : "B",
+        ends   : "F",
+    
+        pivot : false,
+        side  : "same",
+    },
 
     height : "mid",
     type   : "thrust",

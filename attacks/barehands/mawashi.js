@@ -1,11 +1,16 @@
 
-    const stances = require("../../utilities/stances.js");
-
+    
     module.exports =  {
         name  : "Mawashi",
         style : "windfall",
 
-        stances : stances("front", "diagonal", true),
+        stance : {
+            begins : "F",
+            ends   : "B",
+        
+            pivot : true,
+            side  : "same",
+        },
 
         height : "high",
         type   : "thrust",

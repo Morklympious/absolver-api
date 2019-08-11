@@ -1,11 +1,17 @@
 
-    const stances = require("../../utilities/stances.js");
-
+    
     module.exports =  {
         name  : "Whirlwind Double Punch",
         style : "stagger",
 
-        stances : stances("back", "vertical", true),
+        stance : {
+            begins : "B",
+            ends   : "F",
+        
+            pivot : false,
+            side  : "same",
+        },
+
 
         height : "low",
         type   : "horizontal",

@@ -1,10 +1,14 @@
-const stances = require("../../utilities/stances.js");
-
 module.exports =  {
     name  : "Elbow Stumble",
     style : "stagger",
 
-    stances : stances("front", "vertical", false),
+    stance : {
+        begins : "F",
+        ends   : "F",
+    
+        pivot : true,
+        side  : "diff",
+    },
 
     height : "high",
     type   : "thrust",

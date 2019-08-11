@@ -1,15 +1,18 @@
+module.exports =  {
+    name  : "Jackhammer Punch",
+    style : "kahlt",
 
-    const stances = require("../../utilities/stances.js");
+    stance : {
+        begins : "B",
+        ends   : "F",
+    
+        pivot : false,
+        side  : "diff",
+    },
 
-    module.exports =  {
-        name  : "Jackhammer Punch",
-        style : "kahlt",
+    height : "mid",
+    type   : "vertical",
 
-        stances : stances("back", "horizontal", false),
-
-        height : "mid",
-        type   : "vertical",
-
-        properties : [ "double" ]
-    };
+    properties : [ "double" ]
+};
     

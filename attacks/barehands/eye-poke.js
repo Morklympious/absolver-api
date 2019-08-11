@@ -1,10 +1,14 @@
-const stances = require("../../utilities/stances.js");
-
 module.exports =  {
     name  : "Eye Poke",
     style : "stagger",
 
-    stances : stances("back", "horizontal", true),
+    stance : {
+        begins : "B",
+        ends   : "F",
+    
+        pivot : false,
+        side  : "same",
+    },
 
     height : "high",
     type   : "thrust",

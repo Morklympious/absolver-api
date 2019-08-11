@@ -1,11 +1,16 @@
 
-    const stances = require("../../utilities/stances.js");
-
+    
     module.exports =  {
         name  : "Spinning Wide Hook",
         style : "forsaken",
 
-        stances : stances("back", "horizontal", false),
+        stance : {
+            begins : "B",
+            ends   : "F",
+        
+            pivot : false,
+            side  : "diff",
+        },
 
         height : "high",
         type   : "horizontal",

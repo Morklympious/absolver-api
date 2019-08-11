@@ -1,15 +1,18 @@
+module.exports =  {
+    name  : "Foot Slap",
+    style : "stagger",
 
-    const stances = require("../../utilities/stances.js");
+    stance : {
+        begins : "B",
+        ends   : "B",
+    
+        pivot : false,
+        side  : "same",
+    },
 
-    module.exports =  {
-        name  : "Foot Slap",
-        style : "stagger",
+    height : "high",
+    type   : "horizontal",
 
-        stances : stances("front", "diagonal", true),
-
-        height : "high",
-        type   : "horizontal",
-
-        properties : [ "jump" ]
-    };
+    properties : [ "jump" ]
+};
     

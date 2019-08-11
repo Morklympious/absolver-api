@@ -1,11 +1,15 @@
-const stances = require("../../utilities/stances.js");
-
 module.exports =  {
     name  : "Double Spike Kick",
     style : "stagger",
 
-    stances : stances("front", "none", false),
-
+    stance : {
+        begins : "F",
+        ends   : "F",
+    
+        pivot : false,
+        side  : "diff",
+    },
+    
     height : "mid",
     type   : "thrust",
 

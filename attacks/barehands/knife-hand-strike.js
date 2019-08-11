@@ -1,15 +1,19 @@
 
-    const stances = require("../../utilities/stances.js");
+module.exports =  {
+    name  : "Knife Hand Strike",
+    style : "windfall",
 
-    module.exports =  {
-        name  : "Knife Hand Strike",
-        style : "windfall",
+    stance : {
+        begins : "F",
+        ends   : "B",
 
-        stances : stances("front", "horizontal", true),
+        pivot : false,
+        side  : "same",
+    },
 
-        height : "high",
-        type   : "thrust",
+    height : "high",
+    type   : "thrust",
 
-        properties : []
-    };
+    properties : []
+};
     

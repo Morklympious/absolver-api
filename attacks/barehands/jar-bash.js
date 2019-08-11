@@ -1,15 +1,18 @@
+module.exports =  {
+    name  : "Jar Bash",
+    style : "stagger",
 
-    const stances = require("../../utilities/stances.js");
+    stance : {
+        begins : "F",
+        ends   : "F",
+    
+        pivot : true,
+        side  : "diff",
+    },
 
-    module.exports =  {
-        name  : "Jar Bash",
-        style : "stagger",
+    height : "high",
+    type   : "horizontal",
 
-        stances : stances("front", "vertical", false),
-
-        height : "high",
-        type   : "horizontal",
-
-        properties : []
-    };
+    properties : []
+};
     

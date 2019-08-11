@@ -1,15 +1,18 @@
+module.exports =  {
+    name  : "Grab Punch",
+    style : "stagger",
 
-    const stances = require("../../utilities/stances.js");
+    stance : {
+        begins : "B",
+        ends   : "F",
+    
+        pivot : false,
+        side  : "diff",
+    },
 
-    module.exports =  {
-        name  : "Grab Punch",
-        style : "stagger",
+    height : "high",
+    type   : "thrust",
 
-        stances : stances("back", "horizontal", false),
-
-        height : "high",
-        type   : "thrust",
-
-        properties : []
-    };
+    properties : []
+};
     

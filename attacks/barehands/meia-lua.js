@@ -1,15 +1,18 @@
+module.exports =  {
+    name  : "Meia Lua",
+    style : "khalt",
 
-    const stances = require("../../utilities/stances.js");
+    stance : {
+        begins : "F",
+        ends   : "F",
+    
+        pivot : true,
+        side  : "same",
+    },
 
-    module.exports =  {
-        name  : "Meia Lua",
-        style : "khalt",
+    height : "high",
+    type   : "horizontal",
 
-        stances : stances("front", "vertical", true),
-
-        height : "high",
-        type   : "horizontal",
-
-        properties : [ "duck" ]
-    };
+    properties : [ "duck" ]
+};
     

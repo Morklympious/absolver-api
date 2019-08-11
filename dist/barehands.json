@@ -2,18 +2,12 @@
   {
     "name": "360 Tornado Kick",
     "style": "forsaken",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "BR",
-        "hits": "R"
-      },
-      {
-        "begins": "FL",
-        "ends": "BL",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "B",
+      "pivot": true,
+      "side": "same"
+    },
     "damage": 119.8,
     "speed": 0.8,
     "range": 2.2,
@@ -26,18 +20,12 @@
   {
     "name": "Ankle Stamp",
     "style": "windfall",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "BR",
-        "hits": "R"
-      },
-      {
-        "begins": "FL",
-        "ends": "BL",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "B",
+      "pivot": false,
+      "side": "same"
+    },
     "height": "low",
     "type": "thrust",
     "modifiers": []
@@ -45,18 +33,12 @@
   {
     "name": "Axe Kick",
     "style": "forsaken",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "BR",
-        "hits": "R"
-      },
-      {
-        "begins": "FL",
-        "ends": "BL",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "F",
+      "pivot": true,
+      "side": "same"
+    },
     "height": "mid",
     "type": "vertical",
     "properties": []
@@ -64,18 +46,12 @@
   {
     "name": "Back Fist",
     "style": "kahlt",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "FR",
-        "hits": "R"
-      },
-      {
-        "begins": "FL",
-        "ends": "FL",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "F",
+      "pivot": false,
+      "side": "same"
+    },
     "height": "mid",
     "type": "thrust",
     "properties": []
@@ -83,18 +59,12 @@
   {
     "name": "Back Hop Wrist",
     "style": "stagger",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "BR",
-        "hits": "R"
-      },
-      {
-        "begins": "BL",
-        "ends": "BL",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "BF",
+      "ends": "B",
+      "pivot": false,
+      "side": "same"
+    },
     "height": "high",
     "type": "thrust",
     "properties": []
@@ -102,18 +72,12 @@
   {
     "name": "Back Tripped Kick",
     "style": "kahlt",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "FR",
-        "hits": "L"
-      },
-      {
-        "begins": "BL",
-        "ends": "FL",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "F",
+      "pivot": false,
+      "side": "diff"
+    },
     "height": "low",
     "type": "horizontal",
     "properties": [
@@ -123,18 +87,12 @@
   {
     "name": "Back Turn Wrist",
     "style": "stagger",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "BL",
-        "hits": "L"
-      },
-      {
-        "begins": "BL",
-        "ends": "BR",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "B",
+      "pivot": true,
+      "side": "diff"
+    },
     "height": "high",
     "type": "thrust",
     "properties": []
@@ -142,18 +100,12 @@
   {
     "name": "Backfall Strike",
     "style": "stagger",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "BR",
-        "hits": "L"
-      },
-      {
-        "begins": "BL",
-        "ends": "BL",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "B",
+      "pivot": false,
+      "side": "diff"
+    },
     "lands": "high",
     "type": "thrust",
     "properties": [
@@ -163,18 +115,12 @@
   {
     "name": "Bending Palm",
     "style": "windfall",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "BL",
-        "hits": "L"
-      },
-      {
-        "begins": "FL",
-        "ends": "BR",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "B",
+      "pivot": true,
+      "side": "diff"
+    },
     "height": "mid",
     "type": "thrust",
     "properties": [
@@ -184,18 +130,12 @@
   {
     "name": "Body Blow",
     "style": "kahlt",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "FL",
-        "hits": "L"
-      },
-      {
-        "begins": "FL",
-        "ends": "FR",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "F",
+      "pivot": true,
+      "side": "diff"
+    },
     "height": "mid",
     "type": "thrust",
     "properties": [
@@ -205,18 +145,12 @@
   {
     "name": "Bounce Knee",
     "style": "kahlt",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "BL",
-        "hits": "R"
-      },
-      {
-        "begins": "FL",
-        "ends": "BR",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "B",
+      "pivot": true,
+      "side": "same"
+    },
     "height": "high",
     "type": "thrust",
     "properties": [
@@ -226,18 +160,12 @@
   {
     "name": "Calbot",
     "style": "forsaken",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "FL",
-        "hits": "R"
-      },
-      {
-        "begins": "FL",
-        "ends": "FR",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "F",
+      "pivot": true,
+      "side": "same"
+    },
     "height": "high",
     "type": "horizontal",
     "properties": [
@@ -247,18 +175,12 @@
   {
     "name": "Charged Haymaker",
     "style": "kahlt",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "FL",
-        "hits": "R"
-      },
-      {
-        "begins": "FL",
-        "ends": "FR",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "F",
+      "pivot": true,
+      "side": "same"
+    },
     "height": "high",
     "type": "thrust",
     "properties": [
@@ -268,18 +190,12 @@
   {
     "name": "Chin Palm",
     "style": "windfall",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "FR",
-        "hits": "R"
-      },
-      {
-        "begins": "FL",
-        "ends": "FL",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "B",
+      "pivot": false,
+      "side": "same"
+    },
     "height": "mid",
     "type": "vertical",
     "properties": []
@@ -287,18 +203,12 @@
   {
     "name": "Cleaver Blow",
     "style": "kahlt",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "FR",
-        "hits": "R"
-      },
-      {
-        "begins": "FL",
-        "ends": "FL",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "F",
+      "pivot": false,
+      "side": "same"
+    },
     "height": "mid",
     "type": "vertical",
     "properties": []
@@ -306,18 +216,12 @@
   {
     "name": "Cleaver Blow",
     "style": "windfall",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "BR",
-        "hits": "R"
-      },
-      {
-        "begins": "BL",
-        "ends": "BL",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "B",
+      "pivot": false,
+      "side": "same"
+    },
     "height": "high",
     "type": "thrust",
     "properties": [
@@ -327,18 +231,12 @@
   {
     "name": "Cross Punch",
     "style": "forsaken",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "FR",
-        "hits": "R"
-      },
-      {
-        "begins": "FL",
-        "ends": "FL",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "B",
+      "pivot": false,
+      "side": "same"
+    },
     "height": "high",
     "type": "thrust",
     "properties": [
@@ -348,18 +246,12 @@
   {
     "name": "Crouching Elbow",
     "style": "kahlt",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "BR",
-        "hits": "L"
-      },
-      {
-        "begins": "FL",
-        "ends": "BL",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "B",
+      "pivot": false,
+      "side": "diff"
+    },
     "height": "mid",
     "type": "thrust",
     "properties": []
@@ -367,18 +259,12 @@
   {
     "name": "Crushing Palm",
     "style": "windfall",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "BR",
-        "hits": "L"
-      },
-      {
-        "begins": "FL",
-        "ends": "BL",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "B",
+      "pivot": false,
+      "side": "diff"
+    },
     "height": "mid",
     "type": "thrust",
     "properties": [
@@ -388,18 +274,12 @@
   {
     "name": "Curled Up Uppercut",
     "style": "kahlt",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "FL",
-        "hits": "R"
-      },
-      {
-        "begins": "FL",
-        "ends": "FR",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "F",
+      "pivot": true,
+      "side": "same"
+    },
     "height": "mid",
     "type": "vertical",
     "properties": []
@@ -407,18 +287,12 @@
   {
     "name": "Direct Punch",
     "style": "windfall",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "FR",
-        "hits": "R"
-      },
-      {
-        "begins": "FL",
-        "ends": "FL",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "F",
+      "pivot": false,
+      "side": "same"
+    },
     "height": "high",
     "type": "thrust",
     "properties": []
@@ -426,18 +300,12 @@
   {
     "name": "Donkey Slap",
     "style": "stagger",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "BR",
-        "hits": "R"
-      },
-      {
-        "begins": "BL",
-        "ends": "BL",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "B",
+      "pivot": false,
+      "side": "same"
+    },
     "height": "mid",
     "type": "vertical",
     "properties": [
@@ -447,18 +315,12 @@
   {
     "name": "Double Fist Stretch",
     "style": "stagger",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "BL",
-        "hits": "L"
-      },
-      {
-        "begins": "BL",
-        "ends": "BR",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "B",
+      "pivot": true,
+      "side": "diff"
+    },
     "height": "high",
     "type": "horizontal",
     "properties": [
@@ -468,18 +330,12 @@
   {
     "name": "Double Palm",
     "style": "windfall",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "FR",
-        "hits": "R"
-      },
-      {
-        "begins": "BL",
-        "ends": "FL",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "F",
+      "pivot": false,
+      "side": "same"
+    },
     "height": "mid",
     "type": "thrust",
     "properties": [
@@ -489,18 +345,12 @@
   {
     "name": "Double Spike Kick",
     "style": "stagger",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "FR",
-        "hits": "L"
-      },
-      {
-        "begins": "FL",
-        "ends": "FL",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "F",
+      "pivot": false,
+      "side": "diff"
+    },
     "height": "mid",
     "type": "thrust",
     "properties": [
@@ -510,18 +360,12 @@
   {
     "name": "Double Fist Stretch",
     "style": "stagger",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "BR",
-        "hits": "R"
-      },
-      {
-        "begins": "FL",
-        "ends": "BL",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "B",
+      "pivot": false,
+      "side": "same"
+    },
     "height": "mid",
     "type": "thrust",
     "properties": []
@@ -529,18 +373,12 @@
   {
     "name": "Drunk Stomp",
     "style": "stagger",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "FL",
-        "hits": "R"
-      },
-      {
-        "begins": "FL",
-        "ends": "FR",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "F",
+      "pivot": true,
+      "side": "same"
+    },
     "height": "mid",
     "type": "thrust",
     "properties": [
@@ -550,18 +388,12 @@
   {
     "name": "Double Fist Stretch",
     "style": "stagger",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "BR",
-        "hits": "L"
-      },
-      {
-        "begins": "FL",
-        "ends": "BL",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "B",
+      "pivot": false,
+      "side": "diff"
+    },
     "height": "high",
     "type": "horizontal",
     "properties": [
@@ -571,18 +403,12 @@
   {
     "name": "Drunken Smash",
     "style": "stagger",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "FL",
-        "hits": "L"
-      },
-      {
-        "begins": "BL",
-        "ends": "FR",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "F",
+      "pivot": true,
+      "side": "diff"
+    },
     "height": "high",
     "type": "thrust",
     "properties": []
@@ -590,18 +416,12 @@
   {
     "name": "Dwit Chagi",
     "style": "windfall",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "BL",
-        "hits": "L"
-      },
-      {
-        "begins": "FL",
-        "ends": "BR",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "B",
+      "pivot": true,
+      "side": "diff"
+    },
     "height": "mid",
     "type": "thrust",
     "properties": [
@@ -611,18 +431,12 @@
   {
     "name": "Elbow Stumble",
     "style": "stagger",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "FL",
-        "hits": "L"
-      },
-      {
-        "begins": "FL",
-        "ends": "FR",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "F",
+      "pivot": true,
+      "side": "diff"
+    },
     "height": "high",
     "type": "thrust",
     "properties": []
@@ -630,18 +444,12 @@
   {
     "name": "Eye Poke",
     "style": "stagger",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "FR",
-        "hits": "R"
-      },
-      {
-        "begins": "BL",
-        "ends": "FL",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "F",
+      "pivot": false,
+      "side": "same"
+    },
     "height": "high",
     "type": "thrust",
     "properties": [
@@ -651,18 +459,12 @@
   {
     "name": "Falcon Punch",
     "style": "forsaken",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "FR",
-        "hits": "R"
-      },
-      {
-        "begins": "FL",
-        "ends": "FL",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "B",
+      "pivot": false,
+      "side": "same"
+    },
     "height": "high",
     "type": "thrust",
     "properties": [
@@ -672,18 +474,12 @@
   {
     "name": "Fast Back Fist",
     "style": "kahlt",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "FR",
-        "hits": "R"
-      },
-      {
-        "begins": "BL",
-        "ends": "FL",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "F",
+      "pivot": false,
+      "side": "same"
+    },
     "height": "high",
     "type": "thrust",
     "properties": []
@@ -691,18 +487,12 @@
   {
     "name": "Fast Elbow",
     "style": "forsaken",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "BR",
-        "hits": "R"
-      },
-      {
-        "begins": "BL",
-        "ends": "BL",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "B",
+      "pivot": false,
+      "side": "same"
+    },
     "height": "high",
     "type": "thrust",
     "properties": []
@@ -710,18 +500,12 @@
   {
     "name": "Fast Punch",
     "style": "forsaken",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "FR",
-        "hits": "R"
-      },
-      {
-        "begins": "BL",
-        "ends": "FL",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "F",
+      "pivot": false,
+      "side": "same"
+    },
     "height": "high",
     "type": "thrust",
     "properties": []
@@ -729,18 +513,12 @@
   {
     "name": "Foot Slap",
     "style": "stagger",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "BL",
-        "hits": "R"
-      },
-      {
-        "begins": "FL",
-        "ends": "BR",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "B",
+      "pivot": false,
+      "side": "same"
+    },
     "height": "high",
     "type": "horizontal",
     "properties": [
@@ -750,18 +528,12 @@
   {
     "name": "Front Kick",
     "style": "khalt",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "FL",
-        "hits": "R"
-      },
-      {
-        "begins": "FL",
-        "ends": "FR",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "F",
+      "pivot": true,
+      "side": "same"
+    },
     "height": "mid",
     "type": "thrust",
     "properties": [
@@ -771,18 +543,12 @@
   {
     "name": "Front Sweep",
     "style": "windfall",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "BR",
-        "hits": "R"
-      },
-      {
-        "begins": "FL",
-        "ends": "BL",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "B",
+      "pivot": false,
+      "side": "same"
+    },
     "height": "low",
     "type": "horizontal",
     "properties": [
@@ -792,18 +558,12 @@
   {
     "name": "Furious Uppercut",
     "style": "forsaken",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "BL",
-        "hits": "R"
-      },
-      {
-        "begins": "FL",
-        "ends": "BR",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "B",
+      "pivot": true,
+      "side": "same"
+    },
     "height": "mid",
     "type": "vertical",
     "properties": [
@@ -813,18 +573,12 @@
   {
     "name": "Grab Punch",
     "style": "stagger",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "FR",
-        "hits": "L"
-      },
-      {
-        "begins": "BL",
-        "ends": "FL",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "F",
+      "pivot": false,
+      "side": "diff"
+    },
     "height": "high",
     "type": "thrust",
     "properties": []
@@ -832,18 +586,12 @@
   {
     "name": "Gut Punch",
     "style": "stagger",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "FL",
-        "hits": "R"
-      },
-      {
-        "begins": "BL",
-        "ends": "FR",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "F",
+      "pivot": true,
+      "side": "same"
+    },
     "height": "mid",
     "type": "thrust",
     "properties": []
@@ -851,18 +599,12 @@
   {
     "name": "Hadrunken",
     "style": "stagger",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "FR",
-        "hits": "R"
-      },
-      {
-        "begins": "FL",
-        "ends": "FL",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "F",
+      "pivot": false,
+      "side": "same"
+    },
     "height": "high",
     "type": "thrust",
     "properties": [
@@ -872,18 +614,12 @@
   {
     "name": "Hammer Kick",
     "style": "windfall",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "FL",
-        "hits": "R"
-      },
-      {
-        "begins": "FL",
-        "ends": "FR",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "F",
+      "pivot": true,
+      "side": "same"
+    },
     "height": "mid",
     "type": "vertical",
     "properties": [
@@ -893,18 +629,12 @@
   {
     "name": "Handstand Kick",
     "style": "stagger",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "BL",
-        "hits": "L"
-      },
-      {
-        "begins": "FL",
-        "ends": "BR",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "B",
+      "pivot": true,
+      "side": "diff"
+    },
     "height": "high",
     "type": "horizontal",
     "properties": [
@@ -915,18 +645,12 @@
   {
     "name": "Hook",
     "style": "forsaken",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "FR",
-        "hits": "L"
-      },
-      {
-        "begins": "FL",
-        "ends": "FL",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "F",
+      "pivot": false,
+      "side": "diff"
+    },
     "height": "high",
     "type": "horizontal",
     "properties": []
@@ -934,18 +658,12 @@
   {
     "name": "Illusion Twist Kick",
     "style": "windfall",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "FR",
-        "hits": "L"
-      },
-      {
-        "begins": "BL",
-        "ends": "FL",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "F",
+      "pivot": false,
+      "side": "diff"
+    },
     "height": "mid",
     "type": "vertical",
     "properties": [
@@ -955,18 +673,12 @@
   {
     "name": "Jab Punch",
     "style": "forsaken",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "FR",
-        "hits": "L"
-      },
-      {
-        "begins": "FL",
-        "ends": "FL",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "F",
+      "pivot": false,
+      "side": "diff"
+    },
     "height": "high",
     "type": "thrust",
     "properties": []
@@ -974,18 +686,12 @@
   {
     "name": "Jackhammer Punch",
     "style": "kahlt",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "FR",
-        "hits": "L"
-      },
-      {
-        "begins": "BL",
-        "ends": "FL",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "F",
+      "pivot": false,
+      "side": "diff"
+    },
     "height": "mid",
     "type": "vertical",
     "properties": [
@@ -995,18 +701,12 @@
   {
     "name": "Jar Bash",
     "style": "stagger",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "FL",
-        "hits": "L"
-      },
-      {
-        "begins": "FL",
-        "ends": "FR",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "F",
+      "pivot": true,
+      "side": "diff"
+    },
     "height": "high",
     "type": "horizontal",
     "properties": []
@@ -1014,18 +714,12 @@
   {
     "name": "Jump Out Elbow",
     "style": "kahlt",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "BR",
-        "hits": "L"
-      },
-      {
-        "begins": "FL",
-        "ends": "BL",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "B",
+      "pivot": false,
+      "side": "diff"
+    },
     "height": "mid",
     "type": "vertical",
     "properties": [
@@ -1036,18 +730,12 @@
   {
     "name": "Jumped Light Kick",
     "style": "windfall",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "FL",
-        "hits": "R"
-      },
-      {
-        "begins": "FL",
-        "ends": "FR",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "F",
+      "pivot": true,
+      "side": "same"
+    },
     "height": "mid",
     "type": "thrust",
     "properties": [
@@ -1057,18 +745,12 @@
   {
     "name": "Jumped Spin kick",
     "style": "kahlt",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "BL",
-        "hits": "R"
-      },
-      {
-        "begins": "BL",
-        "ends": "BR",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "B",
+      "pivot": true,
+      "side": "same"
+    },
     "height": "high",
     "type": "horizontal",
     "properties": [
@@ -1078,18 +760,12 @@
   {
     "name": "Knee Strike",
     "style": "forsaken",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "FL",
-        "hits": "L"
-      },
-      {
-        "begins": "BL",
-        "ends": "FR",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "F",
+      "pivot": true,
+      "side": "diff"
+    },
     "height": "mid",
     "type": "vertical",
     "properties": [
@@ -1100,18 +776,12 @@
   {
     "name": "Knife Hand Strike",
     "style": "windfall",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "BR",
-        "hits": "R"
-      },
-      {
-        "begins": "FL",
-        "ends": "BL",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "B",
+      "pivot": false,
+      "side": "same"
+    },
     "height": "high",
     "type": "thrust",
     "properties": []
@@ -1119,18 +789,12 @@
   {
     "name": "Leg Breaker",
     "style": "khalt",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "FL",
-        "hits": "R"
-      },
-      {
-        "begins": "FL",
-        "ends": "FR",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "F",
+      "pivot": true,
+      "side": "same"
+    },
     "height": "low",
     "type": "horizontal",
     "properties": []
@@ -1138,18 +802,12 @@
   {
     "name": "Liver Knee",
     "style": "kahlt",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "FL",
-        "hits": "L"
-      },
-      {
-        "begins": "BL",
-        "ends": "FR",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "F",
+      "pivot": true,
+      "side": "diff"
+    },
     "height": "mid",
     "type": "thrust",
     "properties": []
@@ -1157,18 +815,12 @@
   {
     "name": "Low Kick",
     "style": "forsaken",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "BL",
-        "hits": "R"
-      },
-      {
-        "begins": "FL",
-        "ends": "BR",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "B",
+      "pivot": true,
+      "side": "same"
+    },
     "height": "low",
     "type": "horizontal",
     "properties": []
@@ -1176,18 +828,12 @@
   {
     "name": "Low Spin Heel",
     "style": "windfall",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "FR",
-        "hits": "L"
-      },
-      {
-        "begins": "BL",
-        "ends": "FL",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "F",
+      "pivot": false,
+      "side": "diff"
+    },
     "height": "low",
     "type": "horizontal",
     "properties": [
@@ -1197,18 +843,12 @@
   {
     "name": "Mawashi",
     "style": "windfall",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "BL",
-        "hits": "R"
-      },
-      {
-        "begins": "FL",
-        "ends": "BR",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "B",
+      "pivot": true,
+      "side": "same"
+    },
     "height": "high",
     "type": "thrust",
     "properties": []
@@ -1216,18 +856,12 @@
   {
     "name": "Meia Lua",
     "style": "khalt",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "FL",
-        "hits": "R"
-      },
-      {
-        "begins": "FL",
-        "ends": "FR",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "F",
+      "pivot": true,
+      "side": "same"
+    },
     "height": "high",
     "type": "horizontal",
     "properties": [
@@ -1237,18 +871,12 @@
   {
     "name": "Mill Punch",
     "style": "forsaken",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "BL",
-        "hits": "L"
-      },
-      {
-        "begins": "FL",
-        "ends": "BR",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "B",
+      "pivot": true,
+      "side": "diff"
+    },
     "height": "mid",
     "type": "thrust",
     "properties": [
@@ -1258,18 +886,12 @@
   {
     "name": "Parry & Strike",
     "style": "forsaken",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "FR",
-        "hits": "L"
-      },
-      {
-        "begins": "BL",
-        "ends": "FL",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "F",
+      "pivot": false,
+      "side": "diff"
+    },
     "height": "high",
     "type": "thrust",
     "properties": [
@@ -1279,18 +901,12 @@
   {
     "name": "Pulmonary Palm",
     "style": "windfall",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "FR",
-        "hits": "R"
-      },
-      {
-        "begins": "FL",
-        "ends": "FL",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "B",
+      "pivot": false,
+      "side": "same"
+    },
     "height": "mid",
     "type": "thrust",
     "properties": [
@@ -1300,18 +916,12 @@
   {
     "name": "Pushed Back Kick",
     "style": "forsaken",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "BR",
-        "hits": "R"
-      },
-      {
-        "begins": "BL",
-        "ends": "BL",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "B",
+      "pivot": false,
+      "side": "same"
+    },
     "height": "mid",
     "type": "vertical",
     "properties": [
@@ -1321,18 +931,12 @@
   {
     "name": "Pushed Elbow",
     "style": "kahlt",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "BL",
-        "hits": "L"
-      },
-      {
-        "begins": "BL",
-        "ends": "BR",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "B",
+      "pivot": true,
+      "side": "diff"
+    },
     "height": "high",
     "type": "thrust",
     "properties": []
@@ -1340,18 +944,12 @@
   {
     "name": "Rising Kick",
     "style": "windfall",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "BR",
-        "hits": "L"
-      },
-      {
-        "begins": "FL",
-        "ends": "BL",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "B",
+      "pivot": false,
+      "side": "diff"
+    },
     "height": "mid",
     "type": "vertical",
     "properties": []
@@ -1359,18 +957,12 @@
   {
     "name": "Roll Back Fist",
     "style": "windfall",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "BL",
-        "hits": "L"
-      },
-      {
-        "begins": "FL",
-        "ends": "BR",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "B",
+      "pivot": true,
+      "side": "diff"
+    },
     "height": "high",
     "type": "thrust",
     "properties": [
@@ -1380,18 +972,12 @@
   {
     "name": "Roll Punch",
     "style": "khalt",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "FL",
-        "hits": "R"
-      },
-      {
-        "begins": "FL",
-        "ends": "FR",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "F",
+      "pivot": true,
+      "side": "same"
+    },
     "height": "mid",
     "type": "thrust",
     "properties": [
@@ -1401,18 +987,12 @@
   {
     "name": "Roll Uppercut",
     "style": "kahlt",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "FL",
-        "hits": "L"
-      },
-      {
-        "begins": "BL",
-        "ends": "FR",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "F",
+      "pivot": true,
+      "side": "diff"
+    },
     "height": "mid",
     "type": "thrust",
     "properties": [
@@ -1422,18 +1002,12 @@
   {
     "name": "Scissor Kick",
     "style": "forsaken",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "BL",
-        "hits": "R"
-      },
-      {
-        "begins": "BL",
-        "ends": "BR",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "B",
+      "pivot": true,
+      "side": "same"
+    },
     "height": "high",
     "type": "horizontal",
     "properties": []
@@ -1441,18 +1015,12 @@
   {
     "name": "Side Kick",
     "style": "khalt",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "FL",
-        "hits": "R"
-      },
-      {
-        "begins": "FL",
-        "ends": "FR",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "F",
+      "pivot": true,
+      "side": "same"
+    },
     "height": "high",
     "type": "horizontal",
     "properties": []
@@ -1460,18 +1028,12 @@
   {
     "name": "Slap Kick",
     "style": "windfall",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "BR",
-        "hits": "L"
-      },
-      {
-        "begins": "BL",
-        "ends": "BL",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "B",
+      "pivot": false,
+      "side": "diff"
+    },
     "height": "high",
     "type": "horizontal",
     "properties": [
@@ -1481,18 +1043,12 @@
   {
     "name": "Soto-uke",
     "style": "windfall",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "FL",
-        "hits": "R"
-      },
-      {
-        "begins": "BL",
-        "ends": "FR",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "F",
+      "pivot": true,
+      "side": "same"
+    },
     "height": "high",
     "type": "thrust",
     "properties": []
@@ -1500,18 +1056,12 @@
   {
     "name": "Spin Back Fist",
     "style": "forsaken",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "BL",
-        "hits": "L"
-      },
-      {
-        "begins": "BL",
-        "ends": "BR",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "B",
+      "pivot": true,
+      "side": "diff"
+    },
     "height": "high",
     "type": "horizontal",
     "properties": []
@@ -1519,18 +1069,12 @@
   {
     "name": "Spin Elbow",
     "style": "forsaken",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "BL",
-        "hits": "L"
-      },
-      {
-        "begins": "BL",
-        "ends": "BR",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "B",
+      "pivot": true,
+      "side": "diff"
+    },
     "height": "high",
     "type": "thrust",
     "properties": []
@@ -1538,18 +1082,12 @@
   {
     "name": "Spinning Flute Swing",
     "style": "stagger",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "FR",
-        "hits": "L"
-      },
-      {
-        "begins": "BL",
-        "ends": "FL",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "F",
+      "pivot": false,
+      "side": "diff"
+    },
     "height": "high",
     "type": "horizontal",
     "properties": []
@@ -1557,18 +1095,12 @@
   {
     "name": "Spinning High Kick",
     "style": "forsaken",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "BR",
-        "hits": "L"
-      },
-      {
-        "begins": "FL",
-        "ends": "BL",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "B",
+      "pivot": false,
+      "side": "diff"
+    },
     "height": "high",
     "type": "horizontal",
     "properties": []
@@ -1576,7 +1108,12 @@
   {
     "name": "Spinning Wide Hook",
     "style": "forsaken",
-    "stances": null,
+    "stance": {
+      "begins": "B",
+      "ends": "F",
+      "pivot": false,
+      "side": "diff"
+    },
     "height": "high",
     "type": "horizontal",
     "properties": []
@@ -1584,18 +1121,12 @@
   {
     "name": "Spiral Back Punch",
     "style": "stagger",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "BR",
-        "hits": "L"
-      },
-      {
-        "begins": "FL",
-        "ends": "BL",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "B",
+      "pivot": false,
+      "side": "diff"
+    },
     "height": "mid",
     "type": "thrust",
     "properties": []
@@ -1603,18 +1134,12 @@
   {
     "name": "Spiral Palm",
     "style": "windfall",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "FR",
-        "hits": "R"
-      },
-      {
-        "begins": "BL",
-        "ends": "FL",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "F",
+      "pivot": false,
+      "side": "same"
+    },
     "height": "mid",
     "type": "thrust",
     "properties": [
@@ -1624,18 +1149,12 @@
   {
     "name": "Straight Punch",
     "style": "forsaken",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "FL",
-        "hits": "R"
-      },
-      {
-        "begins": "FL",
-        "ends": "FR",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "F",
+      "pivot": true,
+      "side": "same"
+    },
     "height": "high",
     "type": "thrust",
     "properties": []
@@ -1643,18 +1162,12 @@
   {
     "name": "Stretch Out Hook",
     "style": "forsaken",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "FL",
-        "hits": "R"
-      },
-      {
-        "begins": "BL",
-        "ends": "FR",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "F",
+      "pivot": true,
+      "side": "same"
+    },
     "height": "high",
     "type": "horizontal",
     "properties": []
@@ -1662,18 +1175,12 @@
   {
     "name": "Surging Palm",
     "style": "windfall",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "BL",
-        "hits": "L"
-      },
-      {
-        "begins": "BL",
-        "ends": "BR",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "B",
+      "pivot": true,
+      "side": "diff"
+    },
     "height": "mid",
     "type": "thrust",
     "properties": [
@@ -1683,18 +1190,12 @@
   {
     "name": "Tetsuzanko",
     "style": "windfall",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "BL",
-        "hits": "R"
-      },
-      {
-        "begins": "BL",
-        "ends": "BR",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "B",
+      "pivot": true,
+      "side": "same"
+    },
     "height": "mid",
     "type": "thrust",
     "properties": [
@@ -1704,18 +1205,12 @@
   {
     "name": "Tripped Kick",
     "style": "forsaken",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "FL",
-        "hits": "L"
-      },
-      {
-        "begins": "FL",
-        "ends": "FR",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "F",
+      "pivot": true,
+      "side": "diff"
+    },
     "height": "low",
     "type": "horizontal",
     "properties": [
@@ -1725,18 +1220,12 @@
   {
     "name": "Twist Back Kick",
     "style": "stagger",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "BR",
-        "hits": "R"
-      },
-      {
-        "begins": "BL",
-        "ends": "BL",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "B",
+      "pivot": false,
+      "side": "same"
+    },
     "height": "high",
     "type": "horizontal",
     "properties": []
@@ -1744,18 +1233,12 @@
   {
     "name": "Twist Parry Strike",
     "style": "forsaken",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "BR",
-        "hits": "L"
-      },
-      {
-        "begins": "BL",
-        "ends": "BL",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "B",
+      "pivot": false,
+      "side": "diff"
+    },
     "height": "high",
     "type": "thrust",
     "properties": [
@@ -1765,18 +1248,12 @@
   {
     "name": "Underknee kick",
     "style": "forsaken",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "BR",
-        "hits": "L"
-      },
-      {
-        "begins": "BL",
-        "ends": "BL",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "B",
+      "pivot": false,
+      "side": "diff"
+    },
     "height": "low",
     "type": "horizontal",
     "properties": []
@@ -1784,18 +1261,12 @@
   {
     "name": "Upper Elbow",
     "style": "kahlt",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "BL",
-        "hits": "L"
-      },
-      {
-        "begins": "BL",
-        "ends": "BR",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "B",
+      "pivot": true,
+      "side": "diff"
+    },
     "height": "high",
     "type": "thrust",
     "properties": []
@@ -1803,18 +1274,12 @@
   {
     "name": "Uramawashi",
     "style": "windfall",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "FL",
-        "hits": "L"
-      },
-      {
-        "begins": "BL",
-        "ends": "FR",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "F",
+      "pivot": true,
+      "side": "diff"
+    },
     "height": "high",
     "type": "horizontal",
     "properties": []
@@ -1822,18 +1287,12 @@
   {
     "name": "Wallop Blow",
     "style": "kahlt",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "BR",
-        "hits": "R"
-      },
-      {
-        "begins": "BL",
-        "ends": "BL",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "B",
+      "pivot": false,
+      "side": "same"
+    },
     "height": "mid",
     "type": "thrust",
     "properties": []
@@ -1841,18 +1300,12 @@
   {
     "name": "Whirlwind Double Punch",
     "style": "stagger",
-    "stances": [
-      {
-        "begins": "BR",
-        "ends": "BL",
-        "hits": "R"
-      },
-      {
-        "begins": "BL",
-        "ends": "BR",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "B",
+      "ends": "F",
+      "pivot": false,
+      "side": "same"
+    },
     "height": "low",
     "type": "horizontal",
     "properties": [
@@ -1863,18 +1316,12 @@
   {
     "name": "Winged Back Kick",
     "style": "forsaken",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "BR",
-        "hits": "R"
-      },
-      {
-        "begins": "FL",
-        "ends": "BL",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "B",
+      "pivot": false,
+      "side": "same"
+    },
     "height": "mid",
     "type": "thrust",
     "properties": [
@@ -1884,18 +1331,12 @@
   {
     "name": "Wobble Low Kick",
     "style": "stagger",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "BR",
-        "hits": "R"
-      },
-      {
-        "begins": "FL",
-        "ends": "BL",
-        "hits": "L"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "B",
+      "pivot": false,
+      "side": "same"
+    },
     "height": "low",
     "type": "horizontal",
     "properties": []
@@ -1903,18 +1344,12 @@
   {
     "name": "Wrist Jab",
     "style": "stagger",
-    "stances": [
-      {
-        "begins": "FR",
-        "ends": "FR",
-        "hits": "L"
-      },
-      {
-        "begins": "FL",
-        "ends": "FL",
-        "hits": "R"
-      }
-    ],
+    "stance": {
+      "begins": "F",
+      "ends": "F",
+      "pivot": false,
+      "side": "diff"
+    },
     "height": "high",
     "type": "thrust",
     "properties": []

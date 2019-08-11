@@ -1,15 +1,18 @@
+module.exports =  {
+    name  : "Furious Uppercut",
+    style : "forsaken",
 
-    const stances = require("../../utilities/stances.js");
+    stance : {
+        begins : "F",
+        ends   : "B",
+    
+        pivot : true,
+        side  : "same",
+    },
 
-    module.exports =  {
-        name  : "Furious Uppercut",
-        style : "forsaken",
+    height : "mid",
+    type   : "vertical",
 
-        stances : stances("front", "diagonal", true),
-
-        height : "mid",
-        type   : "vertical",
-
-        properties : [ "charge" ]
-    };
+    properties : [ "charge" ]
+};
     

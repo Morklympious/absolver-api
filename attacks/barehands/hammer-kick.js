@@ -1,15 +1,18 @@
+module.exports =  {
+    name  : "Hammer Kick",
+    style : "windfall",
 
-    const stances = require("../../utilities/stances.js");
+    stance : {
+    begins : "F",
+    ends   : "F",
 
-    module.exports =  {
-        name  : "Hammer Kick",
-        style : "windfall",
+    pivot : true,
+    side  : "same",
+},
 
-        stances : stances("front", "vertical", true),
+    height : "mid",
+    type   : "vertical",
 
-        height : "mid",
-        type   : "vertical",
-
-        properties : [ "break" ]
-    };
+    properties : [ "break" ]
+};
     

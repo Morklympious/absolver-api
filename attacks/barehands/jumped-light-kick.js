@@ -1,15 +1,18 @@
+module.exports =  {
+    name  : "Jumped Light Kick",
+    style : "windfall",
 
-    const stances = require("../../utilities/stances.js");
+    stance : {
+        begins : "F",
+        ends   : "F",
 
-    module.exports =  {
-        name  : "Jumped Light Kick",
-        style : "windfall",
+        pivot : true,
+        side  : "same",
+    },
 
-        stances : stances("front", "vertical", true),
+    height : "mid",
+    type   : "thrust",
 
-        height : "mid",
-        type   : "thrust",
-
-        properties : [ "jump" ]
-    };
+    properties : [ "jump" ]
+};
     

@@ -1,15 +1,18 @@
+module.exports =  {
+    name  : "Roll Back Fist",
+    style : "windfall",
 
-    const stances = require("../../utilities/stances.js");
-
-    module.exports =  {
-        name  : "Roll Back Fist",
-        style : "windfall",
-
-        stances : stances("front", "diagonal", false),
-
-        height : "high",
-        type   : "thrust",
-
-        properties : [ "strafe" ]
-    };
+    stance : {
+        begins : "F",
+        ends   : "B",
     
+        pivot : true,
+        side  : "diff",
+    },
+
+    height : "high",
+    type   : "thrust",
+
+    properties : [ "strafe" ]
+};
+

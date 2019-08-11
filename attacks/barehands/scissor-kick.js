@@ -1,11 +1,16 @@
 
-    const stances = require("../../utilities/stances.js");
-
+    
     module.exports =  {
         name  : "Scissor Kick",
         style : "forsaken",
 
-        stances : stances("back", "vertical", true),
+        stance : {
+            begins : "B",
+            ends   : "B",
+        
+            pivot : true,
+            side  : "same",
+        },
 
         height : "high",
         type   : "horizontal",

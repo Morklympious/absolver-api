@@ -1,15 +1,18 @@
+module.exports =  {
+    name  : "Illusion Twist Kick",
+    style : "windfall",
 
-    const stances = require("../../utilities/stances.js");
+    stance : {
+        begins : "B",
+        ends   : "F",
+    
+        pivot : false,
+        side  : "diff",
+    },
 
-    module.exports =  {
-        name  : "Illusion Twist Kick",
-        style : "windfall",
+    height : "mid",
+    type   : "vertical",
 
-        stances : stances("back", "horizontal", false),
-
-        height : "mid",
-        type   : "vertical",
-
-        properties : [ "jump" ]
-    };
+    properties : [ "jump" ]
+};
     

@@ -1,11 +1,16 @@
 
-    const stances = require("../../utilities/stances.js");
-
+    
     module.exports =  {
         name  : "Straight Punch",
         style : "forsaken",
 
-        stances : stances("front", "vertical", true),
+        stance : {
+        begins : "F",
+        ends   : "F",
+    
+        pivot : true,
+        side  : "same",
+    },
 
         height : "high",
         type   : "thrust",

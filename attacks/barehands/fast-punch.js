@@ -1,15 +1,18 @@
+module.exports =  {
+    name  : "Fast Punch",
+    style : "forsaken",
 
-    const stances = require("../../utilities/stances.js");
+    stance : {
+        begins : "B",
+        ends   : "F",
 
-    module.exports =  {
-        name  : "Fast Punch",
-        style : "forsaken",
+        pivot : false,
+        side  : "same",
+    },
 
-        stances : stances("back", "horizontal", true),
+    height : "high",
+    type   : "thrust",
 
-        height : "high",
-        type   : "thrust",
-
-        properties : []
-    };
+    properties : []
+};
     

@@ -1,15 +1,18 @@
+module.exports =  {
+    name  : "Knee Strike",
+    style : "forsaken",
 
-    const stances = require("../../utilities/stances.js");
+    stance : {
+        begins : "B",
+        ends   : "F",
+    
+        pivot : true,
+        side  : "diff",
+    },
 
-    module.exports =  {
-        name  : "Knee Strike",
-        style : "forsaken",
+    height : "mid",
+    type   : "vertical",
 
-        stances : stances("back", "diagonal", false),
-
-        height : "mid",
-        type   : "vertical",
-
-        properties : [ "break", "jump" ]
-    };
+    properties : [ "break", "jump" ]
+};
     

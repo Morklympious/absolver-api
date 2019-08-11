@@ -1,15 +1,18 @@
+module.exports =  {
+    name  : "Leg Breaker",
+    style : "khalt",
 
-    const stances = require("../../utilities/stances.js");
+    stance : {
+        begins : "F",
+        ends   : "F",
 
-    module.exports =  {
-        name  : "Leg Breaker",
-        style : "khalt",
+        pivot : true,
+        side  : "same",
+    },
 
-        stances : stances("front", "vertical", true),
+    height : "low",
+    type   : "horizontal",
 
-        height : "low",
-        type   : "horizontal",
-
-        properties : []
-    };
+    properties : []
+};
     

@@ -1,11 +1,16 @@
 
-    const stances = require("../../utilities/stances.js");
-
+    
     module.exports =  {
         name  : "Underknee kick",
         style : "forsaken",
 
-        stances : stances("back", "none", false),
+        stance : {
+            begins : "B",
+            ends   : "B",
+        
+            pivot : false,
+            side  : "diff",
+        },
 
         height : "low",
         type   : "horizontal",

@@ -1,10 +1,14 @@
-const stances = require("../../utilities/stances.js");
-
 module.exports =  {
     name  : "Back Tripped Kick",
     style : "kahlt",
 
-    stances : stances("back", "horizontal", false),
+    stance : {
+        begins : "B",
+        ends   : "F",
+    
+        pivot : false,
+        side  : "diff",
+    },
 
     height : "low",
     type   : "horizontal",

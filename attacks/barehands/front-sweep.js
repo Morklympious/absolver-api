@@ -1,15 +1,18 @@
+module.exports =  {
+    name  : "Front Sweep",
+    style : "windfall",
 
-    const stances = require("../../utilities/stances.js");
+    stance : {
+        begins : "F",
+        ends   : "B",
+    
+        pivot : false,
+        side  : "same",
+    },
 
-    module.exports =  {
-        name  : "Front Sweep",
-        style : "windfall",
+    height : "low",
+    type   : "horizontal",
 
-        stances : stances("front", "horizontal", true),
-
-        height : "low",
-        type   : "horizontal",
-
-        properties : [ "duck" ]
-    };
+    properties : [ "duck" ]
+};
     

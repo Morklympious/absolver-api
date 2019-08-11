@@ -1,15 +1,18 @@
+module.exports =  {
+    name  : "Hook",
+    style : "forsaken",
 
-    const stances = require("../../utilities/stances.js");
+    stance : {
+    begins : "F",
+    ends   : "F",
 
-    module.exports =  {
-        name  : "Hook",
-        style : "forsaken",
+    pivot : false,
+    side  : "diff",
+},
 
-        stances : stances("front", "none", false),
+    height : "high",
+    type   : "horizontal",
 
-        height : "high",
-        type   : "horizontal",
-    
-        properties : []
-    };
-    
+    properties : []
+};
+

@@ -1,15 +1,18 @@
+module.exports =  {
+    name  : "Jump Out Elbow",
+    style : "kahlt",
 
-    const stances = require("../../utilities/stances.js");
+        stance : {
+    begins : "F",
+    ends   : "B",
 
-    module.exports =  {
-        name  : "Jump Out Elbow",
-        style : "kahlt",
+    pivot : false,
+    side  : "diff",
+},
 
-        stances : stances("front", "horizontal", false),
+    height : "mid",
+    type   : "vertical",
 
-        height : "mid",
-        type   : "vertical",
-
-        properties : [ "break", "jump" ]
-    };
+    properties : [ "break", "jump" ]
+};
     

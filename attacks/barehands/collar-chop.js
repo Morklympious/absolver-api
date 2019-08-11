@@ -1,10 +1,14 @@
-const stances = require("../../utilities/stances.js");
-
 module.exports =  {
     name  : "Cleaver Blow",
     style : "windfall",
 
-    stances : stances("back", "none", true),
+    stance : {
+        begins : "B",
+        ends   : "B",
+    
+        pivot : false,
+        side  : "same",
+    },
 
     height : "high",
     type   : "thrust",

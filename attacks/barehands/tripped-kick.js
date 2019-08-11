@@ -1,11 +1,16 @@
 
-    const stances = require("../../utilities/stances.js");
-
+    
     module.exports =  {
         name  : "Tripped Kick",
         style : "forsaken",
 
-        stances : stances("front", "vertical", false),
+        stance : {
+            begins : "F",
+            ends   : "F",
+        
+            pivot : true,
+            side  : "diff",
+        },
 
         height : "low",
         type   : "horizontal",

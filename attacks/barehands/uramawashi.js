@@ -1,11 +1,16 @@
 
-    const stances = require("../../utilities/stances.js");
-
+    
     module.exports =  {
         name  : "Uramawashi",
         style : "windfall",
 
-        stances : stances("back", "diagonal", false),
+        stance : {
+            begins : "B",
+            ends   : "F",
+        
+            pivot : true,
+            side  : "diff",
+        },
 
         height : "high",
         type   : "horizontal",

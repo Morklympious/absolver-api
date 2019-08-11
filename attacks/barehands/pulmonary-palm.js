@@ -1,11 +1,16 @@
 
-    const stances = require("../../utilities/stances.js");
-
+    
     module.exports =  {
         name  : "Pulmonary Palm",
         style : "windfall",
 
-        stances : stances("front", "none", true),
+            stance : {
+        begins : "B",
+        ends   : "B",
+    
+        pivot : false,
+        side  : "same",
+    },
 
         height : "mid",
         type   : "thrust",

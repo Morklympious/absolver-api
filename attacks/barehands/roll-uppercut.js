@@ -1,11 +1,16 @@
 
-    const stances = require("../../utilities/stances.js");
-
+    
     module.exports =  {
         name  : "Roll Uppercut",
         style : "kahlt",
 
-        stances : stances("back", "diagonal", false),
+        stance : {
+            begins : "B",
+            ends   : "F",
+        
+            pivot : true,
+            side  : "diff",
+        },
         
         height : "mid",
         type   : "thrust",

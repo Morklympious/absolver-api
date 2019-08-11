@@ -1,11 +1,16 @@
 
-    const stances = require("../../utilities/stances.js");
-
+    
     module.exports =  {
         name  : "Soto-uke",
         style : "windfall",
 
-        stances : stances("back", "diagonal", true),
+                stance : {
+            begins : "B",
+            ends   : "F",
+        
+            pivot : true,
+            side  : "same",
+        },
 
         height : "high",
         type   : "thrust",

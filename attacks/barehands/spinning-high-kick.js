@@ -1,11 +1,16 @@
 
-    const stances = require("../../utilities/stances.js");
-
+    
     module.exports =  {
         name  : "Spinning High Kick",
         style : "forsaken",
 
-        stances : stances("front", "horizontal", false),
+            stance : {
+        begins : "F",
+        ends   : "B",
+    
+        pivot : false,
+        side  : "diff",
+    },
 
         height : "high",
         type   : "horizontal",
