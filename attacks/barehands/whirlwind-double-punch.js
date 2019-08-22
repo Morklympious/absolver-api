@@ -1,21 +1,18 @@
+module.exports =  {
+    name  : "Whirlwind Double Punch",
+    style : "stagger",
 
+    stance : {
+        begins : "B",
+        ends   : "F",
     
-    module.exports =  {
-        name  : "Whirlwind Double Punch",
-        style : "stagger",
+        pivot : false,
+    },
+    
+    hits   : "same",
+    height : "low",
+    type   : "horizontal",
 
-        stance : {
-            begins : "B",
-            ends   : "F",
-        
-            pivot : false,
-            side  : "same",
-        },
-
-
-        height : "low",
-        type   : "horizontal",
-
-        properties : [ "duck", "double" ]
-    };
+    properties : [ "duck", "double" ]
+};
     

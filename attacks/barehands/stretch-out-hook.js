@@ -1,21 +1,18 @@
+module.exports =  {
+    name  : "Stretch Out Hook",
+    style : "forsaken",
 
+    stance : {
+        begins : "B",
+        ends   : "F",
     
-    module.exports =  {
-        name  : "Stretch Out Hook",
-        style : "forsaken",
+        pivot : true,
+    },
+    
+    hits   : "same",
+    height : "high",
+    type   : "horizontal",
 
-                stance : {
-            begins : "B",
-            ends   : "F",
-        
-            pivot : true,
-            side  : "same",
-        },
-        
-
-        height : "high",
-        type   : "horizontal",
-
-        properties : []
-    };
+    properties : []
+};
     

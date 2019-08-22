@@ -1,20 +1,18 @@
+module.exports =  {
+    name  : "Uramawashi",
+    style : "windfall",
 
+    stance : {
+        begins : "B",
+        ends   : "F",
     
-    module.exports =  {
-        name  : "Uramawashi",
-        style : "windfall",
+        pivot : true,
+    },
+    
+    hits   : "diff",
+    height : "high",
+    type   : "horizontal",
 
-        stance : {
-            begins : "B",
-            ends   : "F",
-        
-            pivot : true,
-            side  : "diff",
-        },
-
-        height : "high",
-        type   : "horizontal",
-
-        properties : []
-    };
+    properties : []
+};
     

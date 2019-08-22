@@ -1,20 +1,19 @@
+module.exports =  {
+    name  : "Wobble Low Kick",
+    style : "stagger",
 
-    
-    module.exports =  {
-        name  : "Wobble Low Kick",
-        style : "stagger",
-
-            stance : {
+    stance : {
         begins : "F",
         ends   : "B",
-    
+
         pivot : false,
-        side  : "same",
     },
 
-        height : "low",
-        type   : "horizontal",
+    hits : "same",
 
-        properties : []
-    };
+    height : "low",
+    type   : "horizontal",
+
+    properties : []
+};
     

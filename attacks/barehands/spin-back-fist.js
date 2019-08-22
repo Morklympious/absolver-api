@@ -9,9 +9,9 @@
             ends   : "B",
         
             pivot : true,
-            side  : "diff",
         },
-
+        
+        hits   : "diff",
         height : "high",
         type   : "horizontal",
 

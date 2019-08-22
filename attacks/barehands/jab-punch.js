@@ -3,13 +3,13 @@ module.exports =  {
     style : "forsaken",
 
     stance : {
-    begins : "F",
-    ends   : "F",
+        begins : "F",
+        ends   : "F",
 
-    pivot : false,
-    side  : "diff",
-},
+        pivot : false,
+    },
 
+    hits   : "diff",
     height : "high",
     type   : "thrust",
 

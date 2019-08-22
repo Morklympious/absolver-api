@@ -3,12 +3,13 @@ module.exports =  {
     style : "windfall",
 
     stance : {
-    begins : "F",
-    ends   : "F",
+        begins : "F",
+        ends   : "F",
 
-    pivot : true,
-    side  : "same",
-},
+        pivot : true,
+    },
+
+    hits : "same",
 
     height : "mid",
     type   : "vertical",

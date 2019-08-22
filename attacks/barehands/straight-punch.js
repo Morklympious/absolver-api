@@ -1,20 +1,18 @@
+module.exports =  {
+    name  : "Straight Punch",
+    style : "forsaken",
 
-    
-    module.exports =  {
-        name  : "Straight Punch",
-        style : "forsaken",
-
-        stance : {
+    stance : {
         begins : "F",
         ends   : "F",
     
         pivot : true,
-        side  : "same",
     },
 
-        height : "high",
-        type   : "thrust",
+hits : "same",
 
-        properties : []
-    };
-    
+    height : "high",
+    type   : "thrust",
+
+    properties : []
+};

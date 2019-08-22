@@ -2,14 +2,14 @@ module.exports =  {
     name  : "Jump Out Elbow",
     style : "kahlt",
 
-        stance : {
-    begins : "F",
-    ends   : "B",
+    stance : {
+        begins : "F",
+        ends   : "B",
 
-    pivot : false,
-    side  : "diff",
-},
+        pivot : false,
+    },
 
+    hits   : "diff",
     height : "mid",
     type   : "vertical",
 

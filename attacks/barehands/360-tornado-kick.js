@@ -7,8 +7,9 @@ module.exports = {
         ends   : "B",
 
         pivot : true,
-        side  : "same",
     },
+
+    hits : "same",
 
     damage : 119.8,
     speed  : 0.8,

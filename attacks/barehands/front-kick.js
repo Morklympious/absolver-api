@@ -8,8 +8,9 @@ module.exports =  {
         ends   : "F",
 
         pivot : true,
-        side  : "same",
     },
+
+    hits : "same",
 
     height : "mid",
     type   : "thrust",

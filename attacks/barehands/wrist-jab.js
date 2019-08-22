@@ -1,20 +1,19 @@
+module.exports =  {
+    name  : "Wrist Jab",
+    style : "stagger",
 
-    
-    module.exports =  {
-        name  : "Wrist Jab",
-        style : "stagger",
-
-        stance : {
+    stance : {
         begins : "F",
         ends   : "F",
     
         pivot : false,
-        side  : "diff",
     },
 
-        height : "high",
-        type   : "thrust",
+    hits : "diff",
 
-        properties : []
-    };
-    
+    height : "high",
+    type   : "thrust",
+
+    properties : []
+};
+

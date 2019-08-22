@@ -1,20 +1,18 @@
+module.exports =  {
+    name  : "Upper Elbow",
+    style : "kahlt",
 
+    stance : {
+        begins : "B",
+        ends   : "B",
     
-    module.exports =  {
-        name  : "Upper Elbow",
-        style : "kahlt",
+        pivot : true,
+    },
+    
+    hits   : "diff",
+    height : "high",
+    type   : "thrust",
 
-        stance : {
-            begins : "B",
-            ends   : "B",
-        
-            pivot : true,
-            side  : "diff",
-        },
-
-        height : "high",
-        type   : "thrust",
-
-        properties : []
-    };
+    properties : []
+};
     

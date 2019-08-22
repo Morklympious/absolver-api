@@ -1,20 +1,18 @@
+module.exports =  {
+    name  : "Tetsuzanko",
+    style : "windfall",
 
+    stance : {
+        begins : "B",
+        ends   : "B",
     
-    module.exports =  {
-        name  : "Tetsuzanko",
-        style : "windfall",
+        pivot : true,
+    },
+    
+    hits   : "same",
+    height : "mid",
+    type   : "thrust",
 
-        stance : {
-            begins : "B",
-            ends   : "B",
-        
-            pivot : true,
-            side  : "same",
-        },
-
-        height : "mid",
-        type   : "thrust",
-
-        properties : [ "strafe" ]
-    };
+    properties : [ "strafe" ]
+};
     

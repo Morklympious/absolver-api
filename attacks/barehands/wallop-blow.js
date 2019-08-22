@@ -1,20 +1,19 @@
+module.exports =  {
+    name  : "Wallop Blow",
+    style : "kahlt",
 
-    
-    module.exports =  {
-        name  : "Wallop Blow",
-        style : "kahlt",
-
-           stance : {
+    stance : {
         begins : "B",
         ends   : "B",
-    
+
         pivot : false,
-        side  : "same",
     },
 
-        height : "mid",
-        type   : "thrust",
+    hits : "same",
 
-        properties : []
-    };
+    height : "mid",
+    type   : "thrust",
+
+    properties : []
+};
     

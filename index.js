@@ -12,7 +12,15 @@ fs.writeFile("./dist/barehands.json", JSON.stringify(results.barehands, null, 2)
         throw err;
     }
 
-    console.log("successfully generated barehands attacks!");
+    console.log("successfully generated barehands attacks! (JSON)");
+});
+
+fs.writeFile("./dist/barehands.js", results.barehands, (err) => {
+    if(err) {
+        throw err;
+    }
+
+    console.log("successfully generated barehands attacks! (JS)")
 });
 
 // fs.writeFile("./dist/sword.json", JSON.stringify(results.sword, null, 2), (err) => {

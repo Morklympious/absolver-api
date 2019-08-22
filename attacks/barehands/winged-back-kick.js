@@ -1,20 +1,19 @@
+module.exports =  {
+    name  : "Winged Back Kick",
+    style : "forsaken",
 
-    
-    module.exports =  {
-        name  : "Winged Back Kick",
-        style : "forsaken",
-
-            stance : {
+    stance : {
         begins : "F",
         ends   : "B",
-    
+
         pivot : false,
-        side  : "same",
     },
 
-        height : "mid",
-        type   : "thrust",
+    hits : "same",
 
-        properties : [ "stop" ]
-    };
+    height : "mid",
+    type   : "thrust",
+
+    properties : [ "stop" ]
+};
     

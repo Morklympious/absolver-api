@@ -9,10 +9,10 @@
             ends   : "B",
         
             pivot : true,
-            side  : "diff",
         },
-    
-
+        
+        
+        side   : "diff",
         height : "mid",
         type   : "thrust",
 

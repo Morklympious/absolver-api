@@ -1,20 +1,18 @@
+module.exports =  {
+    name  : "Tripped Kick",
+    style : "forsaken",
 
+    stance : {
+        begins : "F",
+        ends   : "F",
     
-    module.exports =  {
-        name  : "Tripped Kick",
-        style : "forsaken",
+        pivot : true,
+    },
+    
+    hits   : "diff",
+    height : "low",
+    type   : "horizontal",
 
-        stance : {
-            begins : "F",
-            ends   : "F",
-        
-            pivot : true,
-            side  : "diff",
-        },
-
-        height : "low",
-        type   : "horizontal",
-
-        properties : [ "duck" ]
-    };
+    properties : [ "duck" ]
+};
     

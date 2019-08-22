@@ -9,9 +9,9 @@
             ends   : "B",
         
             pivot : true,
-            side  : "same",
         },
 
+        hits   : "same", 
         height : "high",
         type   : "thrust",
 

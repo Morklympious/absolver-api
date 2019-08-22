@@ -1,20 +1,19 @@
+module.exports =  {
+    name  : "Twist Back Kick",
+    style : "stagger",
 
-    
-    module.exports =  {
-        name  : "Twist Back Kick",
-        style : "stagger",
-
-           stance : {
+    stance : {
         begins : "B",
         ends   : "B",
-    
+
         pivot : false,
-        side  : "same",
     },
 
-        height : "high",
-        type   : "horizontal",
+    hits : "same",
 
-        properties : []
-    };
+    height : "high",
+    type   : "horizontal",
+
+    properties : [],
+};
     

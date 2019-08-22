@@ -7,8 +7,9 @@ module.exports =  {
         ends   : "B",
     
         pivot : false,
-        side  : "same",
     },
+
+    hits : "same",
 
     height : "low",
     type   : "horizontal",
