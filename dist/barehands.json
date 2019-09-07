@@ -5,9 +5,9 @@
     "stance": {
       "begins": "F",
       "ends": "B",
-      "pivot": true,
-      "side": "same"
+      "pivot": true
     },
+    "hits": "same",
     "damage": 119.8,
     "speed": 0.8,
     "range": 2.2,
@@ -23,9 +23,9 @@
     "stance": {
       "begins": "F",
       "ends": "B",
-      "pivot": false,
-      "side": "same"
+      "pivot": false
     },
+    "hits": "same",
     "height": "low",
     "type": "thrust",
     "modifiers": []
@@ -36,9 +36,9 @@
     "stance": {
       "begins": "B",
       "ends": "F",
-      "pivot": true,
-      "side": "same"
+      "pivot": true
     },
+    "hits": "same",
     "height": "mid",
     "type": "vertical",
     "properties": []
@@ -49,9 +49,9 @@
     "stance": {
       "begins": "F",
       "ends": "F",
-      "pivot": false,
-      "side": "same"
+      "pivot": false
     },
+    "hits": "same",
     "height": "mid",
     "type": "thrust",
     "properties": []
@@ -62,9 +62,9 @@
     "stance": {
       "begins": "BF",
       "ends": "B",
-      "pivot": false,
-      "side": "same"
+      "pivot": false
     },
+    "hits": "same",
     "height": "high",
     "type": "thrust",
     "properties": []
@@ -75,9 +75,9 @@
     "stance": {
       "begins": "B",
       "ends": "F",
-      "pivot": false,
-      "side": "diff"
+      "pivot": false
     },
+    "hits": "diff",
     "height": "low",
     "type": "horizontal",
     "properties": [
@@ -90,9 +90,9 @@
     "stance": {
       "begins": "B",
       "ends": "B",
-      "pivot": true,
-      "side": "diff"
+      "pivot": true
     },
+    "hits": "diff",
     "height": "high",
     "type": "thrust",
     "properties": []
@@ -103,9 +103,9 @@
     "stance": {
       "begins": "B",
       "ends": "B",
-      "pivot": false,
-      "side": "diff"
+      "pivot": false
     },
+    "hits": "diff",
     "lands": "high",
     "type": "thrust",
     "properties": [
@@ -118,9 +118,9 @@
     "stance": {
       "begins": "F",
       "ends": "B",
-      "pivot": true,
-      "side": "diff"
+      "pivot": true
     },
+    "hits": "diff",
     "height": "mid",
     "type": "thrust",
     "properties": [
@@ -133,9 +133,9 @@
     "stance": {
       "begins": "F",
       "ends": "F",
-      "pivot": true,
-      "side": "diff"
+      "pivot": true
     },
+    "hits": "diff",
     "height": "mid",
     "type": "thrust",
     "properties": [
@@ -148,9 +148,9 @@
     "stance": {
       "begins": "F",
       "ends": "B",
-      "pivot": true,
-      "side": "same"
+      "pivot": true
     },
+    "hits": "same",
     "height": "high",
     "type": "thrust",
     "properties": [
@@ -163,9 +163,9 @@
     "stance": {
       "begins": "F",
       "ends": "F",
-      "pivot": true,
-      "side": "same"
+      "pivot": true
     },
+    "hits": "same",
     "height": "high",
     "type": "horizontal",
     "properties": [
@@ -178,9 +178,9 @@
     "stance": {
       "begins": "F",
       "ends": "F",
-      "pivot": true,
-      "side": "same"
+      "pivot": true
     },
+    "hits": "same",
     "height": "high",
     "type": "thrust",
     "properties": [
@@ -193,9 +193,9 @@
     "stance": {
       "begins": "B",
       "ends": "B",
-      "pivot": false,
-      "side": "same"
+      "pivot": false
     },
+    "hits": "same",
     "height": "mid",
     "type": "vertical",
     "properties": []
@@ -206,9 +206,9 @@
     "stance": {
       "begins": "F",
       "ends": "F",
-      "pivot": false,
-      "side": "same"
+      "pivot": false
     },
+    "hits": "same",
     "height": "mid",
     "type": "vertical",
     "properties": []
@@ -219,9 +219,9 @@
     "stance": {
       "begins": "B",
       "ends": "B",
-      "pivot": false,
-      "side": "same"
+      "pivot": false
     },
+    "hits": "same",
     "height": "high",
     "type": "thrust",
     "properties": [
@@ -234,9 +234,9 @@
     "stance": {
       "begins": "B",
       "ends": "B",
-      "pivot": false,
-      "side": "same"
+      "pivot": false
     },
+    "hits": "same",
     "height": "high",
     "type": "thrust",
     "properties": [
@@ -249,9 +249,9 @@
     "stance": {
       "begins": "F",
       "ends": "B",
-      "pivot": false,
-      "side": "diff"
+      "pivot": false
     },
+    "hits": "diff",
     "height": "mid",
     "type": "thrust",
     "properties": []
@@ -262,9 +262,9 @@
     "stance": {
       "begins": "F",
       "ends": "B",
-      "pivot": false,
-      "side": "diff"
+      "pivot": false
     },
+    "hits": "diff",
     "height": "mid",
     "type": "thrust",
     "properties": [
@@ -277,9 +277,9 @@
     "stance": {
       "begins": "F",
       "ends": "F",
-      "pivot": true,
-      "side": "same"
+      "pivot": true
     },
+    "hits": "same",
     "height": "mid",
     "type": "vertical",
     "properties": []
@@ -290,9 +290,9 @@
     "stance": {
       "begins": "F",
       "ends": "F",
-      "pivot": false,
-      "side": "same"
+      "pivot": false
     },
+    "hits": "same",
     "height": "high",
     "type": "thrust",
     "properties": []
@@ -303,9 +303,9 @@
     "stance": {
       "begins": "B",
       "ends": "B",
-      "pivot": false,
-      "side": "same"
+      "pivot": false
     },
+    "hits": "same",
     "height": "mid",
     "type": "vertical",
     "properties": [
@@ -318,9 +318,9 @@
     "stance": {
       "begins": "B",
       "ends": "B",
-      "pivot": true,
-      "side": "diff"
+      "pivot": true
     },
+    "hits": "diff",
     "height": "high",
     "type": "horizontal",
     "properties": [
@@ -333,9 +333,9 @@
     "stance": {
       "begins": "B",
       "ends": "F",
-      "pivot": false,
-      "side": "same"
+      "pivot": false
     },
+    "hits": "same",
     "height": "mid",
     "type": "thrust",
     "properties": [
@@ -348,9 +348,9 @@
     "stance": {
       "begins": "F",
       "ends": "F",
-      "pivot": false,
-      "side": "diff"
+      "pivot": false
     },
+    "hits": "diff",
     "height": "mid",
     "type": "thrust",
     "properties": [
@@ -363,9 +363,9 @@
     "stance": {
       "begins": "F",
       "ends": "B",
-      "pivot": false,
-      "side": "same"
+      "pivot": false
     },
+    "hits": "same",
     "height": "mid",
     "type": "thrust",
     "properties": []
@@ -376,9 +376,9 @@
     "stance": {
       "begins": "F",
       "ends": "F",
-      "pivot": true,
-      "side": "same"
+      "pivot": true
     },
+    "hits": "same",
     "height": "mid",
     "type": "thrust",
     "properties": [
@@ -391,9 +391,9 @@
     "stance": {
       "begins": "F",
       "ends": "B",
-      "pivot": false,
-      "side": "diff"
+      "pivot": false
     },
+    "hits": "diff",
     "height": "high",
     "type": "horizontal",
     "properties": [
@@ -406,9 +406,9 @@
     "stance": {
       "begins": "B",
       "ends": "F",
-      "pivot": true,
-      "side": "diff"
+      "pivot": true
     },
+    "hits": "diff",
     "height": "high",
     "type": "thrust",
     "properties": []
@@ -419,9 +419,9 @@
     "stance": {
       "begins": "F",
       "ends": "B",
-      "pivot": true,
-      "side": "diff"
+      "pivot": true
     },
+    "hits": "diff",
     "height": "mid",
     "type": "thrust",
     "properties": [
@@ -434,9 +434,9 @@
     "stance": {
       "begins": "F",
       "ends": "F",
-      "pivot": true,
-      "side": "diff"
+      "pivot": true
     },
+    "hits": "diff",
     "height": "high",
     "type": "thrust",
     "properties": []
@@ -447,9 +447,9 @@
     "stance": {
       "begins": "B",
       "ends": "F",
-      "pivot": false,
-      "side": "same"
+      "pivot": false
     },
+    "hits": "same",
     "height": "high",
     "type": "thrust",
     "properties": [
@@ -462,9 +462,9 @@
     "stance": {
       "begins": "B",
       "ends": "B",
-      "pivot": false,
-      "side": "same"
+      "pivot": false
     },
+    "hits": "same",
     "height": "high",
     "type": "thrust",
     "properties": [
@@ -477,9 +477,9 @@
     "stance": {
       "begins": "B",
       "ends": "F",
-      "pivot": false,
-      "side": "same"
+      "pivot": false
     },
+    "hits": "same",
     "height": "high",
     "type": "thrust",
     "properties": []
@@ -490,9 +490,9 @@
     "stance": {
       "begins": "B",
       "ends": "B",
-      "pivot": false,
-      "side": "same"
+      "pivot": false
     },
+    "hits": "same",
     "height": "high",
     "type": "thrust",
     "properties": []
@@ -503,9 +503,9 @@
     "stance": {
       "begins": "B",
       "ends": "F",
-      "pivot": false,
-      "side": "same"
+      "pivot": false
     },
+    "hits": "same",
     "height": "high",
     "type": "thrust",
     "properties": []
@@ -516,9 +516,9 @@
     "stance": {
       "begins": "B",
       "ends": "B",
-      "pivot": false,
-      "side": "same"
+      "pivot": false
     },
+    "hits": "same",
     "height": "high",
     "type": "horizontal",
     "properties": [
@@ -531,9 +531,9 @@
     "stance": {
       "begins": "F",
       "ends": "F",
-      "pivot": true,
-      "side": "same"
+      "pivot": true
     },
+    "hits": "same",
     "height": "mid",
     "type": "thrust",
     "properties": [
@@ -546,9 +546,9 @@
     "stance": {
       "begins": "F",
       "ends": "B",
-      "pivot": false,
-      "side": "same"
+      "pivot": false
     },
+    "hits": "same",
     "height": "low",
     "type": "horizontal",
     "properties": [
@@ -561,9 +561,9 @@
     "stance": {
       "begins": "F",
       "ends": "B",
-      "pivot": true,
-      "side": "same"
+      "pivot": true
     },
+    "hits": "same",
     "height": "mid",
     "type": "vertical",
     "properties": [
@@ -576,9 +576,9 @@
     "stance": {
       "begins": "B",
       "ends": "F",
-      "pivot": false,
-      "side": "diff"
+      "pivot": false
     },
+    "hits": "diff",
     "height": "high",
     "type": "thrust",
     "properties": []
@@ -589,9 +589,9 @@
     "stance": {
       "begins": "B",
       "ends": "F",
-      "pivot": true,
-      "side": "same"
+      "pivot": true
     },
+    "hits": "same",
     "height": "mid",
     "type": "thrust",
     "properties": []
@@ -602,9 +602,9 @@
     "stance": {
       "begins": "F",
       "ends": "F",
-      "pivot": false,
-      "side": "same"
+      "pivot": false
     },
+    "hits": "same",
     "height": "high",
     "type": "thrust",
     "properties": [
@@ -617,9 +617,9 @@
     "stance": {
       "begins": "F",
       "ends": "F",
-      "pivot": true,
-      "side": "same"
+      "pivot": true
     },
+    "hits": "same",
     "height": "mid",
     "type": "vertical",
     "properties": [
@@ -632,9 +632,9 @@
     "stance": {
       "begins": "F",
       "ends": "B",
-      "pivot": true,
-      "side": "diff"
+      "pivot": true
     },
+    "hits": "diff",
     "height": "high",
     "type": "horizontal",
     "properties": [
@@ -648,9 +648,9 @@
     "stance": {
       "begins": "F",
       "ends": "F",
-      "pivot": false,
-      "side": "diff"
+      "pivot": false
     },
+    "side": "diff",
     "height": "high",
     "type": "horizontal",
     "properties": []
@@ -661,9 +661,9 @@
     "stance": {
       "begins": "B",
       "ends": "F",
-      "pivot": false,
-      "side": "diff"
+      "pivot": false
     },
+    "hits": "diff",
     "height": "mid",
     "type": "vertical",
     "properties": [
@@ -676,9 +676,9 @@
     "stance": {
       "begins": "F",
       "ends": "F",
-      "pivot": false,
-      "side": "diff"
+      "pivot": false
     },
+    "hits": "diff",
     "height": "high",
     "type": "thrust",
     "properties": []
@@ -689,9 +689,9 @@
     "stance": {
       "begins": "B",
       "ends": "F",
-      "pivot": false,
-      "side": "diff"
+      "pivot": false
     },
+    "hits": "diff",
     "height": "mid",
     "type": "vertical",
     "properties": [
@@ -704,9 +704,9 @@
     "stance": {
       "begins": "F",
       "ends": "F",
-      "pivot": true,
-      "side": "diff"
+      "pivot": true
     },
+    "hits": "diff",
     "height": "high",
     "type": "horizontal",
     "properties": []
@@ -717,9 +717,9 @@
     "stance": {
       "begins": "F",
       "ends": "B",
-      "pivot": false,
-      "side": "diff"
+      "pivot": false
     },
+    "hits": "diff",
     "height": "mid",
     "type": "vertical",
     "properties": [
@@ -733,9 +733,9 @@
     "stance": {
       "begins": "F",
       "ends": "F",
-      "pivot": true,
-      "side": "same"
+      "pivot": true
     },
+    "hits": "same",
     "height": "mid",
     "type": "thrust",
     "properties": [
@@ -748,9 +748,9 @@
     "stance": {
       "begins": "B",
       "ends": "B",
-      "pivot": true,
-      "side": "same"
+      "pivot": true
     },
+    "hits": "same",
     "height": "high",
     "type": "horizontal",
     "properties": [
@@ -763,9 +763,9 @@
     "stance": {
       "begins": "B",
       "ends": "F",
-      "pivot": true,
-      "side": "diff"
+      "pivot": true
     },
+    "hits": "diff",
     "height": "mid",
     "type": "vertical",
     "properties": [
@@ -779,9 +779,9 @@
     "stance": {
       "begins": "F",
       "ends": "B",
-      "pivot": false,
-      "side": "same"
+      "pivot": false
     },
+    "hits": "same",
     "height": "high",
     "type": "thrust",
     "properties": []
@@ -792,9 +792,9 @@
     "stance": {
       "begins": "F",
       "ends": "F",
-      "pivot": true,
-      "side": "same"
+      "pivot": true
     },
+    "hits": "same",
     "height": "low",
     "type": "horizontal",
     "properties": []
@@ -805,9 +805,9 @@
     "stance": {
       "begins": "B",
       "ends": "F",
-      "pivot": true,
-      "side": "diff"
+      "pivot": true
     },
+    "hits": "diff",
     "height": "mid",
     "type": "thrust",
     "properties": []
@@ -818,9 +818,9 @@
     "stance": {
       "begins": "F",
       "ends": "B",
-      "pivot": true,
-      "side": "same"
+      "pivot": true
     },
+    "hits": "same",
     "height": "low",
     "type": "horizontal",
     "properties": []
@@ -831,9 +831,9 @@
     "stance": {
       "begins": "B",
       "ends": "F",
-      "pivot": false,
-      "side": "diff"
+      "pivot": false
     },
+    "hits": "diff",
     "height": "low",
     "type": "horizontal",
     "properties": [
@@ -846,9 +846,9 @@
     "stance": {
       "begins": "F",
       "ends": "B",
-      "pivot": true,
-      "side": "same"
+      "pivot": true
     },
+    "hits": "same",
     "height": "high",
     "type": "thrust",
     "properties": []
@@ -859,9 +859,9 @@
     "stance": {
       "begins": "F",
       "ends": "F",
-      "pivot": true,
-      "side": "same"
+      "pivot": true
     },
+    "hits": "same",
     "height": "high",
     "type": "horizontal",
     "properties": [
@@ -874,9 +874,9 @@
     "stance": {
       "begins": "F",
       "ends": "B",
-      "pivot": true,
-      "side": "diff"
+      "pivot": true
     },
+    "side": "diff",
     "height": "mid",
     "type": "thrust",
     "properties": [
@@ -889,9 +889,9 @@
     "stance": {
       "begins": "B",
       "ends": "F",
-      "pivot": false,
-      "side": "diff"
+      "pivot": false
     },
+    "side": "same",
     "height": "high",
     "type": "thrust",
     "properties": [
@@ -904,9 +904,9 @@
     "stance": {
       "begins": "B",
       "ends": "B",
-      "pivot": false,
-      "side": "same"
+      "pivot": false
     },
+    "hits": "same",
     "height": "mid",
     "type": "thrust",
     "properties": [
@@ -919,9 +919,9 @@
     "stance": {
       "begins": "B",
       "ends": "B",
-      "pivot": false,
-      "side": "same"
+      "pivot": false
     },
+    "hits": "same",
     "height": "mid",
     "type": "vertical",
     "properties": [
@@ -934,9 +934,9 @@
     "stance": {
       "begins": "B",
       "ends": "B",
-      "pivot": true,
-      "side": "diff"
+      "pivot": true
     },
+    "side": "diff",
     "height": "high",
     "type": "thrust",
     "properties": []
@@ -947,9 +947,9 @@
     "stance": {
       "begins": "F",
       "ends": "B",
-      "pivot": false,
-      "side": "diff"
+      "pivot": false
     },
+    "hits": "diff",
     "height": "mid",
     "type": "vertical",
     "properties": []
@@ -960,9 +960,9 @@
     "stance": {
       "begins": "F",
       "ends": "B",
-      "pivot": true,
-      "side": "diff"
+      "pivot": true
     },
+    "hits": "diff",
     "height": "high",
     "type": "thrust",
     "properties": [
@@ -975,9 +975,9 @@
     "stance": {
       "begins": "F",
       "ends": "F",
-      "pivot": true,
-      "side": "same"
+      "pivot": true
     },
+    "hits": "same",
     "height": "mid",
     "type": "thrust",
     "properties": [
@@ -990,9 +990,9 @@
     "stance": {
       "begins": "B",
       "ends": "F",
-      "pivot": true,
-      "side": "diff"
+      "pivot": true
     },
+    "hits": "diff",
     "height": "mid",
     "type": "thrust",
     "properties": [
@@ -1005,9 +1005,9 @@
     "stance": {
       "begins": "B",
       "ends": "B",
-      "pivot": true,
-      "side": "same"
+      "pivot": true
     },
+    "hits": "same",
     "height": "high",
     "type": "horizontal",
     "properties": []
@@ -1018,9 +1018,9 @@
     "stance": {
       "begins": "F",
       "ends": "F",
-      "pivot": true,
-      "side": "same"
+      "pivot": true
     },
+    "hits": "same",
     "height": "high",
     "type": "horizontal",
     "properties": []
@@ -1031,9 +1031,9 @@
     "stance": {
       "begins": "B",
       "ends": "B",
-      "pivot": false,
-      "side": "diff"
+      "pivot": false
     },
+    "hits": "diff",
     "height": "high",
     "type": "horizontal",
     "properties": [
@@ -1046,9 +1046,9 @@
     "stance": {
       "begins": "B",
       "ends": "F",
-      "pivot": true,
-      "side": "same"
+      "pivot": true
     },
+    "hits": "same",
     "height": "high",
     "type": "thrust",
     "properties": []
@@ -1059,9 +1059,9 @@
     "stance": {
       "begins": "B",
       "ends": "B",
-      "pivot": true,
-      "side": "diff"
+      "pivot": true
     },
+    "hits": "diff",
     "height": "high",
     "type": "horizontal",
     "properties": []
@@ -1072,9 +1072,9 @@
     "stance": {
       "begins": "B",
       "ends": "B",
-      "pivot": true,
-      "side": "diff"
+      "pivot": true
     },
+    "hits": "diff",
     "height": "high",
     "type": "thrust",
     "properties": []
@@ -1085,9 +1085,9 @@
     "stance": {
       "begins": "B",
       "ends": "F",
-      "pivot": false,
-      "side": "diff"
+      "pivot": false
     },
+    "hits": "diff",
     "height": "high",
     "type": "horizontal",
     "properties": []
@@ -1098,9 +1098,9 @@
     "stance": {
       "begins": "F",
       "ends": "B",
-      "pivot": false,
-      "side": "diff"
+      "pivot": false
     },
+    "hits": "diff",
     "height": "high",
     "type": "horizontal",
     "properties": []
@@ -1111,9 +1111,9 @@
     "stance": {
       "begins": "B",
       "ends": "F",
-      "pivot": false,
-      "side": "diff"
+      "pivot": false
     },
+    "hits": "diff",
     "height": "high",
     "type": "horizontal",
     "properties": []
@@ -1124,9 +1124,9 @@
     "stance": {
       "begins": "F",
       "ends": "B",
-      "pivot": false,
-      "side": "diff"
+      "pivot": false
     },
+    "hits": "diff",
     "height": "mid",
     "type": "thrust",
     "properties": []
@@ -1137,9 +1137,9 @@
     "stance": {
       "begins": "B",
       "ends": "F",
-      "pivot": false,
-      "side": "same"
+      "pivot": false
     },
+    "hits": "same",
     "height": "mid",
     "type": "thrust",
     "properties": [
@@ -1152,9 +1152,9 @@
     "stance": {
       "begins": "F",
       "ends": "F",
-      "pivot": true,
-      "side": "same"
+      "pivot": true
     },
+    "hits": "same",
     "height": "high",
     "type": "thrust",
     "properties": []
@@ -1165,9 +1165,9 @@
     "stance": {
       "begins": "B",
       "ends": "F",
-      "pivot": true,
-      "side": "same"
+      "pivot": true
     },
+    "hits": "same",
     "height": "high",
     "type": "horizontal",
     "properties": []
@@ -1178,9 +1178,9 @@
     "stance": {
       "begins": "B",
       "ends": "B",
-      "pivot": true,
-      "side": "diff"
+      "pivot": true
     },
+    "hits": "diff",
     "height": "mid",
     "type": "thrust",
     "properties": [
@@ -1193,9 +1193,9 @@
     "stance": {
       "begins": "B",
       "ends": "B",
-      "pivot": true,
-      "side": "same"
+      "pivot": true
     },
+    "hits": "same",
     "height": "mid",
     "type": "thrust",
     "properties": [
@@ -1208,9 +1208,9 @@
     "stance": {
       "begins": "F",
       "ends": "F",
-      "pivot": true,
-      "side": "diff"
+      "pivot": true
     },
+    "hits": "diff",
     "height": "low",
     "type": "horizontal",
     "properties": [
@@ -1223,9 +1223,9 @@
     "stance": {
       "begins": "B",
       "ends": "B",
-      "pivot": false,
-      "side": "same"
+      "pivot": false
     },
+    "hits": "same",
     "height": "high",
     "type": "horizontal",
     "properties": []
@@ -1236,9 +1236,9 @@
     "stance": {
       "begins": "B",
       "ends": "B",
-      "pivot": false,
-      "side": "diff"
+      "pivot": false
     },
+    "hits": "diff",
     "height": "high",
     "type": "thrust",
     "properties": [
@@ -1251,9 +1251,9 @@
     "stance": {
       "begins": "B",
       "ends": "B",
-      "pivot": false,
-      "side": "diff"
+      "pivot": false
     },
+    "hits": "diff",
     "height": "low",
     "type": "horizontal",
     "properties": []
@@ -1264,9 +1264,9 @@
     "stance": {
       "begins": "B",
       "ends": "B",
-      "pivot": true,
-      "side": "diff"
+      "pivot": true
     },
+    "hits": "diff",
     "height": "high",
     "type": "thrust",
     "properties": []
@@ -1277,9 +1277,9 @@
     "stance": {
       "begins": "B",
       "ends": "F",
-      "pivot": true,
-      "side": "diff"
+      "pivot": true
     },
+    "hits": "diff",
     "height": "high",
     "type": "horizontal",
     "properties": []
@@ -1290,9 +1290,9 @@
     "stance": {
       "begins": "B",
       "ends": "B",
-      "pivot": false,
-      "side": "same"
+      "pivot": false
     },
+    "hits": "same",
     "height": "mid",
     "type": "thrust",
     "properties": []
@@ -1303,9 +1303,9 @@
     "stance": {
       "begins": "B",
       "ends": "F",
-      "pivot": false,
-      "side": "same"
+      "pivot": false
     },
+    "hits": "same",
     "height": "low",
     "type": "horizontal",
     "properties": [
@@ -1319,9 +1319,9 @@
     "stance": {
       "begins": "F",
       "ends": "B",
-      "pivot": false,
-      "side": "same"
+      "pivot": false
     },
+    "hits": "same",
     "height": "mid",
     "type": "thrust",
     "properties": [
@@ -1334,9 +1334,9 @@
     "stance": {
       "begins": "F",
       "ends": "B",
-      "pivot": false,
-      "side": "same"
+      "pivot": false
     },
+    "hits": "same",
     "height": "low",
     "type": "horizontal",
     "properties": []
@@ -1347,9 +1347,9 @@
     "stance": {
       "begins": "F",
       "ends": "F",
-      "pivot": false,
-      "side": "diff"
+      "pivot": false
     },
+    "hits": "diff",
     "height": "high",
     "type": "thrust",
     "properties": []
