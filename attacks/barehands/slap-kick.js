@@ -5,8 +5,8 @@
         style : "windfall",
 
         stance : {
-            begins : "B",
-            ends   : "B",
+            begins : "BACK",
+            ends : "BACK",
         
             pivot : false,
         },

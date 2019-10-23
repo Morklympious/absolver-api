@@ -5,8 +5,8 @@
         style : "kahlt",
 
         stance : {
-            begins : "B",
-            ends   : "F",
+            begins : "BACK",
+            ends : "FRONT",
         
             pivot : true,
         },

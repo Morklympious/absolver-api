@@ -5,8 +5,8 @@
         style : "forsaken",
 
         stance : {
-            begins : "F",
-            ends   : "B",
+            begins : "FRONT",
+            ends : "BACK",
         
             pivot : true,
         },

@@ -5,8 +5,8 @@
         style : "stagger",
 
         stance : {
-            begins : "B",
-            ends   : "F",
+            begins : "BACK",
+            ends : "FRONT",
         
             pivot : false,
         },

@@ -5,8 +5,8 @@
         style : "khalt",
 
         stance : {
-        begins : "F",
-        ends   : "F",
+        begins : "FRONT",
+        ends : "FRONT",
     
         pivot : true,
     },

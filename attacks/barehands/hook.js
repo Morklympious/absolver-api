@@ -3,8 +3,8 @@ module.exports =  {
     style : "forsaken",
 
     stance : {
-        begins : "F",
-        ends   : "F",
+        begins : "FRONT",
+        ends : "FRONT",
 
         pivot : false,
     },

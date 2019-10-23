@@ -3,8 +3,8 @@ module.exports =  {
     style : "kahlt",
     
     stance : {
-        begins : "B",
-        ends   : "B",
+        begins : "BACK",
+        ends : "BACK",
     
         pivot : true,
     },
