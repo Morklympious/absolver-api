@@ -1,5 +1,5 @@
 module.exports =  {
-    name  : "Cleaver Blow",
+    name  : "Collar Chop",
     style : "windfall",
 
     stance : {
