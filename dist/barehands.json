@@ -214,7 +214,7 @@
     "properties": []
   },
   {
-    "name": "Cleaver Blow",
+    "name": "Collar Chop",
     "style": "windfall",
     "stance": {
       "begins": "BACK",
@@ -232,8 +232,8 @@
     "name": "Cross Punch",
     "style": "forsaken",
     "stance": {
-      "begins": "BACK",
-      "ends": "BACK",
+      "begins": "FRONT",
+      "ends": "FRONT",
       "pivot": false
     },
     "hits": "same",
@@ -460,8 +460,8 @@
     "name": "Falcon Punch",
     "style": "forsaken",
     "stance": {
-      "begins": "BACK",
-      "ends": "BACK",
+      "begins": "FRONT",
+      "ends": "FRONT",
       "pivot": false
     },
     "hits": "same",
@@ -902,8 +902,8 @@
     "name": "Pulmonary Palm",
     "style": "windfall",
     "stance": {
-      "begins": "BACK",
-      "ends": "BACK",
+      "begins": "FRONT",
+      "ends": "FRONT",
       "pivot": false
     },
     "hits": "same",
