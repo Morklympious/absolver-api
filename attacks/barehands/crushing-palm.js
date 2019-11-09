@@ -6,7 +6,7 @@ module.exports =  {
         begins : "FRONT",
         ends : "BACK",
     
-        pivot : false,
+        pivot : true,
     },
 
     hits : "diff",

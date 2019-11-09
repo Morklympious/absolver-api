@@ -1,5 +1,5 @@
 module.exports =  {
-    name  : "Double Fist Stretch",
+    name  : "Drunken Paw",
     style : "stagger",
 
     stance : {
