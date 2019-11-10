@@ -3,10 +3,8 @@ module.exports =  {
     style : "kahlt",
 
     stance : {
-        begins : "BACK",
-        ends : "FRONT",
-    
-        pivot : false,
+        BACK_RIGHT : "FRONT_RIGHT",
+        BACK_LEFT  : "FRONT_LEFT",
     },
 
     hits : "diff",
@@ -14,5 +12,5 @@ module.exports =  {
     height : "low",
     type   : "horizontal",
 
-    properties : [ "duck" ]
+    properties : [ "duck" ],
 };

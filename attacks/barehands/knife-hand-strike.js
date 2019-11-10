@@ -1,13 +1,10 @@
-
-module.exports =  {
+module.exports = {
     name  : "Knife Hand Strike",
     style : "windfall",
 
     stance : {
-        begins : "FRONT",
-        ends : "BACK",
-
-        pivot : false,
+        FRONT_RIGHT : "BACK_RIGHT",
+        FRONT_LEFT  : "BACK_LEFT",
     },
 
     hits : "same",
@@ -15,6 +12,6 @@ module.exports =  {
     height : "high",
     type   : "thrust",
 
-    properties : []
+    properties : [],
 };
     

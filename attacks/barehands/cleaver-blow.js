@@ -1,13 +1,11 @@
 module.exports =  {
-    name  : "Cleaver Blow",
+    name : "Cleaver Blow",
 
     style : "kahlt",
 
-        stance : {
-        begins : "FRONT",
-        ends : "FRONT",
-    
-        pivot : false,
+    stance : {
+        FRONT_RIGHT : "FRONT_RIGHT",
+        FRONT_LEFT  : "FRONT_LEFT",
     },
 
     hits : "same",
@@ -15,5 +13,5 @@ module.exports =  {
     height : "mid",
     type   : "vertical",
 
-    properties : []
+    properties : [],
 };

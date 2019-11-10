@@ -1,18 +1,16 @@
-module.exports =  {
+module.exports = {
     name  : "Jump Out Elbow",
     style : "kahlt",
 
     stance : {
-        begins : "FRONT",
-        ends : "BACK",
-
-        pivot : false,
+        FRONT_RIGHT : "BACK_RIGHT",
+        FRONT_LEFT  : "BACK_LEFT",
     },
 
     hits   : "diff",
     height : "mid",
     type   : "vertical",
 
-    properties : [ "break", "jump" ]
+    properties : [ "break", "jump" ],
 };
     

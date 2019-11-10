@@ -1,12 +1,10 @@
-module.exports =  {
+module.exports = {
     name  : "Knee Strike",
     style : "forsaken",
 
     stance : {
-        begins : "BACK",
-        ends : "FRONT",
-    
-        pivot : true,
+        BACK_RIGHT : "FRONT_LEFT",
+        BACK_LEFT  : "FRONT_RIGHT",
     },
 
     hits : "diff",
@@ -14,6 +12,6 @@ module.exports =  {
     height : "mid",
     type   : "vertical",
 
-    properties : [ "break", "jump" ]
+    properties : [ "break", "jump" ],
 };
     

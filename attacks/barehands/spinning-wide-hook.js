@@ -1,20 +1,16 @@
+module.exports =  {
+    name  : "Spinning Wide Hook",
+    style : "forsaken",
 
+    stance : {
+        BACK_RIGHT : "FRONT_RIGHT",
+        BACK_LEFT  : "FRONT_LEFT",
+    },
     
-    module.exports =  {
-        name  : "Spinning Wide Hook",
-        style : "forsaken",
+    hits   : "diff",
+    height : "high",
+    type   : "horizontal",
 
-        stance : {
-            begins : "BACK",
-            ends : "FRONT",
-        
-            pivot : false,
-        },
-        
-        hits   : "diff",
-        height : "high",
-        type   : "horizontal",
-
-        properties : []
-    };
+    properties : [],
+};
     

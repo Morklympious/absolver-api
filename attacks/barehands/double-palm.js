@@ -3,10 +3,8 @@ module.exports =  {
     style : "windfall",
 
     stance : {
-        begins : "BACK",
-        ends : "FRONT",
-    
-        pivot : false,
+        BACK_RIGHT : "FRONT_RIGHT",
+        BACK_LEFT  : "FRONT_LEFT",
     },
 
     hits : "same",
@@ -14,5 +12,5 @@ module.exports =  {
     height : "mid",
     type   : "thrust",
 
-    properties : [ "double" ]
+    properties : [ "double" ],
 };

@@ -1,20 +1,17 @@
+module.exports =  {
+    name  : "Parry & Strike",
+    style : "forsaken",
 
+    stance : {
+        BACK_RIGHT : "FRONT_RIGHT",
+        BACK_LEFT  : "FRONT_LEFT",
+    },
     
-    module.exports =  {
-        name  : "Parry & Strike",
-        style : "forsaken",
+    side : "same",
+    
+    height : "high",
+    type   : "thrust",
 
-        stance : {
-            begins : "BACK",
-            ends : "FRONT",
-        
-            pivot : false,
-        },
-        
-        side   : "same",
-        height : "high",
-        type   : "thrust",
-
-        properties : [ "parry" ]
-    };
+    properties : [ "parry" ],
+};
     

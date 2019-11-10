@@ -1,12 +1,10 @@
-module.exports =  {
+module.exports = {
     name  : "Meia Lua",
     style : "khalt",
 
     stance : {
-        begins : "FRONT",
-        ends : "FRONT",
-    
-        pivot : true,
+        FRONT_RIGHT : "FRONT_LEFT",
+        FRONT_LEFT  : "FRONT_RIGHT",
     },
 
     hits : "same",
@@ -14,6 +12,6 @@ module.exports =  {
     height : "high",
     type   : "horizontal",
 
-    properties : [ "duck" ]
+    properties : [ "duck" ],
 };
     

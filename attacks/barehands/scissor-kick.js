@@ -1,20 +1,17 @@
+module.exports =  {
+    name  : "Scissor Kick",
+    style : "forsaken",
 
+    stance : {
+        BACK_RIGHT : "BACK_LEFT",
+        BACK_LEFT  : "BACK_RIGHT",
+    },
     
-    module.exports =  {
-        name  : "Scissor Kick",
-        style : "forsaken",
+    hits : "same",
+    
+    height : "high",
+    type   : "horizontal",
 
-        stance : {
-            begins : "BACK",
-            ends : "BACK",
-        
-            pivot : true,
-        },
-        
-        hits   : "same",
-        height : "high",
-        type   : "horizontal",
-
-        properties : []
-    };
+    properties : [],
+};
     

@@ -3,10 +3,8 @@ module.exports =  {
     style : "stagger",
 
     stance : {
-        begins : "FRONT",
-        ends : "FRONT",
-    
-        pivot : false,
+        FRONT_RIGHT : "FRONT_RIGHT",
+        FRONT_LEFT  : "FRONT_LEFT",
     },
 
     hits : "diff",
@@ -14,5 +12,5 @@ module.exports =  {
     height : "mid",
     type   : "thrust",
 
-    properties : [ "double" ]
+    properties : [ "double" ],
 };

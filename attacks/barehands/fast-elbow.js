@@ -1,21 +1,17 @@
+module.exports =  {
+    name  : "Fast Elbow",
+    style : "forsaken",
 
-    
-    module.exports =  {
-        name  : "Fast Elbow",
-        style : "forsaken",
-
-           stance : {
-        begins : "BACK",
-        ends : "BACK",
-    
-        pivot : false,
+    stance : {
+        BACK_RIGHT : "BACK_RIGHT",
+        BACK_LEFT  : "BACK_LEFT",
     },
 
     hits : "same",
 
-        height : "high",
-        type   : "thrust",
+    height : "high",
+    type   : "thrust",
 
-        properties : []
-    };
+    properties : [],
+};
     

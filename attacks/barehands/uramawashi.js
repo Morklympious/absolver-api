@@ -3,16 +3,15 @@ module.exports =  {
     style : "windfall",
 
     stance : {
-        begins : "BACK",
-        ends : "FRONT",
-    
-        pivot : true,
+        BACK_RIGHT : "FRONT_LEFT",
+        BACK_LEFT  : "FRONT_RIGHT",
     },
     
-    hits   : "diff",
+    hits : "diff",
+    
     height : "high",
     type   : "horizontal",
 
-    properties : []
+    properties : [],
 };
     

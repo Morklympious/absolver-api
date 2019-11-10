@@ -1,33 +1,24 @@
-/* eslint-disable no-console */
+const glob = require("glob");
 const fs = require("fs");
 
-const barehands = fs.readdirSync("./attacks/barehands");
-    // const sword     = fs.readdirSync("./attacks/sword");
-    const results = {
-        barehands : barehands.map((path) => require(`./attacks/barehands/${path}`)),
-    };
+const hands = glob.sync("./attacks/barehands/*.js");
+const blade = glob.sync("./attacks/sword/*.js");
 
-fs.writeFile("./dist/barehands.json", JSON.stringify(results.barehands, null, 2), (err) => {
-    if(err) {
-        throw err;
-    }
+const barehands = [ hands[0] ].map((file) => {
+    const attack = fs.readFileSync(file, "utf-8");
+    const search = new RegExp("/")
+    console.log(typeof attack, attack,);
 
-    console.log("successfully generated barehands attacks! (JSON)");
+    const a = attack.replace(/"},"/g, "AAAA")
+    console.log(a);
 });
 
-fs.writeFile("./dist/barehands.js", results.barehands, (err) => {
-    if(err) {
-        throw err;
-    }
+const sword = blade.map((file) => require(file));
 
-    console.log("successfully generated barehands attacks! (JS)")
-});
 
-// fs.writeFile("./dist/sword.json", JSON.stringify(results.sword, null, 2), (err) => {
-//     if(err) {
-//         throw err;
-//     }
+module.exports = {
+    barehands,
+    sword,
+};
 
-//     console.log("successfully generated sword attacks!");
-// });
 

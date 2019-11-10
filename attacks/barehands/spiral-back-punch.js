@@ -1,21 +1,18 @@
 
-    
-    module.exports =  {
-        name  : "Spiral Back Punch",
-        style : "stagger",
+module.exports =  {
+    name  : "Spiral Back Punch",
+    style : "stagger",
 
-            stance : {
-        begins : "FRONT",
-        ends : "BACK",
-    
-        pivot : false,
+    stance : {
+        FRONT_RIGHT : "BACK_RIGHT",
+        FRONT_LEFT  : "BACK_LEFT",
     },
 
     hits : "diff",
 
-        height : "mid",
-        type   : "thrust",
+    height : "mid",
+    type   : "thrust",
 
-        properties : []
-    };
+    properties : [],
+};
     

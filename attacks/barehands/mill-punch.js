@@ -1,21 +1,17 @@
+module.exports =  {
+    name  : "Mill Punch",
+    style : "forsaken",
 
+    stance : {
+        FRONT_RIGHT : "BACK_LEFT",
+        FRONT_LEFT  : "BACK_RIGHT",
+    },
     
-    module.exports =  {
-        name  : "Mill Punch",
-        style : "forsaken",
+    side : "diff",
 
-        stance : {
-            begins : "FRONT",
-            ends : "BACK",
-        
-            pivot : true,
-        },
-        
-        
-        side   : "diff",
-        height : "mid",
-        type   : "thrust",
+    height : "mid",
+    type   : "thrust",
 
-        properties : [ "double" ]
-    };
+    properties : [ "double" ],
+};
     

@@ -1,21 +1,17 @@
+module.exports =  {
+    name  : "Spinning High Kick",
+    style : "forsaken",
 
-    
-    module.exports =  {
-        name  : "Spinning High Kick",
-        style : "forsaken",
-
-            stance : {
-        begins : "FRONT",
-        ends : "BACK",
-    
-        pivot : false,
+    stance : {
+        FRONT_RIGHT : "BACK_RIGHT",
+        FRONT_LEFT  : "BACK_LEFT",
     },
 
     hits : "diff",
 
-        height : "high",
-        type   : "horizontal",
+    height : "high",
+    type   : "horizontal",
 
-        properties : []
-    };
+    properties : [],
+};
     

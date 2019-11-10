@@ -1,20 +1,16 @@
+module.exports =  {
+    name  : "Soto-uke",
+    style : "windfall",
 
+    stance : {
+        BACK_RIGHT : "FRONT_LEFT",
+        BACK_LEFT  : "FRONT_RIGHT",
+    },
     
-    module.exports =  {
-        name  : "Soto-uke",
-        style : "windfall",
+    hits   : "same",
+    height : "high",
+    type   : "thrust",
 
-                stance : {
-            begins : "BACK",
-            ends : "FRONT",
-        
-            pivot : true,
-        },
-        
-        hits   : "same",
-        height : "high",
-        type   : "thrust",
+    properties : [],
+};
 
-        properties : []
-    };
-    

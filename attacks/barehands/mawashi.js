@@ -1,20 +1,16 @@
+module.exports = {
+    name  : "Mawashi",
+    style : "windfall",
 
-    
-    module.exports =  {
-        name  : "Mawashi",
-        style : "windfall",
+    stance : {
+        FRONT_RIGHT : "BACK_LEFT",
+        FRONT_LEFT  : "BACK_RIGHT",
+    },
 
-        stance : {
-            begins : "FRONT",
-            ends : "BACK",
-        
-            pivot : true,
-        },
+    hits   : "same",
+    height : "high",
+    type   : "thrust",
 
-        hits   : "same", 
-        height : "high",
-        type   : "thrust",
+    properties : [],
+};
 
-        properties : []
-    };
-    

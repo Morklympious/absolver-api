@@ -1,20 +1,16 @@
+module.exports =  {
+    name  : "Spin Elbow",
+    style : "forsaken",
 
+    stance : {
+        BACK_RIGHT : "BACK_LEFT",
+        BACK_LEFT  : "BACK_RIGHT",
+    },
     
-    module.exports =  {
-        name  : "Spin Elbow",
-        style : "forsaken",
+    hits   : "diff",
+    height : "high",
+    type   : "thrust",
 
-        stance : {
-            begins : "BACK",
-            ends : "BACK",
-        
-            pivot : true,
-        },
-        
-        hits   : "diff",
-        height : "high",
-        type   : "thrust",
-
-        properties : []
-    };
+    properties : [],
+};
     

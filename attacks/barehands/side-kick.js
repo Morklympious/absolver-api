@@ -1,21 +1,17 @@
+module.exports =  {
+    name  : "Side Kick",
+    style : "khalt",
 
-    
-    module.exports =  {
-        name  : "Side Kick",
-        style : "khalt",
-
-        stance : {
-        begins : "FRONT",
-        ends : "FRONT",
-    
-        pivot : true,
+    stance : {
+        FRONT_RIGHT : "FRONT_LEFT",
+        FRONT_LEFT  : "FRONT_RIGHT",
     },
 
     hits : "same",
 
-        height : "high",
-        type   : "horizontal",
+    height : "high",
+    type   : "horizontal",
 
-        properties : []
-    };
+    properties : [],
+};
     

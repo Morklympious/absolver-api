@@ -1,21 +1,17 @@
+module.exports =  {
+    name  : "Pushed Back Kick",
+    style : "forsaken",
 
-    
-    module.exports =  {
-        name  : "Pushed Back Kick",
-        style : "forsaken",
-
-           stance : {
-        begins : "BACK",
-        ends : "BACK",
-    
-        pivot : false,
+    stance : {
+        BACK_RIGHT : "BACK_RIGHT",
+        BACK_LEFT  : "BACK_LEFT",
     },
 
     hits : "same",
 
-        height : "mid",
-        type   : "vertical",
+    height : "mid",
+    type   : "vertical",
 
-        properties : [ "break" ]
-    };
+    properties : [ "break" ],
+};
     

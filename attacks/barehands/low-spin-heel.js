@@ -1,20 +1,16 @@
+module.exports = {
+    name  : "Low Spin Heel",
+    style : "windfall",
 
-    
-    module.exports =  {
-        name  : "Low Spin Heel",
-        style : "windfall",
+    stance : {
+        BACK_RIGHT : "FRONT_RIGHT",
+        BACK_LEFT  : "FRONT_LEFT",
+    },
 
-        stance : {
-            begins : "BACK",
-            ends : "FRONT",
-        
-            pivot : false,
-        },
+    hits   : "diff",
+    height : "low",
+    type   : "horizontal",
 
-        hits   : "diff",
-        height : "low",
-        type   : "horizontal",
-
-        properties : [ "duck" ]
-    };
+    properties : [ "duck" ],
+};
     

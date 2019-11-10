@@ -2,11 +2,9 @@ module.exports =  {
     name  : "Cross Punch",
     style : "forsaken",
 
-        stance : {
-        begins : "FRONT",
-        ends : "FRONT",
-    
-        pivot : false,
+    stance : {
+        FRONT_RIGHT : "FRONT_RIGHT",
+        FRONT_LEFT  : "FRONT_LEFT",
     },
 
     hits : "same",
@@ -14,5 +12,5 @@ module.exports =  {
     height : "high",
     type   : "thrust",
 
-    properties : [ "stop" ]
+    properties : [ "stop" ],
 };

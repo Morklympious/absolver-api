@@ -3,10 +3,8 @@ module.exports =  {
     style : "stagger",
 
     stance : {
-        begins : "BACK",
-        ends : "BACK",
-
-        pivot : false,
+        BACK_RIGHT : "BACK_RIGHT",
+        BACK_LEFT  : "BACK_LEFT",
     },
 
     hits : "same",

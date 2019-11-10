@@ -1,20 +1,16 @@
+module.exports = {
+    name  : "Low Kick",
+    style : "forsaken",
 
+    stance : {
+        FRONT_RIGHT : "BACK_LEFT",
+        FRONT_LEFT  : "BACK_RIGHT",
+    },
     
-    module.exports =  {
-        name  : "Low Kick",
-        style : "forsaken",
+    hits   : "same",
+    height : "low",
+    type   : "horizontal",
 
-        stance : {
-            begins : "FRONT",
-            ends : "BACK",
-        
-            pivot : true,
-        },
-        
-        hits   : "same",
-        height : "low",
-        type   : "horizontal",
-
-        properties : []
-    };
+    properties : [],
+};
     

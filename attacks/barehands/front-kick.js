@@ -1,13 +1,10 @@
-
 module.exports =  {
     name  : "Front Kick",
     style : "khalt",
 
     stance : {
-        begins : "FRONT",
-        ends : "FRONT",
-
-        pivot : true,
+        FRONT_RIGHT : "FRONT_LEFT",
+        FRONT_LEFT  : "FRONT_RIGHT",
     },
 
     hits : "same",
@@ -15,6 +12,6 @@ module.exports =  {
     height : "mid",
     type   : "thrust",
 
-    properties : [ "break" ]
+    properties : [ "break" ],
 };
     

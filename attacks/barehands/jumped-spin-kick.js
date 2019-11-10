@@ -1,12 +1,10 @@
-module.exports =  {
+module.exports = {
     name  : "Jumped Spin kick",
     style : "kahlt",
     
     stance : {
-        begins : "BACK",
-        ends : "BACK",
-    
-        pivot : true,
+        BACK_RIGHT : "BACK_LEFT",
+        BACK_LEFT  : "BACK_RIGHT",
     },
 
     hits : "same",
@@ -14,6 +12,6 @@ module.exports =  {
     height : "high",
     type   : "horizontal",
 
-    properties : [ "jump" ]
+    properties : [ "jump" ],
 };
     

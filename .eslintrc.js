@@ -2,7 +2,8 @@ module.exports = {
     extends: [ "@tivac" ],
 
     parserOptions: {
-        sourceType: "module"
+        sourceType  : "module",
+        ecmaVersion : 2015,
     },
     
     env : {

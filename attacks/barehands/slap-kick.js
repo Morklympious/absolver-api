@@ -1,20 +1,17 @@
+module.exports =  {
+    name  : "Slap Kick",
+    style : "windfall",
 
+    stance : {
+        BACK_RIGHT : "BACK_RIGHT",
+        BACK_LEFT  : "BACK_LEFT",
+    },
     
-    module.exports =  {
-        name  : "Slap Kick",
-        style : "windfall",
+    hits : "diff",
+    
+    height : "high",
+    type   : "horizontal",
 
-        stance : {
-            begins : "BACK",
-            ends : "BACK",
-        
-            pivot : false,
-        },
-        
-        hits   : "diff",
-        height : "high",
-        type   : "horizontal",
-
-        properties : [ "jump" ]
-    };
+    properties : [ "jump" ],
+};
     

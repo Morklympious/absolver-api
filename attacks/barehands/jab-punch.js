@@ -3,16 +3,15 @@ module.exports =  {
     style : "forsaken",
 
     stance : {
-        begins : "FRONT",
-        ends : "FRONT",
-
-        pivot : false,
+        FRONT_RIGHT : "FRONT_RIGHT",
+        FRONT_LEFT  : "FRONT_LEFT",
     },
 
-    hits   : "diff",
+    hits : "diff",
+    
     height : "high",
     type   : "thrust",
 
-    properties : []
+    properties : [],
 };
     

@@ -1,12 +1,10 @@
-module.exports =  {
+module.exports = {
     name  : "Jackhammer Punch",
     style : "kahlt",
 
     stance : {
-        begins : "BACK",
-        ends : "FRONT",
-    
-        pivot : false,
+        BACK_RIGHT : "FRONT_RIGHT",
+        BACK_LEFT  : "FRONT_LEFT",
     },
 
     hits : "diff",
@@ -14,6 +12,6 @@ module.exports =  {
     height : "mid",
     type   : "vertical",
 
-    properties : [ "double" ]
+    properties : [ "double" ],
 };
     

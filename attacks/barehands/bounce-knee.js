@@ -3,10 +3,8 @@ module.exports =  {
     style : "kahlt",
 
     stance : {
-        begins : "FRONT",
-        ends : "BACK",
-    
-        pivot : true,
+        FRONT_RIGHT : "BACK_LEFT",
+        FRONT_LEFT  : "BACK_RIGHT",
     },
 
     hits : "same",
@@ -14,5 +12,5 @@ module.exports =  {
     height : "high",
     type   : "thrust",
 
-    properties : [ "strafe" ]
+    properties : [ "strafe" ],
 };

@@ -1,20 +1,16 @@
-
-    
-module.exports =  {
+module.exports = {
     name  : "Liver Knee",
     style : "kahlt",
 
     stance : {
-        begins : "BACK",
-        ends : "FRONT",
-    
-        pivot : true,
+        BACK_RIGHT : "FRONT_LEFT",
+        BACK_LEFT  : "FRONT_RIGHT",
     },
     
     hits   : "diff",
     height : "mid",
     type   : "thrust",
 
-    properties : []
+    properties : [],
 };
 

@@ -1,20 +1,17 @@
+module.exports =  {
+    name  : "Roll Uppercut",
+    style : "kahlt",
 
+    stance : {
+        BACK_RIGHT : "FRONT_LEFT",
+        BACK_LEFT  : "FRONT_RIGHT",
+    },
     
-    module.exports =  {
-        name  : "Roll Uppercut",
-        style : "kahlt",
+    hits : "diff",
+    
+    height : "mid",
+    type   : "thrust",
 
-        stance : {
-            begins : "BACK",
-            ends : "FRONT",
-        
-            pivot : true,
-        },
-        
-        hits   : "diff",
-        height : "mid",
-        type   : "thrust",
-
-        properties : [ "duck" ]
-    };
+    properties : [ "duck" ],
+};
     

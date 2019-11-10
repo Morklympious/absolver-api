@@ -1,21 +1,17 @@
+module.exports =  {
+    name  : "Pulmonary Palm",
+    style : "windfall",
 
-    
-    module.exports =  {
-        name  : "Pulmonary Palm",
-        style : "windfall",
-
-            stance : {
-        begins : "FRONT",
-        ends : "FRONT",
-    
-        pivot : false,
+    stance : {
+        FRONT_RIGHT : "FRONT_RIGHT",
+        FRONT_LEFT  : "FRONT_LEFT",
     },
 
     hits : "same",
 
-        height : "mid",
-        type   : "thrust",
+    height : "mid",
+    type   : "thrust",
 
-        properties : [ "stop" ]
-    };
+    properties : [ "stop" ],
+};
     
