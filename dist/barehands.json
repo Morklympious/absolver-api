@@ -88,6 +88,18 @@
         "properties": []
     },
     {
+        "name": "Back Ura",
+        "style": "faejin",
+        "stance": {
+            "BACK_RIGHT": "BACK_LEFT",
+            "BACK_LEFT": "BACK_RIGHT"
+        },
+        "hits": "diff",
+        "height": "high",
+        "type": "horizontal",
+        "modifiers": []
+    },
+    {
         "name": "Backfall Strike",
         "style": "stagger",
         "stance": {
@@ -114,6 +126,18 @@
         "properties": [
             "stop"
         ]
+    },
+    {
+        "name": "Blink Punch",
+        "style": "faejin",
+        "stance": {
+            "FRONT_RIGHT": "BACK_RIGHT",
+            "FRONT_LEFT": "BACK_LEFT"
+        },
+        "hits": "diff",
+        "height": "high",
+        "type": "thrust",
+        "modifiers": []
     },
     {
         "name": "Body Blow",
@@ -330,6 +354,20 @@
         ]
     },
     {
+        "name": "Double Wata",
+        "style": "faejin",
+        "stance": {
+            "FRONT_RIGHT": "FRONT_RIGHT",
+            "FRONT_LEFT": "FRONT_LEFT"
+        },
+        "hits": "same",
+        "height": "mid",
+        "type": "thrust",
+        "modifiers": [
+            "double"
+        ]
+    },
+    {
         "name": "Drunk Crane",
         "style": "stagger",
         "stance": {
@@ -422,6 +460,18 @@
         ]
     },
     {
+        "name": "Face Backfist",
+        "style": "faejin",
+        "stance": {
+            "BACK_RIGHT": "BACK_RIGHT",
+            "BACK_LEFT": "BACK_LEFT"
+        },
+        "hits": "same",
+        "height": "mid",
+        "type": "vertical",
+        "modifiers": []
+    },
+    {
         "name": "Falcon Punch",
         "style": "forsaken",
         "stance": {
@@ -448,6 +498,18 @@
         "properties": []
     },
     {
+        "name": "Fast Cross",
+        "style": "faejin",
+        "stance": {
+            "FRONT_RIGHT": "FRONT_RIGHT",
+            "FRONT_LEFT": "FRONT_LEFT"
+        },
+        "hits": "same",
+        "height": "mid",
+        "type": "thrust",
+        "modifiers": []
+    },
+    {
         "name": "Fast Elbow",
         "style": "forsaken",
         "stance": {
@@ -470,6 +532,18 @@
         "height": "high",
         "type": "thrust",
         "properties": []
+    },
+    {
+        "name": "Fencing Punch",
+        "style": "faejin",
+        "stance": {
+            "FRONT_RIGHT": "BACK_RIGHT",
+            "FRONT_LEFT": "BACK_LEFT"
+        },
+        "hits": "same",
+        "height": "mid",
+        "type": "thrust",
+        "modifiers": []
     },
     {
         "name": "Foot Slap",
@@ -552,6 +626,18 @@
         "properties": []
     },
     {
+        "name": "Guts Punch",
+        "style": "faejin",
+        "stance": {
+            "BACK_RIGHT": "FRONT_RIGHT",
+            "BACK_LEFT": "FRONT_LEFT"
+        },
+        "hits": "same",
+        "height": "mid",
+        "type": "thrust",
+        "modifiers": []
+    },
+    {
         "name": "Hadrunken",
         "style": "stagger",
         "stance": {
@@ -595,6 +681,18 @@
         ]
     },
     {
+        "name": "Heel to Knee",
+        "style": "faejin",
+        "stance": {
+            "BACK_RIGHT": "BACK_LEFT",
+            "BACK_LEFT": "BACK_RIGHT"
+        },
+        "hits": "same",
+        "height": "low",
+        "type": "thrust",
+        "modifiers": []
+    },
+    {
         "name": "Hook",
         "style": "forsaken",
         "stance": {
@@ -605,6 +703,18 @@
         "height": "high",
         "type": "horizontal",
         "properties": []
+    },
+    {
+        "name": "Horse Kick",
+        "style": "faejin",
+        "stance": {
+            "BACK_RIGHT": "BACK_RIGHT",
+            "BACK_LEFT": "BACK_LEFT"
+        },
+        "hits": "same",
+        "height": "mid",
+        "type": "thrust",
+        "modifiers": []
     },
     {
         "name": "Illusion Twist Kick",
@@ -619,6 +729,18 @@
         "properties": [
             "jump"
         ]
+    },
+    {
+        "name": "Inside Kick",
+        "style": "faejin",
+        "stance": {
+            "FRONT_RIGHT": "BACK_LEFT",
+            "FRONT_LEFT": "BACK_RIGHT"
+        },
+        "hits": "same",
+        "height": "high",
+        "type": "horizontal",
+        "modifiers": []
     },
     {
         "name": "Jab Punch",
@@ -702,6 +824,18 @@
         ]
     },
     {
+        "name": "Jumping Risekick",
+        "style": "faejin",
+        "stance": {
+            "FRONT_RIGHT": "FRONT_LEFT",
+            "FRONT_LEFT": "FRONT_RIGHT"
+        },
+        "hits": "same",
+        "height": "mid",
+        "type": "vertical",
+        "modifiers": []
+    },
+    {
         "name": "Knee Strike",
         "style": "forsaken",
         "stance": {
@@ -741,6 +875,18 @@
         "properties": []
     },
     {
+        "name": "Light Sidekick",
+        "style": "faejin",
+        "stance": {
+            "BACK_RIGHT": "FRONT_LEFT",
+            "BACK_LEFT": "FRONT_RIGHT"
+        },
+        "hits": "same",
+        "height": "high",
+        "type": "horizontal",
+        "modifiers": []
+    },
+    {
         "name": "Liver Knee",
         "style": "kahlt",
         "stance": {
@@ -751,6 +897,18 @@
         "height": "mid",
         "type": "thrust",
         "properties": []
+    },
+    {
+        "name": "Low Backfist",
+        "style": "faejin",
+        "stance": {
+            "BACK_RIGHT": "BACK_RIGHT",
+            "BACK_LEFT": "BACK_LEFT"
+        },
+        "hits": "same",
+        "height": "mid",
+        "type": "thrust",
+        "modifiers": []
     },
     {
         "name": "Low Kick",
@@ -819,6 +977,32 @@
         ]
     },
     {
+        "name": "One Inch Punch",
+        "style": "faejin",
+        "stance": {
+            "FRONT_RIGHT": "FRONT_RIGHT",
+            "FRONT_LEFT": "FRONT_LEFT"
+        },
+        "hits": "diff",
+        "height": "mid",
+        "type": "thrust",
+        "modifiers": [
+            "break"
+        ]
+    },
+    {
+        "name": "Outward Kick",
+        "style": "faejin",
+        "stance": {
+            "BACK_RIGHT": "FRONT_RIGHT",
+            "BACK_LEFT": "FRONT_LEFT"
+        },
+        "hits": "same",
+        "height": "high",
+        "type": "horizontal",
+        "modifiers": []
+    },
+    {
         "name": "Parry & Strike",
         "style": "forsaken",
         "stance": {
@@ -831,6 +1015,32 @@
         "properties": [
             "parry"
         ]
+    },
+    {
+        "name": "Plexus Elbow",
+        "style": "faejin",
+        "stance": {
+            "FRONT_RIGHT": "BACK_RIGHT",
+            "FRONT_LEFT": "BACK_LEFT"
+        },
+        "hits": "diff",
+        "height": "mid",
+        "type": "thrust",
+        "modifiers": [
+            "break"
+        ]
+    },
+    {
+        "name": "Power Mawashi",
+        "style": "faejin",
+        "stance": {
+            "BACK_RIGHT": "FRONT_LEFT",
+            "BACK_LEFT": "FRONT_RIGHT"
+        },
+        "hits": "same",
+        "height": "high",
+        "type": "horizontal",
+        "modifiers": []
     },
     {
         "name": "Pulmonary Palm",
@@ -871,6 +1081,42 @@
         "height": "high",
         "type": "thrust",
         "properties": []
+    },
+    {
+        "name": "Rabbit Punch",
+        "style": "faejin",
+        "stance": {
+            "FRONT_RIGHT": "BACK_RIGHT",
+            "FRONT_LEFT": "BACK_LEFT"
+        },
+        "hits": "diff",
+        "height": "mid",
+        "type": "vertical",
+        "modifiers": []
+    },
+    {
+        "name": "Reaching Maegeri",
+        "style": "faejin",
+        "stance": {
+            "BACK_RIGHT": "FRONT_LEFT",
+            "BACK_LEFT": "FRONT_RIGHT"
+        },
+        "hits": "same",
+        "height": "mid",
+        "type": "thrust",
+        "modifiers": []
+    },
+    {
+        "name": "Reaching Mawashi",
+        "style": "faejin",
+        "stance": {
+            "FRONT_RIGHT": "FRONT_RIGHT",
+            "FRONT_LEFT": "FRONT_LEFT"
+        },
+        "hits": "diff",
+        "height": "high",
+        "type": "thrust",
+        "modifiers": []
     },
     {
         "name": "Rising Kick",
@@ -925,6 +1171,18 @@
         "properties": [
             "duck"
         ]
+    },
+    {
+        "name": "Run-up Strike",
+        "style": "faejin",
+        "stance": {
+            "FRONT_RIGHT": "BACK_LEFT",
+            "FRONT_LEFT": "BACK_RIGHT"
+        },
+        "hits": "same",
+        "height": "mid",
+        "type": "thrust",
+        "modifiers": []
     },
     {
         "name": "Scissor Kick",
@@ -1101,6 +1359,30 @@
         ]
     },
     {
+        "name": "Switch Kick",
+        "style": "faejin",
+        "stance": {
+            "FRONT_RIGHT": "FRONT_RIGHT",
+            "FRONT_LEFT": "FRONT_LEFT"
+        },
+        "hits": "diff",
+        "height": "low",
+        "type": "thrust",
+        "modifiers": []
+    },
+    {
+        "name": "Temple Knock",
+        "style": "faejin",
+        "stance": {
+            "BACK_RIGHT": "BACK_RIGHT",
+            "BACK_LEFT": "BACK_LEFT"
+        },
+        "hits": "diff",
+        "height": "high",
+        "type": "horizontal",
+        "modifiers": []
+    },
+    {
         "name": "Tetsuzanko",
         "style": "windfall",
         "stance": {
@@ -1167,6 +1449,18 @@
         "properties": []
     },
     {
+        "name": "Upper Backfist",
+        "style": "faejin",
+        "stance": {
+            "BACK_RIGHT": "FRONT_RIGHT",
+            "BACK_LEFT": "FRONT_LEFT"
+        },
+        "hits": "same",
+        "height": "mid",
+        "type": "vertical",
+        "modifiers": []
+    },
+    {
         "name": "Upper Elbow",
         "style": "kahlt",
         "stance": {
@@ -1177,6 +1471,18 @@
         "height": "high",
         "type": "thrust",
         "properties": []
+    },
+    {
+        "name": "Uraken",
+        "style": "faejin",
+        "stance": {
+            "BACK_RIGHT": "BACK_LEFT",
+            "BACK_LEFT": "BACK_RIGHT"
+        },
+        "hits": "diff",
+        "height": "high",
+        "type": "thrust",
+        "modifiers": []
     },
     {
         "name": "Uramawashi",
