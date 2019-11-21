@@ -1,6 +1,6 @@
 module.exports =  {
     name  : "Side Kick",
-    style : "khalt",
+    style : "kahlt",
 
     stance : {
         FRONT_RIGHT : "FRONT_LEFT",

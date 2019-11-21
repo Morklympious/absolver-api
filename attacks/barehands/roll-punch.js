@@ -1,7 +1,7 @@
 
 module.exports =  {
     name  : "Roll Punch",
-    style : "khalt",
+    style : "kahlt",
 
     stance : {
         FRONT_RIGHT : "FRONT_LEFT",
