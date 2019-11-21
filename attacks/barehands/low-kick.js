@@ -11,6 +11,6 @@ module.exports = {
     height : "low",
     type   : "horizontal",
 
-    properties : [],
+    modifiers : [],
 };
     

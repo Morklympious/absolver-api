@@ -12,5 +12,5 @@ module.exports =  {
     lands : "high",
     type  : "thrust",
 
-    properties : [ "double" ],
+    modifiers : [ "double" ],
 };

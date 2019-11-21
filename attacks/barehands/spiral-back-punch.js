@@ -13,6 +13,6 @@ module.exports =  {
     height : "mid",
     type   : "thrust",
 
-    properties : [],
+    modifiers : [],
 };
     

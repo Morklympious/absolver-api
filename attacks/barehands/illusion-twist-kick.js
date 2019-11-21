@@ -12,6 +12,6 @@ module.exports =  {
     height : "mid",
     type   : "vertical",
 
-    properties : [ "jump" ],
+    modifiers : [ "jump" ],
 };
     

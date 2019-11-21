@@ -12,5 +12,5 @@ module.exports =  {
     height : "high",
     type   : "thrust",
 
-    properties : [ "jump" ],
+    modifiers : [ "jump" ],
 };

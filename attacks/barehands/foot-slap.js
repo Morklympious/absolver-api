@@ -3,8 +3,8 @@ module.exports =  {
     style : "stagger",
 
     stance : {
-        BACK_RIGHT : "BACK_RIGHT",
-        BACK_LEFT  : "BACK_LEFT",
+        FRONT_RIGHT : "BACK_LEFT",
+        FRONT_LEFT  : "BACK_RIGHT",
     },
 
     hits : "same",
@@ -12,6 +12,6 @@ module.exports =  {
     height : "high",
     type   : "horizontal",
 
-    properties : [ "jump" ],
+    modifiers : [ "jump" ],
 };
     

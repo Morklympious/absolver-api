@@ -12,6 +12,6 @@ module.exports =  {
     height : "low",
     type   : "horizontal",
 
-    properties : [ "duck" ],
+    modifiers : [ "duck" ],
 };
     

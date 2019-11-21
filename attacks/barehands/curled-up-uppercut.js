@@ -12,5 +12,5 @@ module.exports =  {
     height : "mid",
     type   : "vertical",
 
-    properties : [],
+    modifiers : [],
 };
