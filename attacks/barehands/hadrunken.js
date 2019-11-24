@@ -11,7 +11,7 @@ module.exports =  {
         sword : false,
     },
 
-    hits : "same",
+    hits : "both",
 
     height : "high",
     type   : "thrust",
