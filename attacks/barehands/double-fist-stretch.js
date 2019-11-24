@@ -3,8 +3,12 @@ module.exports =  {
     style : "stagger",
 
     stance : {
-        BACK_RIGHT : "BACK_LEFT",
-        BACK_LEFT  : "BACK_RIGHT",
+        barehands : {
+            BACK_RIGHT : "BACK_LEFT",
+            BACK_LEFT  : "BACK_RIGHT",
+        },
+
+        sword : false,
     },
 
     hits : "diff",

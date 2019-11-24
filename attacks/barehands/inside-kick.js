@@ -3,8 +3,15 @@ module.exports = {
     style : "faejin",
     
     stance : {
-        FRONT_RIGHT : "BACK_LEFT",
-        FRONT_LEFT  : "BACK_RIGHT",
+        barehands : {
+            FRONT_RIGHT : "BACK_LEFT",
+            FRONT_LEFT  : "BACK_RIGHT",
+        },
+
+        sword : {
+            FRONT_RIGHT : "BACK_LEFT",
+            FRONT_LEFT  : "BACK_RIGHT",
+        },
     },
 
     hits : "same",

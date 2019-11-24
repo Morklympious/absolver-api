@@ -3,8 +3,14 @@ module.exports =  {
     style : "kahlt",
 
     stance : {
-        FRONT_RIGHT : "FRONT_RIGHT",
-        FRONT_LEFT  : "FRONT_LEFT",
+        barehands : {
+            FRONT_RIGHT : "FRONT_RIGHT",
+            FRONT_LEFT  : "FRONT_LEFT",
+        },
+
+        sword : {
+            FRONT_LEFT : "FRONT_LEFT",
+        },
     },
 
     hits : "same",

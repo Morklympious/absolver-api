@@ -3,8 +3,12 @@ module.exports =  {
     style : "forsaken",
 
     stance : {
-        FRONT_RIGHT : "BACK_LEFT",
-        FRONT_LEFT  : "BACK_RIGHT",
+        barehands : {
+            FRONT_RIGHT : "BACK_LEFT",
+            FRONT_LEFT  : "BACK_RIGHT",
+        },
+
+        sword : false,
     },
     
     side : "diff",

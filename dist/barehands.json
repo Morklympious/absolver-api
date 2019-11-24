@@ -3,8 +3,14 @@
         "name": "360 Tornado Kick",
         "style": "forsaken",
         "stance": {
-            "FRONT_RIGHT": "BACK_LEFT",
-            "FRONT_LEFT": "BACK_RIGHT"
+            "barehands": {
+                "FRONT_RIGHT": "BACK_RIGHT",
+                "FRONT_LEFT": "BACK_LEFT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "BACK_RIGHT",
+                "FRONT_LEFT": "BACK_LEFT"
+            }
         },
         "hits": "same",
         "height": "high",
@@ -17,8 +23,14 @@
         "name": "Ankle Stamp",
         "style": "windfall",
         "stance": {
-            "FRONT_RIGHT": "BACK_RIGHT",
-            "FRONT_LEFT": "BACK_LEFT"
+            "barehands": {
+                "FRONT_RIGHT": "BACK_RIGHT",
+                "FRONT_LEFT": "BACK_LEFT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "BACK_RIGHT",
+                "FRONT_LEFT": "BACK_LEFT"
+            }
         },
         "hits": "same",
         "height": "low",
@@ -29,8 +41,14 @@
         "name": "Axe Kick",
         "style": "forsaken",
         "stance": {
-            "BACK_RIGHT": "FRONT_LEFT",
-            "BACK_LEFT": "FRONT_RIGHT"
+            "barehands": {
+                "BACK_RIGHT": "FRONT_LEFT",
+                "BACK_LEFT": "FRONT_RIGHT"
+            },
+            "sword": {
+                "BACK_RIGHT": "FRONT_LEFT",
+                "BACK_LEFT": "FRONT_RIGHT"
+            }
         },
         "hits": "same",
         "height": "mid",
@@ -41,8 +59,14 @@
         "name": "Back Fist",
         "style": "kahlt",
         "stance": {
-            "FRONT_RIGHT": "FRONT_RIGHT",
-            "FRONT_LEFT": "FRONT_LEFT"
+            "barehands": {
+                "FRONT_RIGHT": "FRONT_RIGHT",
+                "FRONT_LEFT": "FRONT_LEFT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "FRONT_RIGHT",
+                "FRONT_LEFT": "FRONT_LEFT"
+            }
         },
         "hits": "same",
         "height": "mid",
@@ -53,8 +77,13 @@
         "name": "Back Hop Wrist",
         "style": "stagger",
         "stance": {
-            "BACK_RIGHT": "BACK_RIGHT",
-            "BACK_LEFT": "BACK_LEFT"
+            "barehands": {
+                "BACK_RIGHT": "BACK_RIGHT",
+                "BACK_LEFT": "BACK_LEFT"
+            },
+            "sword": {
+                "BACK_RIGHT": "BACK_RIGHT"
+            }
         },
         "hits": "same",
         "height": "high",
@@ -65,8 +94,14 @@
         "name": "Back Tripped Kick",
         "style": "kahlt",
         "stance": {
-            "BACK_RIGHT": "FRONT_RIGHT",
-            "BACK_LEFT": "FRONT_LEFT"
+            "barehands": {
+                "BACK_RIGHT": "FRONT_RIGHT",
+                "BACK_LEFT": "FRONT_LEFT"
+            },
+            "sword": {
+                "BACK_RIGHT": "FRONT_RIGHT",
+                "BACK_LEFT": "FRONT_LEFT"
+            }
         },
         "hits": "diff",
         "height": "low",
@@ -79,8 +114,13 @@
         "name": "Back Turn Wrist",
         "style": "stagger",
         "stance": {
-            "BACK_RIGHT": "BACK_LEFT",
-            "BACK_LEFT": "BACK_RIGHT"
+            "barehands": {
+                "BACK_RIGHT": "BACK_LEFT",
+                "BACK_LEFT": "BACK_RIGHT"
+            },
+            "sword": {
+                "BACK_LEFT": "BACK_RIGHT"
+            }
         },
         "hits": "diff",
         "height": "high",
@@ -91,8 +131,14 @@
         "name": "Back Ura",
         "style": "faejin",
         "stance": {
-            "BACK_RIGHT": "BACK_LEFT",
-            "BACK_LEFT": "BACK_RIGHT"
+            "barehands": {
+                "BACK_RIGHT": "BACK_LEFT",
+                "BACK_LEFT": "BACK_RIGHT"
+            },
+            "sword": {
+                "BACK_RIGHT": "BACK_LEFT",
+                "BACK_LEFT": "BACK_RIGHT"
+            }
         },
         "hits": "diff",
         "height": "high",
@@ -103,8 +149,11 @@
         "name": "Backfall Strike",
         "style": "stagger",
         "stance": {
-            "BACK_RIGHT": "BACK_RIGHT",
-            "BACK_LEFT": "BACK_LEFT"
+            "barehands": {
+                "BACK_RIGHT": "BACK_RIGHT",
+                "BACK_LEFT": "BACK_LEFT"
+            },
+            "sword": false
         },
         "hits": "diff",
         "lands": "high",
@@ -117,8 +166,11 @@
         "name": "Bending Palm",
         "style": "windfall",
         "stance": {
-            "FRONT_RIGHT": "BACK_LEFT",
-            "FRONT_LEFT": "BACK_RIGHT"
+            "barehands": {
+                "FRONT_RIGHT": "BACK_LEFT",
+                "FRONT_LEFT": "BACK_RIGHT"
+            },
+            "sword": false
         },
         "hits": "diff",
         "height": "mid",
@@ -131,8 +183,13 @@
         "name": "Blink Punch",
         "style": "faejin",
         "stance": {
-            "FRONT_RIGHT": "BACK_RIGHT",
-            "FRONT_LEFT": "BACK_LEFT"
+            "barehands": {
+                "FRONT_RIGHT": "BACK_RIGHT",
+                "FRONT_LEFT": "BACK_LEFT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "BACK_RIGHT"
+            }
         },
         "hits": "diff",
         "height": "high",
@@ -143,8 +200,13 @@
         "name": "Body Blow",
         "style": "kahlt",
         "stance": {
-            "FRONT_RIGHT": "FRONT_LEFT",
-            "FRONT_LEFT": "FRONT_RIGHT"
+            "barehands": {
+                "FRONT_RIGHT": "FRONT_LEFT",
+                "FRONT_LEFT": "FRONT_RIGHT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "FRONT_LEFT"
+            }
         },
         "hits": "diff",
         "height": "mid",
@@ -157,8 +219,14 @@
         "name": "Bounce Knee",
         "style": "kahlt",
         "stance": {
-            "FRONT_RIGHT": "BACK_LEFT",
-            "FRONT_LEFT": "BACK_RIGHT"
+            "barehands": {
+                "FRONT_RIGHT": "BACK_LEFT",
+                "FRONT_LEFT": "BACK_RIGHT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "BACK_LEFT",
+                "FRONT_LEFT": "BACK_RIGHT"
+            }
         },
         "hits": "same",
         "height": "high",
@@ -171,8 +239,13 @@
         "name": "Calbot",
         "style": "forsaken",
         "stance": {
-            "FRONT_RIGHT": "FRONT_LEFT",
-            "FRONT_LEFT": "FRONT_RIGHT"
+            "barehands": {
+                "FRONT_RIGHT": "FRONT_LEFT",
+                "FRONT_LEFT": "FRONT_RIGHT"
+            },
+            "sword": {
+                "FRONT_LEFT": "FRONT_RIGHT"
+            }
         },
         "hits": "same",
         "height": "high",
@@ -185,8 +258,13 @@
         "name": "Charged Haymaker",
         "style": "kahlt",
         "stance": {
-            "FRONT_RIGHT": "FRONT_LEFT",
-            "FRONT_LEFT": "FRONT_RIGHT"
+            "barehands": {
+                "FRONT_RIGHT": "FRONT_LEFT",
+                "FRONT_LEFT": "FRONT_RIGHT"
+            },
+            "sword": {
+                "FRONT_LEFT": "FRONT_RIGHT"
+            }
         },
         "hits": "same",
         "height": "high",
@@ -199,8 +277,13 @@
         "name": "Chin Palm",
         "style": "windfall",
         "stance": {
-            "BACK_RIGHT": "BACK_RIGHT",
-            "BACK_LEFT": "BACK_LEFT"
+            "barehands": {
+                "BACK_RIGHT": "BACK_RIGHT",
+                "BACK_LEFT": "BACK_LEFT"
+            },
+            "sword": {
+                "BACK_RIGHT": "BACK_RIGHT"
+            }
         },
         "hits": "same",
         "height": "mid",
@@ -211,8 +294,13 @@
         "name": "Cleaver Blow",
         "style": "kahlt",
         "stance": {
-            "FRONT_RIGHT": "FRONT_RIGHT",
-            "FRONT_LEFT": "FRONT_LEFT"
+            "barehands": {
+                "FRONT_RIGHT": "FRONT_RIGHT",
+                "FRONT_LEFT": "FRONT_LEFT"
+            },
+            "sword": {
+                "FRONT_LEFT": "FRONT_LEFT"
+            }
         },
         "hits": "same",
         "height": "mid",
@@ -223,8 +311,13 @@
         "name": "Collar Chop",
         "style": "windfall",
         "stance": {
-            "BACK_RIGHT": "BACK_RIGHT",
-            "BACK_LEFT": "BACK_LEFT"
+            "barehands": {
+                "BACK_RIGHT": "BACK_RIGHT",
+                "BACK_LEFT": "BACK_LEFT"
+            },
+            "sword": {
+                "BACK_RIGHT": "BACK_RIGHT"
+            }
         },
         "hits": "same",
         "height": "high",
@@ -237,8 +330,13 @@
         "name": "Cross Punch",
         "style": "forsaken",
         "stance": {
-            "FRONT_RIGHT": "FRONT_RIGHT",
-            "FRONT_LEFT": "FRONT_LEFT"
+            "barehands": {
+                "FRONT_RIGHT": "FRONT_RIGHT",
+                "FRONT_LEFT": "FRONT_LEFT"
+            },
+            "sword": {
+                "FRONT_LEFT": "FRONT_LEFT"
+            }
         },
         "hits": "same",
         "height": "high",
@@ -251,8 +349,13 @@
         "name": "Crouching Elbow",
         "style": "kahlt",
         "stance": {
-            "FRONT_RIGHT": "BACK_RIGHT",
-            "FRONT_LEFT": "BACK_LEFT"
+            "barehands": {
+                "FRONT_RIGHT": "BACK_RIGHT",
+                "FRONT_LEFT": "BACK_LEFT"
+            },
+            "sword": {
+                "FRONT_LEFT": "BACK_LEFT"
+            }
         },
         "hits": "diff",
         "height": "mid",
@@ -263,8 +366,13 @@
         "name": "Crushing Palm",
         "style": "windfall",
         "stance": {
-            "FRONT_RIGHT": "BACK_LEFT",
-            "FRONT_LEFT": "BACK_RIGHT"
+            "barehands": {
+                "FRONT_RIGHT": "BACK_LEFT",
+                "FRONT_LEFT": "BACK_RIGHT"
+            },
+            "sword": {
+                "FRONT_LEFT": "BACK_RIGHT"
+            }
         },
         "hits": "diff",
         "height": "mid",
@@ -277,8 +385,13 @@
         "name": "Curled Up Uppercut",
         "style": "kahlt",
         "stance": {
-            "FRONT_RIGHT": "FRONT_LEFT",
-            "FRONT_LEFT": "FRONT_RIGHT"
+            "barehands": {
+                "FRONT_RIGHT": "FRONT_LEFT",
+                "FRONT_LEFT": "FRONT_RIGHT"
+            },
+            "sword": {
+                "FRONT_LEFT": "FRONT_RIGHT"
+            }
         },
         "hits": "same",
         "height": "mid",
@@ -289,8 +402,13 @@
         "name": "Direct Punch",
         "style": "windfall",
         "stance": {
-            "FRONT_RIGHT": "FRONT_RIGHT",
-            "FRONT_LEFT": "FRONT_LEFT"
+            "barehands": {
+                "FRONT_RIGHT": "FRONT_RIGHT",
+                "FRONT_LEFT": "FRONT_LEFT"
+            },
+            "sword": {
+                "FRONT_LEFT": "FRONT_LEFT"
+            }
         },
         "hits": "same",
         "height": "high",
@@ -301,8 +419,13 @@
         "name": "Donkey Slap",
         "style": "stagger",
         "stance": {
-            "BACK_RIGHT": "BACK_RIGHT",
-            "BACK_LEFT": "BACK_LEFT"
+            "barehands": {
+                "BACK_RIGHT": "BACK_RIGHT",
+                "BACK_LEFT": "BACK_LEFT"
+            },
+            "sword": {
+                "BACK_LEFT": "BACK_LEFT"
+            }
         },
         "hits": "same",
         "height": "mid",
@@ -315,8 +438,11 @@
         "name": "Double Fist Stretch",
         "style": "stagger",
         "stance": {
-            "BACK_RIGHT": "BACK_LEFT",
-            "BACK_LEFT": "BACK_RIGHT"
+            "barehands": {
+                "BACK_RIGHT": "BACK_LEFT",
+                "BACK_LEFT": "BACK_RIGHT"
+            },
+            "sword": false
         },
         "hits": "diff",
         "height": "high",
@@ -329,8 +455,11 @@
         "name": "Double Palm",
         "style": "windfall",
         "stance": {
-            "BACK_RIGHT": "FRONT_RIGHT",
-            "BACK_LEFT": "FRONT_LEFT"
+            "barehands": {
+                "BACK_RIGHT": "FRONT_RIGHT",
+                "BACK_LEFT": "FRONT_LEFT"
+            },
+            "sword": false
         },
         "hits": "same",
         "height": "mid",
@@ -343,8 +472,14 @@
         "name": "Double Spike Kick",
         "style": "stagger",
         "stance": {
-            "FRONT_RIGHT": "FRONT_RIGHT",
-            "FRONT_LEFT": "FRONT_LEFT"
+            "barehands": {
+                "FRONT_RIGHT": "FRONT_RIGHT",
+                "FRONT_LEFT": "FRONT_LEFT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "FRONT_RIGHT",
+                "FRONT_LEFT": "FRONT_LEFT"
+            }
         },
         "hits": "diff",
         "height": "mid",
@@ -357,8 +492,11 @@
         "name": "Double Wata",
         "style": "faejin",
         "stance": {
-            "FRONT_RIGHT": "FRONT_RIGHT",
-            "FRONT_LEFT": "FRONT_LEFT"
+            "barehands": {
+                "FRONT_RIGHT": "FRONT_RIGHT",
+                "FRONT_LEFT": "FRONT_LEFT"
+            },
+            "sword": false
         },
         "hits": "same",
         "height": "mid",
@@ -371,8 +509,11 @@
         "name": "Drunk Crane",
         "style": "stagger",
         "stance": {
-            "FRONT_RIGHT": "BACK_RIGHT",
-            "FRONT_LEFT": "BACK_LEFT"
+            "barehands": {
+                "FRONT_RIGHT": "BACK_RIGHT",
+                "FRONT_LEFT": "BACK_LEFT"
+            },
+            "sword": false
         },
         "hits": "same",
         "height": "mid",
@@ -383,8 +524,14 @@
         "name": "Drunk Stomp",
         "style": "stagger",
         "stance": {
-            "FRONT_RIGHT": "FRONT_LEFT",
-            "FRONT_LEFT": "FRONT_RIGHT"
+            "barehands": {
+                "FRONT_RIGHT": "FRONT_LEFT",
+                "FRONT_LEFT": "FRONT_RIGHT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "FRONT_LEFT",
+                "FRONT_LEFT": "FRONT_RIGHT"
+            }
         },
         "hits": "same",
         "height": "mid",
@@ -397,8 +544,11 @@
         "name": "Drunken Paw",
         "style": "stagger",
         "stance": {
-            "FRONT_RIGHT": "BACK_RIGHT",
-            "FRONT_LEFT": "BACK_LEFT"
+            "barehands": {
+                "FRONT_RIGHT": "BACK_RIGHT",
+                "FRONT_LEFT": "BACK_LEFT"
+            },
+            "sword": false
         },
         "hits": "diff",
         "height": "high",
@@ -411,8 +561,11 @@
         "name": "Drunken Smash",
         "style": "stagger",
         "stance": {
-            "BACK_RIGHT": "FRONT_LEFT",
-            "BACK_LEFT": "FRONT_RIGHT"
+            "barehands": {
+                "BACK_RIGHT": "FRONT_LEFT",
+                "BACK_LEFT": "FRONT_RIGHT"
+            },
+            "sword": false
         },
         "hits": "diff",
         "height": "high",
@@ -423,8 +576,14 @@
         "name": "Dwit Chagi",
         "style": "windfall",
         "stance": {
-            "FRONT_RIGHT": "BACK_LEFT",
-            "FRONT_LEFT": "BACK_RIGHT"
+            "barehands": {
+                "FRONT_RIGHT": "BACK_LEFT",
+                "FRONT_LEFT": "BACK_RIGHT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "BACK_LEFT",
+                "FRONT_LEFT": "BACK_RIGHT"
+            }
         },
         "hits": "diff",
         "height": "mid",
@@ -437,8 +596,11 @@
         "name": "Elbow Stumble",
         "style": "stagger",
         "stance": {
-            "FRONT_RIGHT": "FRONT_LEFT",
-            "FRONT_LEFT": "FRONT_RIGHT"
+            "barehands": {
+                "FRONT_RIGHT": "FRONT_LEFT",
+                "FRONT_LEFT": "FRONT_RIGHT"
+            },
+            "sword": false
         },
         "hits": "diff",
         "height": "high",
@@ -449,8 +611,11 @@
         "name": "Eye Poke",
         "style": "stagger",
         "stance": {
-            "BACK_RIGHT": "FRONT_RIGHT",
-            "BACK_LEFT": "FRONT_LEFT"
+            "barehands": {
+                "BACK_RIGHT": "FRONT_RIGHT",
+                "BACK_LEFT": "FRONT_LEFT"
+            },
+            "sword": false
         },
         "hits": "same",
         "height": "high",
@@ -463,8 +628,13 @@
         "name": "Face Backfist",
         "style": "faejin",
         "stance": {
-            "BACK_RIGHT": "BACK_RIGHT",
-            "BACK_LEFT": "BACK_LEFT"
+            "barehands": {
+                "BACK_RIGHT": "BACK_RIGHT",
+                "BACK_LEFT": "BACK_LEFT"
+            },
+            "sword": {
+                "BACK_RIGHT": "BACK_RIGHT"
+            }
         },
         "hits": "same",
         "height": "mid",
@@ -475,8 +645,13 @@
         "name": "Falcon Punch",
         "style": "forsaken",
         "stance": {
-            "FRONT_RIGHT": "FRONT_RIGHT",
-            "FRONT_LEFT": "FRONT_LEFT"
+            "barehands": {
+                "FRONT_RIGHT": "FRONT_RIGHT",
+                "FRONT_LEFT": "FRONT_LEFT"
+            },
+            "sword": {
+                "FRONT_LEFT": "FRONT_LEFT"
+            }
         },
         "hits": "same",
         "height": "high",
@@ -489,8 +664,13 @@
         "name": "Fast Back Fist",
         "style": "kahlt",
         "stance": {
-            "BACK_RIGHT": "FRONT_RIGHT",
-            "BACK_LEFT": "FRONT_LEFT"
+            "barehands": {
+                "BACK_RIGHT": "FRONT_RIGHT",
+                "BACK_LEFT": "FRONT_LEFT"
+            },
+            "sword": {
+                "BACK_RIGHT": "FRONT_RIGHT"
+            }
         },
         "hits": "same",
         "height": "high",
@@ -501,8 +681,13 @@
         "name": "Fast Cross",
         "style": "faejin",
         "stance": {
-            "FRONT_RIGHT": "FRONT_RIGHT",
-            "FRONT_LEFT": "FRONT_LEFT"
+            "barehands": {
+                "FRONT_RIGHT": "FRONT_RIGHT",
+                "FRONT_LEFT": "FRONT_LEFT"
+            },
+            "sword": {
+                "FRONT_LEFT": "FRONT_LEFT"
+            }
         },
         "hits": "same",
         "height": "mid",
@@ -513,8 +698,13 @@
         "name": "Fast Elbow",
         "style": "forsaken",
         "stance": {
-            "BACK_RIGHT": "BACK_RIGHT",
-            "BACK_LEFT": "BACK_LEFT"
+            "barehands": {
+                "BACK_RIGHT": "BACK_RIGHT",
+                "BACK_LEFT": "BACK_LEFT"
+            },
+            "sword": {
+                "BACK_RIGHT": "BACK_RIGHT"
+            }
         },
         "hits": "same",
         "height": "high",
@@ -525,8 +715,13 @@
         "name": "Fast Punch",
         "style": "forsaken",
         "stance": {
-            "BACK_RIGHT": "FRONT_RIGHT",
-            "BACK_LEFT": "FRONT_LEFT"
+            "barehands": {
+                "BACK_RIGHT": "FRONT_RIGHT",
+                "BACK_LEFT": "FRONT_LEFT"
+            },
+            "sword": {
+                "BACK_LEFT": "FRONT_LEFT"
+            }
         },
         "hits": "same",
         "height": "high",
@@ -537,8 +732,13 @@
         "name": "Fencing Punch",
         "style": "faejin",
         "stance": {
-            "FRONT_RIGHT": "BACK_RIGHT",
-            "FRONT_LEFT": "BACK_LEFT"
+            "barehands": {
+                "FRONT_RIGHT": "BACK_RIGHT",
+                "FRONT_LEFT": "BACK_LEFT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "BACK_RIGHT"
+            }
         },
         "hits": "same",
         "height": "mid",
@@ -549,8 +749,14 @@
         "name": "Foot Slap",
         "style": "stagger",
         "stance": {
-            "BACK_RIGHT": "BACK_RIGHT",
-            "BACK_LEFT": "BACK_LEFT"
+            "barehands": {
+                "FRONT_RIGHT": "BACK_LEFT",
+                "FRONT_LEFT": "BACK_RIGHT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "BACK_LEFT",
+                "FRONT_LEFT": "BACK_RIGHT"
+            }
         },
         "hits": "same",
         "height": "high",
@@ -563,8 +769,14 @@
         "name": "Front Kick",
         "style": "kahlt",
         "stance": {
-            "FRONT_RIGHT": "FRONT_LEFT",
-            "FRONT_LEFT": "FRONT_RIGHT"
+            "barehands": {
+                "FRONT_RIGHT": "FRONT_LEFT",
+                "FRONT_LEFT": "FRONT_RIGHT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "FRONT_LEFT",
+                "FRONT_LEFT": "FRONT_RIGHT"
+            }
         },
         "hits": "same",
         "height": "mid",
@@ -577,8 +789,14 @@
         "name": "Front Sweep",
         "style": "windfall",
         "stance": {
-            "FRONT_RIGHT": "BACK_RIGHT",
-            "FRONT_LEFT": "BACK_LEFT"
+            "barehands": {
+                "FRONT_RIGHT": "BACK_RIGHT",
+                "FRONT_LEFT": "BACK_LEFT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "BACK_RIGHT",
+                "FRONT_LEFT": "BACK_LEFT"
+            }
         },
         "hits": "same",
         "height": "low",
@@ -591,8 +809,13 @@
         "name": "Furious Uppercut",
         "style": "forsaken",
         "stance": {
-            "FRONT_RIGHT": "BACK_LEFT",
-            "FRONT_LEFT": "BACK_RIGHT"
+            "barehands": {
+                "FRONT_RIGHT": "BACK_LEFT",
+                "FRONT_LEFT": "BACK_RIGHT"
+            },
+            "sword": {
+                "FRONT_LEFT": "BACK_RIGHT"
+            }
         },
         "hits": "same",
         "height": "mid",
@@ -605,8 +828,13 @@
         "name": "Grab Punch",
         "style": "stagger",
         "stance": {
-            "BACK_RIGHT": "FRONT_RIGHT",
-            "BACK_LEFT": "FRONT_LEFT"
+            "barehands": {
+                "BACK_RIGHT": "FRONT_RIGHT",
+                "BACK_LEFT": "FRONT_LEFT"
+            },
+            "sword": {
+                "BACK_LEFT": "FRONT_LEFT"
+            }
         },
         "hits": "diff",
         "height": "high",
@@ -617,8 +845,13 @@
         "name": "Gut Punch",
         "style": "stagger",
         "stance": {
-            "BACK_RIGHT": "FRONT_LEFT",
-            "BACK_LEFT": "FRONT_RIGHT"
+            "barehands": {
+                "BACK_RIGHT": "FRONT_LEFT",
+                "BACK_LEFT": "FRONT_RIGHT"
+            },
+            "sword": {
+                "BACK_LEFT": "FRONT_RIGHT"
+            }
         },
         "hits": "same",
         "height": "mid",
@@ -629,8 +862,13 @@
         "name": "Guts Punch",
         "style": "faejin",
         "stance": {
-            "BACK_RIGHT": "FRONT_RIGHT",
-            "BACK_LEFT": "FRONT_LEFT"
+            "barehands": {
+                "BACK_RIGHT": "FRONT_RIGHT",
+                "BACK_LEFT": "FRONT_LEFT"
+            },
+            "sword": {
+                "BACK_LEFT": "FRONT_LEFT"
+            }
         },
         "hits": "same",
         "height": "mid",
@@ -641,8 +879,11 @@
         "name": "Hadrunken",
         "style": "stagger",
         "stance": {
-            "FRONT_RIGHT": "FRONT_RIGHT",
-            "FRONT_LEFT": "FRONT_LEFT"
+            "barehands": {
+                "FRONT_RIGHT": "FRONT_RIGHT",
+                "FRONT_LEFT": "FRONT_LEFT"
+            },
+            "sword": false
         },
         "hits": "same",
         "height": "high",
@@ -655,8 +896,14 @@
         "name": "Hammer Kick",
         "style": "windfall",
         "stance": {
-            "FRONT_RIGHT": "FRONT_LEFT",
-            "FRONT_LEFT": "FRONT_RIGHT"
+            "barehands": {
+                "FRONT_RIGHT": "FRONT_LEFT",
+                "FRONT_LEFT": "FRONT_RIGHT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "FRONT_LEFT",
+                "FRONT_LEFT": "FRONT_RIGHT"
+            }
         },
         "hits": "same",
         "height": "mid",
@@ -669,8 +916,14 @@
         "name": "Handstand Kick",
         "style": "stagger",
         "stance": {
-            "FRONT_RIGHT": "BACK_LEFT",
-            "FRONT_LEFT": "BACK_RIGHT"
+            "barehands": {
+                "FRONT_RIGHT": "BACK_LEFT",
+                "FRONT_LEFT": "BACK_RIGHT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "BACK_LEFT",
+                "FRONT_LEFT": "BACK_RIGHT"
+            }
         },
         "hits": "diff",
         "height": "high",
@@ -684,8 +937,14 @@
         "name": "Heel to Knee",
         "style": "faejin",
         "stance": {
-            "BACK_RIGHT": "BACK_LEFT",
-            "BACK_LEFT": "BACK_RIGHT"
+            "barehands": {
+                "BACK_RIGHT": "BACK_LEFT",
+                "BACK_LEFT": "BACK_RIGHT"
+            },
+            "sword": {
+                "BACK_RIGHT": "BACK_LEFT",
+                "BACK_LEFT": "BACK_RIGHT"
+            }
         },
         "hits": "same",
         "height": "low",
@@ -696,8 +955,13 @@
         "name": "Hook",
         "style": "forsaken",
         "stance": {
-            "FRONT_RIGHT": "FRONT_RIGHT",
-            "FRONT_LEFT": "FRONT_LEFT"
+            "barehands": {
+                "FRONT_RIGHT": "FRONT_RIGHT",
+                "FRONT_LEFT": "FRONT_LEFT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "FRONT_RIGHT"
+            }
         },
         "side": "diff",
         "height": "high",
@@ -708,8 +972,14 @@
         "name": "Horse Kick",
         "style": "faejin",
         "stance": {
-            "BACK_RIGHT": "BACK_RIGHT",
-            "BACK_LEFT": "BACK_LEFT"
+            "barehands": {
+                "BACK_RIGHT": "BACK_RIGHT",
+                "BACK_LEFT": "BACK_LEFT"
+            },
+            "sword": {
+                "BACK_RIGHT": "BACK_RIGHT",
+                "BACK_LEFT": "BACK_LEFT"
+            }
         },
         "hits": "same",
         "height": "mid",
@@ -720,8 +990,14 @@
         "name": "Illusion Twist Kick",
         "style": "windfall",
         "stance": {
-            "BACK_RIGHT": "FRONT_RIGHT",
-            "BACK_LEFT": "FRONT_LEFT"
+            "barehands": {
+                "BACK_RIGHT": "FRONT_RIGHT",
+                "BACK_LEFT": "FRONT_LEFT"
+            },
+            "sword": {
+                "BACK_RIGHT": "FRONT_RIGHT",
+                "BACK_LEFT": "FRONT_LEFT"
+            }
         },
         "hits": "diff",
         "height": "mid",
@@ -734,8 +1010,14 @@
         "name": "Inside Kick",
         "style": "faejin",
         "stance": {
-            "FRONT_RIGHT": "BACK_LEFT",
-            "FRONT_LEFT": "BACK_RIGHT"
+            "barehands": {
+                "FRONT_RIGHT": "BACK_LEFT",
+                "FRONT_LEFT": "BACK_RIGHT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "BACK_LEFT",
+                "FRONT_LEFT": "BACK_RIGHT"
+            }
         },
         "hits": "same",
         "height": "high",
@@ -746,8 +1028,13 @@
         "name": "Jab Punch",
         "style": "forsaken",
         "stance": {
-            "FRONT_RIGHT": "FRONT_RIGHT",
-            "FRONT_LEFT": "FRONT_LEFT"
+            "barehands": {
+                "FRONT_RIGHT": "FRONT_RIGHT",
+                "FRONT_LEFT": "FRONT_LEFT"
+            },
+            "sword": {
+                "FRONT_LEFT": "FRONT_LEFT"
+            }
         },
         "hits": "diff",
         "height": "high",
@@ -758,8 +1045,11 @@
         "name": "Jackhammer Punch",
         "style": "kahlt",
         "stance": {
-            "BACK_RIGHT": "FRONT_RIGHT",
-            "BACK_LEFT": "FRONT_LEFT"
+            "barehands": {
+                "BACK_RIGHT": "FRONT_RIGHT",
+                "BACK_LEFT": "FRONT_LEFT"
+            },
+            "sword": false
         },
         "hits": "diff",
         "height": "mid",
@@ -772,8 +1062,11 @@
         "name": "Jar Bash",
         "style": "stagger",
         "stance": {
-            "FRONT_RIGHT": "FRONT_LEFT",
-            "FRONT_LEFT": "FRONT_RIGHT"
+            "barehands": {
+                "FRONT_RIGHT": "FRONT_LEFT",
+                "FRONT_LEFT": "FRONT_RIGHT"
+            },
+            "sword": false
         },
         "hits": "diff",
         "height": "high",
@@ -784,8 +1077,13 @@
         "name": "Jump Out Elbow",
         "style": "kahlt",
         "stance": {
-            "FRONT_RIGHT": "BACK_RIGHT",
-            "FRONT_LEFT": "BACK_LEFT"
+            "barehands": {
+                "FRONT_RIGHT": "BACK_RIGHT",
+                "FRONT_LEFT": "BACK_LEFT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "BACK_RIGHT"
+            }
         },
         "hits": "diff",
         "height": "mid",
@@ -799,8 +1097,14 @@
         "name": "Jumped Light Kick",
         "style": "windfall",
         "stance": {
-            "FRONT_RIGHT": "FRONT_LEFT",
-            "FRONT_LEFT": "FRONT_RIGHT"
+            "barehands": {
+                "FRONT_RIGHT": "FRONT_LEFT",
+                "FRONT_LEFT": "FRONT_RIGHT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "FRONT_LEFT",
+                "FRONT_LEFT": "FRONT_RIGHT"
+            }
         },
         "hits": "same",
         "height": "mid",
@@ -813,8 +1117,14 @@
         "name": "Jumped Spin kick",
         "style": "kahlt",
         "stance": {
-            "BACK_RIGHT": "BACK_LEFT",
-            "BACK_LEFT": "BACK_RIGHT"
+            "barehands": {
+                "BACK_RIGHT": "BACK_LEFT",
+                "BACK_LEFT": "BACK_RIGHT"
+            },
+            "sword": {
+                "BACK_RIGHT": "BACK_LEFT",
+                "BACK_LEFT": "BACK_RIGHT"
+            }
         },
         "hits": "same",
         "height": "high",
@@ -827,8 +1137,14 @@
         "name": "Jumping Risekick",
         "style": "faejin",
         "stance": {
-            "FRONT_RIGHT": "FRONT_LEFT",
-            "FRONT_LEFT": "FRONT_RIGHT"
+            "barehands": {
+                "FRONT_RIGHT": "FRONT_LEFT",
+                "FRONT_LEFT": "FRONT_RIGHT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "FRONT_LEFT",
+                "FRONT_LEFT": "FRONT_RIGHT"
+            }
         },
         "hits": "same",
         "height": "mid",
@@ -839,8 +1155,14 @@
         "name": "Knee Strike",
         "style": "forsaken",
         "stance": {
-            "BACK_RIGHT": "FRONT_LEFT",
-            "BACK_LEFT": "FRONT_RIGHT"
+            "barehands": {
+                "BACK_RIGHT": "FRONT_LEFT",
+                "BACK_LEFT": "FRONT_RIGHT"
+            },
+            "sword": {
+                "BACK_RIGHT": "FRONT_LEFT",
+                "BACK_LEFT": "FRONT_RIGHT"
+            }
         },
         "hits": "diff",
         "height": "mid",
@@ -854,8 +1176,13 @@
         "name": "Knife Hand Strike",
         "style": "windfall",
         "stance": {
-            "FRONT_RIGHT": "BACK_RIGHT",
-            "FRONT_LEFT": "BACK_LEFT"
+            "barehands": {
+                "FRONT_RIGHT": "BACK_RIGHT",
+                "FRONT_LEFT": "BACK_LEFT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "BACK_RIGHT"
+            }
         },
         "hits": "same",
         "height": "high",
@@ -866,8 +1193,14 @@
         "name": "Leg Breaker",
         "style": "kahlt",
         "stance": {
-            "FRONT_RIGHT": "FRONT_LEFT",
-            "FRONT_LEFT": "FRONT_RIGHT"
+            "barehands": {
+                "FRONT_RIGHT": "FRONT_LEFT",
+                "FRONT_LEFT": "FRONT_RIGHT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "FRONT_LEFT",
+                "FRONT_LEFT": "FRONT_RIGHT"
+            }
         },
         "hits": "same",
         "height": "low",
@@ -878,8 +1211,14 @@
         "name": "Light Sidekick",
         "style": "faejin",
         "stance": {
-            "BACK_RIGHT": "FRONT_LEFT",
-            "BACK_LEFT": "FRONT_RIGHT"
+            "barehands": {
+                "BACK_RIGHT": "FRONT_LEFT",
+                "BACK_LEFT": "FRONT_RIGHT"
+            },
+            "sword": {
+                "BACK_RIGHT": "FRONT_LEFT",
+                "BACK_LEFT": "FRONT_RIGHT"
+            }
         },
         "hits": "same",
         "height": "high",
@@ -890,8 +1229,14 @@
         "name": "Liver Knee",
         "style": "kahlt",
         "stance": {
-            "BACK_RIGHT": "FRONT_LEFT",
-            "BACK_LEFT": "FRONT_RIGHT"
+            "barehands": {
+                "BACK_RIGHT": "FRONT_LEFT",
+                "BACK_LEFT": "FRONT_RIGHT"
+            },
+            "sword": {
+                "BACK_RIGHT": "FRONT_LEFT",
+                "BACK_LEFT": "FRONT_RIGHT"
+            }
         },
         "hits": "diff",
         "height": "mid",
@@ -902,8 +1247,13 @@
         "name": "Low Backfist",
         "style": "faejin",
         "stance": {
-            "BACK_RIGHT": "BACK_RIGHT",
-            "BACK_LEFT": "BACK_LEFT"
+            "barehands": {
+                "BACK_RIGHT": "BACK_RIGHT",
+                "BACK_LEFT": "BACK_LEFT"
+            },
+            "sword": {
+                "BACK_RIGHT": "BACK_RIGHT"
+            }
         },
         "hits": "same",
         "height": "mid",
@@ -914,8 +1264,14 @@
         "name": "Low Kick",
         "style": "forsaken",
         "stance": {
-            "FRONT_RIGHT": "BACK_LEFT",
-            "FRONT_LEFT": "BACK_RIGHT"
+            "barehands": {
+                "FRONT_RIGHT": "BACK_LEFT",
+                "FRONT_LEFT": "BACK_RIGHT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "BACK_LEFT",
+                "FRONT_LEFT": "BACK_RIGHT"
+            }
         },
         "hits": "same",
         "height": "low",
@@ -926,8 +1282,14 @@
         "name": "Low Spin Heel",
         "style": "windfall",
         "stance": {
-            "BACK_RIGHT": "FRONT_RIGHT",
-            "BACK_LEFT": "FRONT_LEFT"
+            "barehands": {
+                "BACK_RIGHT": "FRONT_RIGHT",
+                "BACK_LEFT": "FRONT_LEFT"
+            },
+            "sword": {
+                "BACK_RIGHT": "FRONT_RIGHT",
+                "BACK_LEFT": "FRONT_LEFT"
+            }
         },
         "hits": "diff",
         "height": "low",
@@ -940,8 +1302,14 @@
         "name": "Mawashi",
         "style": "windfall",
         "stance": {
-            "FRONT_RIGHT": "BACK_LEFT",
-            "FRONT_LEFT": "BACK_RIGHT"
+            "barehands": {
+                "FRONT_RIGHT": "BACK_LEFT",
+                "FRONT_LEFT": "BACK_RIGHT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "BACK_LEFT",
+                "FRONT_LEFT": "BACK_RIGHT"
+            }
         },
         "hits": "same",
         "height": "high",
@@ -952,8 +1320,14 @@
         "name": "Meia Lua",
         "style": "kahlt",
         "stance": {
-            "FRONT_RIGHT": "FRONT_LEFT",
-            "FRONT_LEFT": "FRONT_RIGHT"
+            "barehands": {
+                "FRONT_RIGHT": "FRONT_LEFT",
+                "FRONT_LEFT": "FRONT_RIGHT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "FRONT_LEFT",
+                "FRONT_LEFT": "FRONT_RIGHT"
+            }
         },
         "hits": "same",
         "height": "high",
@@ -966,8 +1340,11 @@
         "name": "Mill Punch",
         "style": "forsaken",
         "stance": {
-            "FRONT_RIGHT": "BACK_LEFT",
-            "FRONT_LEFT": "BACK_RIGHT"
+            "barehands": {
+                "FRONT_RIGHT": "BACK_LEFT",
+                "FRONT_LEFT": "BACK_RIGHT"
+            },
+            "sword": false
         },
         "side": "diff",
         "height": "mid",
@@ -980,8 +1357,13 @@
         "name": "One Inch Punch",
         "style": "faejin",
         "stance": {
-            "FRONT_RIGHT": "FRONT_RIGHT",
-            "FRONT_LEFT": "FRONT_LEFT"
+            "barehands": {
+                "FRONT_RIGHT": "FRONT_RIGHT",
+                "FRONT_LEFT": "FRONT_LEFT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "FRONT_RIGHT"
+            }
         },
         "hits": "diff",
         "height": "mid",
@@ -994,8 +1376,14 @@
         "name": "Outward Kick",
         "style": "faejin",
         "stance": {
-            "BACK_RIGHT": "FRONT_RIGHT",
-            "BACK_LEFT": "FRONT_LEFT"
+            "barehands": {
+                "BACK_RIGHT": "FRONT_RIGHT",
+                "BACK_LEFT": "FRONT_LEFT"
+            },
+            "sword": {
+                "BACK_RIGHT": "FRONT_RIGHT",
+                "BACK_LEFT": "FRONT_LEFT"
+            }
         },
         "hits": "same",
         "height": "high",
@@ -1006,8 +1394,13 @@
         "name": "Parry & Strike",
         "style": "forsaken",
         "stance": {
-            "BACK_RIGHT": "FRONT_RIGHT",
-            "BACK_LEFT": "FRONT_LEFT"
+            "barehands": {
+                "BACK_RIGHT": "FRONT_RIGHT",
+                "BACK_LEFT": "FRONT_LEFT"
+            },
+            "sword": {
+                "BACK_LEFT": "FRONT_LEFT"
+            }
         },
         "side": "same",
         "height": "high",
@@ -1020,8 +1413,13 @@
         "name": "Plexus Elbow",
         "style": "faejin",
         "stance": {
-            "FRONT_RIGHT": "BACK_RIGHT",
-            "FRONT_LEFT": "BACK_LEFT"
+            "barehands": {
+                "FRONT_RIGHT": "BACK_RIGHT",
+                "FRONT_LEFT": "BACK_LEFT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "BACK_RIGHT"
+            }
         },
         "hits": "diff",
         "height": "mid",
@@ -1034,8 +1432,14 @@
         "name": "Power Mawashi",
         "style": "faejin",
         "stance": {
-            "BACK_RIGHT": "FRONT_LEFT",
-            "BACK_LEFT": "FRONT_RIGHT"
+            "barehands": {
+                "BACK_RIGHT": "FRONT_LEFT",
+                "BACK_LEFT": "FRONT_RIGHT"
+            },
+            "sword": {
+                "BACK_RIGHT": "FRONT_LEFT",
+                "BACK_LEFT": "FRONT_RIGHT"
+            }
         },
         "hits": "same",
         "height": "high",
@@ -1046,8 +1450,11 @@
         "name": "Pulmonary Palm",
         "style": "windfall",
         "stance": {
-            "FRONT_RIGHT": "FRONT_RIGHT",
-            "FRONT_LEFT": "FRONT_LEFT"
+            "barehands": {
+                "FRONT_RIGHT": "FRONT_RIGHT",
+                "FRONT_LEFT": "FRONT_LEFT"
+            },
+            "sword": false
         },
         "hits": "same",
         "height": "mid",
@@ -1060,8 +1467,14 @@
         "name": "Pushed Back Kick",
         "style": "forsaken",
         "stance": {
-            "BACK_RIGHT": "BACK_RIGHT",
-            "BACK_LEFT": "BACK_LEFT"
+            "barehands": {
+                "BACK_RIGHT": "BACK_RIGHT",
+                "BACK_LEFT": "BACK_LEFT"
+            },
+            "sword": {
+                "BACK_RIGHT": "BACK_RIGHT",
+                "BACK_LEFT": "BACK_LEFT"
+            }
         },
         "hits": "same",
         "height": "mid",
@@ -1074,8 +1487,13 @@
         "name": "Pushed Elbow",
         "style": "kahlt",
         "stance": {
-            "BACK_RIGHT": "BACK_LEFT",
-            "BACK_LEFT": "BACK_RIGHT"
+            "barehands": {
+                "BACK_RIGHT": "BACK_LEFT",
+                "BACK_LEFT": "BACK_RIGHT"
+            },
+            "sword": {
+                "BACK_RIGHT": "BACK_LEFT"
+            }
         },
         "side": "diff",
         "height": "high",
@@ -1086,8 +1504,13 @@
         "name": "Rabbit Punch",
         "style": "faejin",
         "stance": {
-            "FRONT_RIGHT": "BACK_RIGHT",
-            "FRONT_LEFT": "BACK_LEFT"
+            "barehands": {
+                "FRONT_RIGHT": "BACK_RIGHT",
+                "FRONT_LEFT": "BACK_LEFT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "BACK_RIGHT"
+            }
         },
         "hits": "diff",
         "height": "mid",
@@ -1098,8 +1521,14 @@
         "name": "Reaching Maegeri",
         "style": "faejin",
         "stance": {
-            "BACK_RIGHT": "FRONT_LEFT",
-            "BACK_LEFT": "FRONT_RIGHT"
+            "barehands": {
+                "BACK_RIGHT": "FRONT_LEFT",
+                "BACK_LEFT": "FRONT_RIGHT"
+            },
+            "sword": {
+                "BACK_RIGHT": "FRONT_LEFT",
+                "BACK_LEFT": "FRONT_RIGHT"
+            }
         },
         "hits": "same",
         "height": "mid",
@@ -1110,8 +1539,14 @@
         "name": "Reaching Mawashi",
         "style": "faejin",
         "stance": {
-            "FRONT_RIGHT": "FRONT_RIGHT",
-            "FRONT_LEFT": "FRONT_LEFT"
+            "barehands": {
+                "FRONT_RIGHT": "FRONT_RIGHT",
+                "FRONT_LEFT": "FRONT_LEFT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "FRONT_RIGHT",
+                "FRONT_LEFT": "FRONT_LEFT"
+            }
         },
         "hits": "diff",
         "height": "high",
@@ -1122,8 +1557,14 @@
         "name": "Rising Kick",
         "style": "windfall",
         "stance": {
-            "FRONT_RIGHT": "BACK_RIGHT",
-            "FRONT_LEFT": "BACK_LEFT"
+            "barehands": {
+                "FRONT_RIGHT": "BACK_RIGHT",
+                "FRONT_LEFT": "BACK_LEFT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "BACK_RIGHT",
+                "FRONT_LEFT": "BACK_LEFT"
+            }
         },
         "hits": "diff",
         "height": "mid",
@@ -1134,8 +1575,13 @@
         "name": "Roll Back Fist",
         "style": "windfall",
         "stance": {
-            "FRONT_RIGHT": "BACK_LEFT",
-            "FRONT_LEFT": "BACK_RIGHT"
+            "barehands": {
+                "FRONT_RIGHT": "BACK_LEFT",
+                "FRONT_LEFT": "BACK_RIGHT"
+            },
+            "sword": {
+                "FRONT_LEFT": "BACK_RIGHT"
+            }
         },
         "hits": "diff",
         "height": "high",
@@ -1148,8 +1594,13 @@
         "name": "Roll Punch",
         "style": "kahlt",
         "stance": {
-            "FRONT_RIGHT": "FRONT_LEFT",
-            "FRONT_LEFT": "FRONT_RIGHT"
+            "barehands": {
+                "FRONT_RIGHT": "FRONT_LEFT",
+                "FRONT_LEFT": "FRONT_RIGHT"
+            },
+            "sword": {
+                "FRONT_LEFT": "FRONT_RIGHT"
+            }
         },
         "hits": "same",
         "height": "mid",
@@ -1162,8 +1613,13 @@
         "name": "Roll Uppercut",
         "style": "kahlt",
         "stance": {
-            "BACK_RIGHT": "FRONT_LEFT",
-            "BACK_LEFT": "FRONT_RIGHT"
+            "barehands": {
+                "BACK_RIGHT": "FRONT_LEFT",
+                "BACK_LEFT": "FRONT_RIGHT"
+            },
+            "sword": {
+                "BACK_RIGHT": "FRONT_LEFT"
+            }
         },
         "hits": "diff",
         "height": "mid",
@@ -1176,8 +1632,13 @@
         "name": "Run-up Strike",
         "style": "faejin",
         "stance": {
-            "FRONT_RIGHT": "BACK_LEFT",
-            "FRONT_LEFT": "BACK_RIGHT"
+            "barehands": {
+                "FRONT_RIGHT": "BACK_LEFT",
+                "FRONT_LEFT": "BACK_RIGHT"
+            },
+            "sword": {
+                "FRONT_LEFT": "BACK_RIGHT"
+            }
         },
         "hits": "same",
         "height": "mid",
@@ -1188,8 +1649,14 @@
         "name": "Scissor Kick",
         "style": "forsaken",
         "stance": {
-            "BACK_RIGHT": "BACK_LEFT",
-            "BACK_LEFT": "BACK_RIGHT"
+            "barehands": {
+                "BACK_RIGHT": "BACK_LEFT",
+                "BACK_LEFT": "BACK_RIGHT"
+            },
+            "sword": {
+                "BACK_RIGHT": "BACK_LEFT",
+                "BACK_LEFT": "BACK_RIGHT"
+            }
         },
         "hits": "same",
         "height": "high",
@@ -1200,8 +1667,14 @@
         "name": "Side Kick",
         "style": "kahlt",
         "stance": {
-            "FRONT_RIGHT": "FRONT_LEFT",
-            "FRONT_LEFT": "FRONT_RIGHT"
+            "barehands": {
+                "FRONT_RIGHT": "FRONT_LEFT",
+                "FRONT_LEFT": "FRONT_RIGHT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "FRONT_LEFT",
+                "FRONT_LEFT": "FRONT_RIGHT"
+            }
         },
         "hits": "same",
         "height": "high",
@@ -1212,8 +1685,14 @@
         "name": "Slap Kick",
         "style": "windfall",
         "stance": {
-            "BACK_RIGHT": "BACK_RIGHT",
-            "BACK_LEFT": "BACK_LEFT"
+            "barehands": {
+                "BACK_RIGHT": "BACK_RIGHT",
+                "BACK_LEFT": "BACK_LEFT"
+            },
+            "sword": {
+                "BACK_RIGHT": "BACK_RIGHT",
+                "BACK_LEFT": "BACK_LEFT"
+            }
         },
         "hits": "diff",
         "height": "high",
@@ -1226,8 +1705,13 @@
         "name": "Soto-uke",
         "style": "windfall",
         "stance": {
-            "BACK_RIGHT": "FRONT_LEFT",
-            "BACK_LEFT": "FRONT_RIGHT"
+            "barehands": {
+                "BACK_RIGHT": "FRONT_LEFT",
+                "BACK_LEFT": "FRONT_RIGHT"
+            },
+            "sword": {
+                "BACK_LEFT": "FRONT_RIGHT"
+            }
         },
         "hits": "same",
         "height": "high",
@@ -1238,8 +1722,13 @@
         "name": "Spin Back Fist",
         "style": "forsaken",
         "stance": {
-            "BACK_RIGHT": "BACK_LEFT",
-            "BACK_LEFT": "BACK_RIGHT"
+            "barehands": {
+                "BACK_RIGHT": "BACK_LEFT",
+                "BACK_LEFT": "BACK_RIGHT"
+            },
+            "sword": {
+                "BACK_LEFT": "BACK_RIGHT"
+            }
         },
         "hits": "diff",
         "height": "high",
@@ -1250,8 +1739,13 @@
         "name": "Spin Elbow",
         "style": "forsaken",
         "stance": {
-            "BACK_RIGHT": "BACK_LEFT",
-            "BACK_LEFT": "BACK_RIGHT"
+            "barehands": {
+                "BACK_RIGHT": "BACK_LEFT",
+                "BACK_LEFT": "BACK_RIGHT"
+            },
+            "sword": {
+                "BACK_LEFT": "BACK_RIGHT"
+            }
         },
         "hits": "diff",
         "height": "high",
@@ -1262,8 +1756,11 @@
         "name": "Spinning Flute Swing",
         "style": "stagger",
         "stance": {
-            "BACK_RIGHT": "FRONT_RIGHT",
-            "BACK_LEFT": "FRONT_LEFT"
+            "barehands": {
+                "BACK_RIGHT": "FRONT_RIGHT",
+                "BACK_LEFT": "FRONT_LEFT"
+            },
+            "sword": false
         },
         "hits": "diff",
         "height": "high",
@@ -1274,8 +1771,14 @@
         "name": "Spinning High Kick",
         "style": "forsaken",
         "stance": {
-            "FRONT_RIGHT": "BACK_RIGHT",
-            "FRONT_LEFT": "BACK_LEFT"
+            "barehands": {
+                "FRONT_RIGHT": "BACK_RIGHT",
+                "FRONT_LEFT": "BACK_LEFT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "BACK_RIGHT",
+                "FRONT_LEFT": "BACK_LEFT"
+            }
         },
         "hits": "diff",
         "height": "high",
@@ -1286,8 +1789,13 @@
         "name": "Spinning Wide Hook",
         "style": "forsaken",
         "stance": {
-            "BACK_RIGHT": "FRONT_RIGHT",
-            "BACK_LEFT": "FRONT_LEFT"
+            "barehands": {
+                "BACK_RIGHT": "FRONT_RIGHT",
+                "BACK_LEFT": "FRONT_LEFT"
+            },
+            "sword": {
+                "BACK_RIGHT": "FRONT_RIGHT"
+            }
         },
         "hits": "diff",
         "height": "high",
@@ -1298,8 +1806,11 @@
         "name": "Spiral Back Punch",
         "style": "stagger",
         "stance": {
-            "FRONT_RIGHT": "BACK_RIGHT",
-            "FRONT_LEFT": "BACK_LEFT"
+            "barehands": {
+                "FRONT_RIGHT": "BACK_RIGHT",
+                "FRONT_LEFT": "BACK_LEFT"
+            },
+            "sword": false
         },
         "hits": "diff",
         "height": "mid",
@@ -1310,8 +1821,11 @@
         "name": "Spiral Palm",
         "style": "windfall",
         "stance": {
-            "BACK_RIGHT": "FRONT_RIGHT",
-            "BACK_LEFT": "FRONT_LEFT"
+            "barehands": {
+                "BACK_RIGHT": "FRONT_RIGHT",
+                "BACK_LEFT": "FRONT_LEFT"
+            },
+            "sword": false
         },
         "hits": "same",
         "height": "mid",
@@ -1324,8 +1838,13 @@
         "name": "Straight Punch",
         "style": "forsaken",
         "stance": {
-            "FRONT_RIGHT": "FRONT_LEFT",
-            "FRONT_LEFT": "FRONT_RIGHT"
+            "barehands": {
+                "FRONT_RIGHT": "FRONT_LEFT",
+                "FRONT_LEFT": "FRONT_RIGHT"
+            },
+            "sword": {
+                "FRONT_LEFT": "FRONT_RIGHT"
+            }
         },
         "hits": "same",
         "height": "high",
@@ -1336,8 +1855,13 @@
         "name": "Stretch Out Hook",
         "style": "forsaken",
         "stance": {
-            "BACK_RIGHT": "FRONT_LEFT",
-            "BACK_LEFT": "FRONT_RIGHT"
+            "barehands": {
+                "BACK_RIGHT": "FRONT_LEFT",
+                "BACK_LEFT": "FRONT_RIGHT"
+            },
+            "sword": {
+                "BACK_LEFT": "FRONT_RIGHT"
+            }
         },
         "hits": "same",
         "height": "high",
@@ -1348,8 +1872,13 @@
         "name": "Surging Palm",
         "style": "windfall",
         "stance": {
-            "BACK_RIGHT": "BACK_LEFT",
-            "BACK_LEFT": "BACK_RIGHT"
+            "barehands": {
+                "BACK_RIGHT": "BACK_LEFT",
+                "BACK_LEFT": "BACK_RIGHT"
+            },
+            "sword": {
+                "BACK_LEFT": "BACK_RIGHT"
+            }
         },
         "hits": "diff",
         "height": "mid",
@@ -1362,8 +1891,14 @@
         "name": "Switch Kick",
         "style": "faejin",
         "stance": {
-            "FRONT_RIGHT": "FRONT_RIGHT",
-            "FRONT_LEFT": "FRONT_LEFT"
+            "barehands": {
+                "FRONT_RIGHT": "FRONT_RIGHT",
+                "FRONT_LEFT": "FRONT_LEFT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "FRONT_RIGHT",
+                "FRONT_LEFT": "FRONT_LEFT"
+            }
         },
         "hits": "diff",
         "height": "low",
@@ -1374,8 +1909,13 @@
         "name": "Temple Knock",
         "style": "faejin",
         "stance": {
-            "BACK_RIGHT": "BACK_RIGHT",
-            "BACK_LEFT": "BACK_LEFT"
+            "barehands": {
+                "BACK_RIGHT": "BACK_RIGHT",
+                "BACK_LEFT": "BACK_LEFT"
+            },
+            "sword": {
+                "BACK_RIGHT": "BACK_RIGHT"
+            }
         },
         "hits": "diff",
         "height": "high",
@@ -1386,8 +1926,13 @@
         "name": "Tetsuzanko",
         "style": "windfall",
         "stance": {
-            "BACK_RIGHT": "BACK_LEFT",
-            "BACK_LEFT": "BACK_RIGHT"
+            "barehands": {
+                "BACK_RIGHT": "BACK_LEFT",
+                "BACK_LEFT": "BACK_RIGHT"
+            },
+            "sword": {
+                "BACK_LEFT": "BACK_RIGHT"
+            }
         },
         "hits": "same",
         "height": "mid",
@@ -1400,8 +1945,14 @@
         "name": "Tripped Kick",
         "style": "forsaken",
         "stance": {
-            "FRONT_RIGHT": "FRONT_LEFT",
-            "FRONT_LEFT": "FRONT_RIGHT"
+            "barehands": {
+                "FRONT_RIGHT": "FRONT_LEFT",
+                "FRONT_LEFT": "FRONT_RIGHT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "FRONT_LEFT",
+                "FRONT_LEFT": "FRONT_RIGHT"
+            }
         },
         "hits": "diff",
         "height": "low",
@@ -1414,8 +1965,14 @@
         "name": "Twist Back Kick",
         "style": "stagger",
         "stance": {
-            "BACK_RIGHT": "BACK_RIGHT",
-            "BACK_LEFT": "BACK_LEFT"
+            "barehands": {
+                "BACK_RIGHT": "BACK_RIGHT",
+                "BACK_LEFT": "BACK_LEFT"
+            },
+            "sword": {
+                "BACK_RIGHT": "BACK_RIGHT",
+                "BACK_LEFT": "BACK_LEFT"
+            }
         },
         "hits": "same",
         "height": "high",
@@ -1426,8 +1983,13 @@
         "name": "Twist Parry Strike",
         "style": "forsaken",
         "stance": {
-            "BACK_RIGHT": "BACK_RIGHT",
-            "BACK_LEFT": "BACK_LEFT"
+            "barehands": {
+                "BACK_RIGHT": "BACK_RIGHT",
+                "BACK_LEFT": "BACK_LEFT"
+            },
+            "sword": {
+                "BACK_RIGHT": "BACK_RIGHT"
+            }
         },
         "hits": "diff",
         "height": "high",
@@ -1440,8 +2002,14 @@
         "name": "Underknee kick",
         "style": "forsaken",
         "stance": {
-            "BACK_RIGHT": "BACK_RIGHT",
-            "BACK_LEFT": "BACK_LEFT"
+            "barehands": {
+                "BACK_RIGHT": "BACK_RIGHT",
+                "BACK_LEFT": "BACK_LEFT"
+            },
+            "sword": {
+                "BACK_RIGHT": "BACK_RIGHT",
+                "BACK_LEFT": "BACK_LEFT"
+            }
         },
         "hits": "diff",
         "height": "low",
@@ -1452,8 +2020,13 @@
         "name": "Upper Backfist",
         "style": "faejin",
         "stance": {
-            "BACK_RIGHT": "FRONT_RIGHT",
-            "BACK_LEFT": "FRONT_LEFT"
+            "barehands": {
+                "BACK_RIGHT": "FRONT_RIGHT",
+                "BACK_LEFT": "FRONT_LEFT"
+            },
+            "sword": {
+                "BACK_RIGHT": "FRONT_RIGHT"
+            }
         },
         "hits": "same",
         "height": "mid",
@@ -1464,8 +2037,13 @@
         "name": "Upper Elbow",
         "style": "kahlt",
         "stance": {
-            "BACK_RIGHT": "BACK_LEFT",
-            "BACK_LEFT": "BACK_RIGHT"
+            "barehands": {
+                "BACK_RIGHT": "BACK_LEFT",
+                "BACK_LEFT": "BACK_RIGHT"
+            },
+            "sword": {
+                "BACK_LEFT": "BACK_RIGHT"
+            }
         },
         "hits": "diff",
         "height": "high",
@@ -1476,8 +2054,13 @@
         "name": "Uraken",
         "style": "faejin",
         "stance": {
-            "BACK_RIGHT": "BACK_LEFT",
-            "BACK_LEFT": "BACK_RIGHT"
+            "barehands": {
+                "BACK_RIGHT": "BACK_LEFT",
+                "BACK_LEFT": "BACK_RIGHT"
+            },
+            "sword": {
+                "BACK_LEFT": "BACK_RIGHT"
+            }
         },
         "hits": "diff",
         "height": "high",
@@ -1488,8 +2071,14 @@
         "name": "Uramawashi",
         "style": "windfall",
         "stance": {
-            "BACK_RIGHT": "FRONT_LEFT",
-            "BACK_LEFT": "FRONT_RIGHT"
+            "barehands": {
+                "BACK_RIGHT": "FRONT_LEFT",
+                "BACK_LEFT": "FRONT_RIGHT"
+            },
+            "sword": {
+                "BACK_RIGHT": "FRONT_LEFT",
+                "BACK_LEFT": "FRONT_RIGHT"
+            }
         },
         "hits": "diff",
         "height": "high",
@@ -1500,8 +2089,13 @@
         "name": "Wallop Blow",
         "style": "kahlt",
         "stance": {
-            "BACK_RIGHT": "BACK_RIGHT",
-            "BACK_LEFT": "BACK_LEFT"
+            "barehands": {
+                "BACK_RIGHT": "BACK_RIGHT",
+                "BACK_LEFT": "BACK_LEFT"
+            },
+            "sword": {
+                "BACK_LEFT": "BACK_LEFT"
+            }
         },
         "hits": "same",
         "height": "mid",
@@ -1512,8 +2106,11 @@
         "name": "Whirlwind Double Punch",
         "style": "stagger",
         "stance": {
-            "BACK_RIGHT": "FRONT_RIGHT",
-            "BACK_LEFT": "FRONT_LEFT"
+            "barehands": {
+                "BACK_RIGHT": "FRONT_RIGHT",
+                "BACK_LEFT": "FRONT_LEFT"
+            },
+            "sword": false
         },
         "hits": "same",
         "height": "low",
@@ -1527,8 +2124,14 @@
         "name": "Winged Back Kick",
         "style": "forsaken",
         "stance": {
-            "FRONT_RIGHT": "BACK_RIGHT",
-            "FRONT_LEFT": "BACK_LEFT"
+            "barehands": {
+                "FRONT_RIGHT": "BACK_RIGHT",
+                "FRONT_LEFT": "BACK_LEFT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "BACK_RIGHT",
+                "FRONT_LEFT": "BACK_LEFT"
+            }
         },
         "hits": "same",
         "height": "mid",
@@ -1541,8 +2144,14 @@
         "name": "Wobble Low Kick",
         "style": "stagger",
         "stance": {
-            "FRONT_RIGHT": "BACK_RIGHT",
-            "FRONT_LEFT": "BACK_LEFT"
+            "barehands": {
+                "FRONT_RIGHT": "BACK_RIGHT",
+                "FRONT_LEFT": "BACK_LEFT"
+            },
+            "sword": {
+                "FRONT_RIGHT": "BACK_RIGHT",
+                "FRONT_LEFT": "BACK_LEFT"
+            }
         },
         "hits": "same",
         "height": "low",
@@ -1553,8 +2162,11 @@
         "name": "Wrist Jab",
         "style": "stagger",
         "stance": {
-            "FRONT_RIGHT": "FRONT_RIGHT",
-            "FRONT_LEFT": "FRONT_LEFT"
+            "barehands": {
+                "FRONT_RIGHT": "FRONT_RIGHT",
+                "FRONT_LEFT": "FRONT_LEFT"
+            },
+            "sword": false
         },
         "hits": "diff",
         "height": "high",

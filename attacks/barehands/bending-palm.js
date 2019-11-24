@@ -3,8 +3,12 @@ module.exports =  {
     style : "windfall",
 
     stance : {
-        FRONT_RIGHT : "BACK_LEFT",
-        FRONT_LEFT  : "BACK_RIGHT",
+        barehands : {
+            FRONT_RIGHT : "BACK_LEFT",
+            FRONT_LEFT  : "BACK_RIGHT",
+        },
+
+        sword : false,
     },
 
     hits : "diff",
