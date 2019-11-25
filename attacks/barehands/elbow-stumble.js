@@ -1,4 +1,4 @@
-module.exports =  {
+module.exports = {
     name  : "Elbow Stumble",
     style : "stagger",
 

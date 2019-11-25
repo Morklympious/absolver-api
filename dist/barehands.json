@@ -64,7 +64,6 @@
                 "FRONT_LEFT": "FRONT_LEFT"
             },
             "sword": {
-                "FRONT_RIGHT": "FRONT_RIGHT",
                 "FRONT_LEFT": "FRONT_LEFT"
             }
         },
@@ -885,7 +884,7 @@
             },
             "sword": false
         },
-        "hits": "same",
+        "hits": "both",
         "height": "high",
         "type": "thrust",
         "modifiers": [

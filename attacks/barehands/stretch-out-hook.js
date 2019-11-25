@@ -1,4 +1,4 @@
-module.exports =  {
+module.exports = {
     name  : "Stretch Out Hook",
     style : "forsaken",
 

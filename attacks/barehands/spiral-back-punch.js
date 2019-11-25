@@ -1,5 +1,5 @@
 
-module.exports =  {
+module.exports = {
     name  : "Spiral Back Punch",
     style : "stagger",
 

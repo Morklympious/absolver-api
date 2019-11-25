@@ -1,4 +1,4 @@
-module.exports =  {
+module.exports = {
     name  : "Fast Punch",
     style : "forsaken",
 

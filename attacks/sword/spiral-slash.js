@@ -1,4 +1,4 @@
-module.exports =  {
+module.exports = {
     name  : "Spiral Slash",
     style : "forsaken",
 

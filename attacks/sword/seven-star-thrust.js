@@ -1,4 +1,4 @@
-module.exports =  {
+module.exports = {
     name  : "Seven Star Thrust",
     style : "windfall",
 

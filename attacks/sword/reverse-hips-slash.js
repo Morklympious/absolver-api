@@ -1,4 +1,4 @@
-module.exports =  {
+module.exports = {
     name  : "Reverse Hips Slash",
     style : "kahlt",
 

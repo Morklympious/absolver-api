@@ -1,4 +1,4 @@
-module.exports =  {
+module.exports = {
     name  : "Shifting Thrust",
     style : "forsaken",
 

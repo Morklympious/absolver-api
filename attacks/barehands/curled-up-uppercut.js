@@ -1,4 +1,4 @@
-module.exports =  {
+module.exports = {
     name  : "Curled Up Uppercut",
     style : "kahlt",
 

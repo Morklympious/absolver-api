@@ -1,4 +1,4 @@
-module.exports =  {
+module.exports = {
     name  : "Spin Back Fist",
     style : "forsaken",
 

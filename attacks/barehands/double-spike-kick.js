@@ -1,4 +1,4 @@
-module.exports =  {
+module.exports = {
     name  : "Double Spike Kick",
     style : "stagger",
 

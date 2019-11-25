@@ -1,4 +1,4 @@
-module.exports =  {
+module.exports = {
     name  : "Roll Back Fist",
     style : "windfall",
 

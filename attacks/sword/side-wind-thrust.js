@@ -1,4 +1,4 @@
-module.exports =  {
+module.exports = {
     name  : "Side Wind Thrust",
     style : "windfall",
 

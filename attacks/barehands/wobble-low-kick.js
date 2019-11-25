@@ -1,4 +1,4 @@
-module.exports =  {
+module.exports = {
     name  : "Wobble Low Kick",
     style : "stagger",
 

@@ -1,4 +1,4 @@
-module.exports =  {
+module.exports = {
     name  : "One Handed Slash",
     style : "windfall",
 

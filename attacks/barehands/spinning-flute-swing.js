@@ -1,4 +1,4 @@
-module.exports =  {
+module.exports = {
     name  : "Spinning Flute Swing",
     style : "stagger",
 

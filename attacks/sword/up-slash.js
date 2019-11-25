@@ -1,4 +1,4 @@
-module.exports =  {
+module.exports = {
     name  : "Up Slash",
     style : "faejin",
 

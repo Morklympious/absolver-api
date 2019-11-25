@@ -1,4 +1,4 @@
-module.exports =  {
+module.exports = {
     name  : "Back Hop Wrist",
     style : "stagger",
 

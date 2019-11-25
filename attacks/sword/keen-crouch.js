@@ -1,4 +1,4 @@
-module.exports =  {
+module.exports = {
     name  : "Keen Crouch",
     style : "windfall",
 

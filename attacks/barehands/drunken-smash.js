@@ -1,4 +1,4 @@
-module.exports =  {
+module.exports = {
     name  : "Drunken Smash",
     style : "stagger",
     

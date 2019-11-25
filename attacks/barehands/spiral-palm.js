@@ -1,4 +1,4 @@
-module.exports =  {
+module.exports = {
     name  : "Spiral Palm",
     style : "windfall",
 

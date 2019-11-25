@@ -1,4 +1,4 @@
-module.exports =  {
+module.exports = {
     name  : "Digging Parry Elbow",
     style : "forsaken",
 

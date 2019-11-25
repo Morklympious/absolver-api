@@ -1,4 +1,4 @@
-module.exports =  {
+module.exports = {
     name  : "Whirlwind Double Punch",
     style : "stagger",
 

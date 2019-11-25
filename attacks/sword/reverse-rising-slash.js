@@ -1,4 +1,4 @@
-module.exports =  {
+module.exports = {
     name  : "Reverse Rising Slash",
     style : "kahlt",
 

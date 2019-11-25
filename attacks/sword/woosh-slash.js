@@ -1,4 +1,4 @@
-module.exports =  {
+module.exports = {
     name  : "Woosh Slash",
     style : "stagger",
 

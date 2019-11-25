@@ -1,4 +1,4 @@
-module.exports =  {
+module.exports = {
     name  : "Illusion Twist Kick",
     style : "windfall",
 

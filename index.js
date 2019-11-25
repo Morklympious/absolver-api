@@ -10,7 +10,7 @@ const sword = blade.map((file) => require(file));
 
 if(process.env.GENERATE) {
     fs.writeFileSync("./dist/barehands.json", JSON.stringify(barehands, null, 4));
-    fs.writeFileSync("./dist/barehands.js", `module.exports = ${util.inspect(barehands)}`);
+    fs.writeFileSync("./dist/sword.json", JSON.stringify(sword, null, 4))
 }
 
 module.exports = {

@@ -1,4 +1,4 @@
-module.exports =  {
+module.exports = {
     name  : "Bounce Knee",
     style : "kahlt",
 

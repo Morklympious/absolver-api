@@ -1,4 +1,4 @@
-module.exports =  {
+module.exports = {
     name  : "Double Fist Stretch",
     style : "stagger",
 

@@ -1,4 +1,4 @@
-module.exports =  {
+module.exports = {
     name  : "Fast Back Fist",
     style : "kahlt",
 

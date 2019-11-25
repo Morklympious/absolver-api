@@ -1,4 +1,4 @@
-module.exports =  {
+module.exports = {
     name  : "Rising Double Hand",
     style : "kahlt",
 

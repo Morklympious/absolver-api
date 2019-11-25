@@ -1,4 +1,4 @@
-module.exports =  {
+module.exports = {
     name  : "Spinning High Kick",
     style : "forsaken",
 

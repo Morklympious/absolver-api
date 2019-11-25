@@ -1,4 +1,4 @@
-module.exports =  {
+module.exports = {
     name  : "Collar Chop",
     style : "windfall",
 
