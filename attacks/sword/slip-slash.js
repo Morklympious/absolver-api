@@ -1,5 +1,5 @@
 module.exports = {
-    name  : "Hook Slash",
+    name  : "Slip Slash",
     style : "stagger",
 
     stance : {

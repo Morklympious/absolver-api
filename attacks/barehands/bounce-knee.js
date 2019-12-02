@@ -19,5 +19,5 @@ module.exports = {
     height : "high",
     type   : "thrust",
 
-    modifiers : [ "strafe" ],
+    modifiers : [ "jump" ],
 };

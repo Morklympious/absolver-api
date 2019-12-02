@@ -9,8 +9,8 @@ module.exports = {
         },
 
         sword : {
-            FRONT_LEFT : "FRONT_LEFT",
-        }
+            FRONT_RIGHT : "FRONT_RIGHT",
+        },
     },
 
     hits : "diff",
