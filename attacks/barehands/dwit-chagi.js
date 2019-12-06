@@ -16,9 +16,16 @@ module.exports = {
 
     hits : "diff",
 
-
     height : "mid",
     type   : "thrust",
+
+    frames : {
+        startup   : 15,
+        advantage : {
+            hit   : 8,
+            guard : 7,
+        },
+    },
 
     modifiers : [ "stop" ],
 };

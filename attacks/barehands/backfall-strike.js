@@ -16,5 +16,13 @@ module.exports = {
     lands : "high",
     type  : "thrust",
 
+    frames : {
+        startup   : 12,
+        advantage : {
+            hit   : 7,
+            guard : 2,
+        },
+    },
+
     modifiers : [ "double" ],
 };

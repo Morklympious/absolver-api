@@ -8,12 +8,21 @@ module.exports = {
             BACK_LEFT  : "FRONT_LEFT",
         },
 
-                sword : false,
+        sword : false,
     },
     
-    hits   : "diff",
+    hits : "diff",
+
     height : "high",
     type   : "horizontal",
+
+    frames : {
+        startup   : 20,
+        advantage : {
+            hit   : 12,
+            guard : 4,
+        },
+    },
 
     modifiers : [],
 };

@@ -10,13 +10,21 @@ module.exports = {
 
         sword : {
             BACK_RIGHT : "BACK_RIGHT",
-        }
+        },
     },
 
     hits : "same",
 
     height : "high",
     type   : "thrust",
+
+    frames : {
+        startup   : 10,
+        advantage : {
+            hit   : 4,
+            guard : 0,
+        },
+    },
 
     modifiers : [],
 };

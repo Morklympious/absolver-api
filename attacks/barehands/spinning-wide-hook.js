@@ -13,9 +13,19 @@ module.exports = {
         },
     },
     
-    hits   : "diff",
+    hits : "diff",
+    
     height : "high",
     type   : "horizontal",
+
+    frames : {
+        startup   : 23,
+        advantage : {
+            hit   : 14,
+            guard : 3,
+        },
+    },
+
 
     modifiers : [],
 };

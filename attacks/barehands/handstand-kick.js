@@ -19,6 +19,14 @@ module.exports = {
     height : "high",
     type   : "horizontal",
 
+    frames : {
+        startup   : 15,
+        advantage : {
+            hit   : 7,
+            guard : -1,
+        },
+    },
+
     modifiers : [ "double", "low" ],
 };
     

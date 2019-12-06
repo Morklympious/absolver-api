@@ -16,6 +16,14 @@ module.exports = {
     height : "mid",
     type   : "thrust",
 
+    frames : {
+        startup   : 24,
+        advantage : {
+            hit   : 15,
+            guard : 15,
+        },
+    },
+
     modifiers : [ "break" ],
 };
     
