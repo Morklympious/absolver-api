@@ -14,7 +14,7 @@ module.exports = {
         },
     },
     
-    hits : "diff",
+    hits : "same",
     
     height : "mid",
     type   : "thrust",
