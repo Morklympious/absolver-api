@@ -11,7 +11,7 @@ const EXCLUDED_MOVE_SYMBOL = "__";
  *
  * This isn't perfect or great but it'll do for now!
  * */
-const pathify = (version) => `${PUBLIC_DIR}/${version}`;
+const pathify = (version) => `${PUBLIC_DIR}/${Object.is(version, "vanilla") ? "" : version}`;
 const exists = (path) => fs.existsSync(path);
 
 const generate = ({ barehands, sword, version }) => {
