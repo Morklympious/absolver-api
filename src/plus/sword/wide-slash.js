@@ -16,10 +16,10 @@ module.exports = {
     type   : "horizontal",
 
     frames : {
-        startup   : 14,
+        startup   : 15,
         advantage : {
-            hit   : 8,
-            guard : 3,
+            hit   : 9,
+            guard : 4,
         },
     },
 

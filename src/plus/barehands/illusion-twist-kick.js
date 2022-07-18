@@ -22,12 +22,12 @@ module.exports = {
     frames : {
         startup   : 18,
         advantage : {
-            hit   : 12,
-            guard : 3,
+            hit   : 10,
+            guard : 4,
         },
     },
 
 
-    modifiers : [ "jump" ],
+    modifiers : [],
 };
     

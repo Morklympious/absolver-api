@@ -26,6 +26,6 @@ module.exports = {
         },
     },
 
-    modifiers : [ "strafe" ],
+    modifiers : [],
 };
     

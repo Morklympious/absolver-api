@@ -21,10 +21,10 @@ module.exports = {
     frames : {
         startup   : 17,
         advantage : {
-            hit   : 8,
+            hit   : 10,
             guard : 4,
         },
     },
 
-    modifiers : [ "strafe" ],
+    modifiers : [],
 };

@@ -18,11 +18,11 @@ module.exports = {
     frames : {
         startup   : 20,
         advantage : {
-            hit   : 10,
-            guard : 3,
+            hit   : 12,
+            guard : 4,
         },
     },
 
-    modifiers : [ "parry" ],
+    modifiers : [],
 };
 

@@ -14,7 +14,7 @@ module.exports = {
     hits : "diff",
 
     height : "high",
-    type   : "thrust",
+    type   : "horizontal",
 
     frames : {
         startup   : 20,

@@ -19,10 +19,10 @@ module.exports = {
         startup   : 18,
         advantage : {
             hit   : 10,
-            guard : 3,
+            guard : 4,
         },
     },
 
-    modifiers : [ "jump" ],
+    modifiers : [],
 };
 

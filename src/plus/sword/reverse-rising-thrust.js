@@ -19,7 +19,7 @@ module.exports = {
         startup   : 18,
         advantage : {
             hit   : 10,
-            guard : 6,
+            guard : 4,
         },
     },
 

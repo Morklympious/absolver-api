@@ -22,10 +22,10 @@ module.exports = {
         startup   : 20,
         advantage : {
             hit   : 12,
-            guard : 5,
+            guard : 6,
         },
     },
 
-    modifiers : [ "strafe" ],
+    modifiers : [],
 };
     

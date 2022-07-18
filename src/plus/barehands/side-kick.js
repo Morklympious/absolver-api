@@ -23,7 +23,7 @@ module.exports = {
         startup   : 17,
         advantage : {
             hit   : 10,
-            guard : 3,
+            guard : 4,
         },
     },
 

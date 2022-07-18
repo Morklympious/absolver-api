@@ -26,6 +26,6 @@ module.exports = {
         },
     },
 
-    modifiers : [ "break", "jump" ],
+    modifiers : [ "break" ],
 };
     

@@ -20,10 +20,10 @@ module.exports = {
     type   : "horizontal",
 
     frames : {
-        startup   : 14,
+        startup   : 15,
         advantage : {
             hit   : 7,
-            guard : 3,
+            guard : 6,
         },
     },
 

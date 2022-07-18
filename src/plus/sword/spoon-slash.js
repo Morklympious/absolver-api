@@ -18,8 +18,8 @@ module.exports = {
     frames : {
         startup   : 17,
         advantage : {
-            hit   : 9,
-            guard : 5,
+            hit   : 10,
+            guard : 4,
         },
     },
 

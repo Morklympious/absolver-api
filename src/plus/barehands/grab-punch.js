@@ -16,13 +16,13 @@ module.exports = {
     hits : "diff",
 
     height : "high",
-    type   : "thrust",
+    type   : "horizontal",
 
     frames : {
         startup   : 21,
         advantage : {
-            hit   : 11,
-            guard : 3,
+            hit   : 9,
+            guard : 0,
         },
     },
 

@@ -26,5 +26,5 @@ module.exports = {
         },
     },
 
-    modifiers : [ "jump" ],
+    modifiers : [],
 };
