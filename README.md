@@ -9,7 +9,7 @@ This API is a statically hosted set of `json` formatted files. You can access th
 
 ### Vanilla Absolver
 
-To access vanilla absolver move data, simply make a `GET` request to `api.absolver.dev/{move-name}`
+To access vanilla absolver move data, simply make a `GET` request to `api.absolver.dev/{move-name}.json`
 e.g. to request "Axe Kick", you need to simply `kebab-case` the move name and append it to the API URL.
 
 **You may also get every barehands and sword move at the following URLS**
@@ -46,7 +46,7 @@ For example, here's what calbot looks like.
 
 Everything should be self explanatory, and the `stance` key / values give key/value pairs for `STARTING_QUADRANT: ENDING_QUADRANT`. Sword is different since some moves are not available due to every absolver holding sword in their right hand. 
 
-This is why calbot can "only" be slotted in the front left.
+This is why calbot can "only" be slotted in the front left when holding a sword.
 
 ```json
 {
@@ -75,10 +75,18 @@ This is why calbot can "only" be slotted in the front left.
 }
 ```
 
+## Images
+
+Just as you can access move data with a `json` file extension, images are made available at the `/images/` path 
+
+```js
+// This will link off to side kick. Go crazy, I guess.
+fetch("https://api.absolver.dev/images/side-kick.png")`
+```
+
 ## Limitations / Known Issues / Things to do next
 
 1. Absolver Plus move data currently does not support "driving palm" and "reverse elbow strike", the two moves added to Absolver plus for barehands.
 2. This might not be the final shape of data, but it'll work for now!
-3. Move data does not contain image files or image file URLs
 
 Thanks for reading! And reach out to me on discord if you have any questions!
