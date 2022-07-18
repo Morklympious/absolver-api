@@ -4,6 +4,7 @@ const path = require("path");
 
 const PUBLIC_DIR = "./public";
 const EXCLUDED_MOVE_SYMBOL = "__";
+const images = glob.sync("./src/images/*.png");
 
 /**
  * 1. Grab the directory of all of the attacks, they should contain a barehands and sword folder
@@ -12,7 +13,6 @@ const EXCLUDED_MOVE_SYMBOL = "__";
  * This isn't perfect or great but it'll do for now!
  * */
 const pathify = (version) => `${PUBLIC_DIR}/${Object.is(version, "vanilla") ? "" : version}`;
-const exists = (path) => fs.existsSync(path);
 
 const generate = ({ barehands, sword, version }) => {
     const output = pathify(version);
@@ -24,7 +24,7 @@ const generate = ({ barehands, sword, version }) => {
     };
     
     fs.rmSync(output, { force : true, recursive : true });
-    fs.mkdirSync(output);
+    fs.mkdirSync(`${output}/images`, { recursive : true });
 
     barehands.forEach((file) => {
         if(path.resolve(file).includes(EXCLUDED_MOVE_SYMBOL)) {
@@ -55,6 +55,8 @@ const generate = ({ barehands, sword, version }) => {
     // Write the bulk files, barehands + sword
     fs.writeFileSync(`${output}/barehands.json`, JSON.stringify(all.barehands, null, 4));
     fs.writeFileSync(`${output}/sword.json`, JSON.stringify(all.sword, null, 4));
+    
+    images.forEach((file) => fs.copyFileSync(file, `${PUBLIC_DIR}/images/${path.basename(file)}`));
 };
 
 generate({
