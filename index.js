@@ -3,31 +3,69 @@ const fs = require("fs");
 const path = require("path");
 
 const PUBLIC_DIR = "./public";
+const EXCLUDED_MOVE_SYMBOL = "__";
 
-const hands = glob.sync("./src/vanilla/barehands/*.js");
-const blade = glob.sync("./src/vanilla/sword/*.js");
+/**
+ * 1. Grab the directory of all of the attacks, they should contain a barehands and sword folder
+ * 2. Split them into three parts: All barehands, All sword, Each individual move
+ *
+ * This isn't perfect or great but it'll do for now!
+ * */
+const pathify = (version) => `${PUBLIC_DIR}/${version}`;
+const exists = (path) => fs.existsSync(path);
 
-fs.rmSync(PUBLIC_DIR, { recursive: true, force: true })
-fs.mkdirSync(PUBLIC_DIR);
+const generate = ({ barehands, sword, version }) => {
+    const output = pathify(version);
 
-// Outputs the move in a single-file version in addition to barehands / sword
-const singlify = (file) => fs.writeFileSync(path.join(PUBLIC_DIR, `${path.parse(file).name}.json`), JSON.stringify(data, null, 4));
+    /** All output */
+    const all = {
+        barehands : [],
+        sword     : [],
+    };
+    
+    fs.rmSync(output, { force : true, recursive : true });
+    fs.mkdirSync(output);
 
-const barehands = hands.map((file) => {
-    const data = require(file);
-    return data;
+    barehands.forEach((file) => {
+        if(path.resolve(file).includes(EXCLUDED_MOVE_SYMBOL)) {
+            return null;
+        }
+
+        const data = require(file);
+
+        // Write the individual file
+        fs.writeFileSync(`${output}/${path.parse(file).name}.json`, JSON.stringify(data, null, 4));
+
+        return all.barehands.push(data);
+    });
+
+    sword.forEach((file) => {
+        const data = require(file);
+
+        if(path.resolve(file).includes(EXCLUDED_MOVE_SYMBOL)) {
+            return null;
+        }
+
+        // Write the individual file
+        fs.writeFileSync(`${output}/${path.parse(file).name}.json`, JSON.stringify(data, null, 4));
+
+        return all.sword.push(data);
+    });
+
+    // Write the bulk files, barehands + sword
+    fs.writeFileSync(`${output}/barehands.json`, JSON.stringify(all.barehands, null, 4));
+    fs.writeFileSync(`${output}/sword.json`, JSON.stringify(all.sword, null, 4));
+};
+
+generate({
+    barehands : glob.sync("./src/vanilla/barehands/*.js"),
+    sword     : glob.sync("./src/vanilla/sword/*.js"),
+    version   : "vanilla",
 });
 
-const sword = blade.map((file) => require(file));
+generate({
+    barehands : glob.sync("./src/plus/barehands/*.js"),
+    sword     : glob.sync("./src/plus/sword/*.js"),
+    version   : "plus",
+});
 
-console.log(barehands)
-
-if(process.env.GENERATE) {
-    fs.writeFileSync(path.join(PUBLIC_DIR, "barehands.json"), JSON.stringify(barehands, null, 4));
-    fs.writeFileSync(path.join(PUBLIC_DIR, "sword.json"), JSON.stringify(sword, null, 4))
-}
-
-module.exports = {
-    barehands,
-    sword,
-};
