@@ -4,8 +4,3 @@
     [headers.values]
     Access-Control-Allow-Origin = "*"
 
-[[redirects]]
-  from = "/:splat"
-  to = "/:splat.json
-  status = 200
-  force = true
