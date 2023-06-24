@@ -4,7 +4,7 @@
   "description": "Generated JSON for Absolver moves",
   "main": "index.js",
   "dependencies": {
-    "eslint": "^4.13.1",
+    "eslint": "^8.43.0",
     "eslint-config-arenanet": "^3.3.1"
   },
   "devDependencies": {
