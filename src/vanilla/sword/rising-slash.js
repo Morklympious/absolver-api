@@ -6,7 +6,7 @@ module.exports = {
         barehands : false,
 
         sword : {
-            FRONT_RIGHT : "FRONT_RIGHT",
+            FRONT_RIGHT : "FRONT_LEFT",
         },
     },
 

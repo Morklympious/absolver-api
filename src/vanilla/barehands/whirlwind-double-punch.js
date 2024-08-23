@@ -8,7 +8,10 @@ module.exports = {
             BACK_LEFT  : "FRONT_LEFT",
         },
 
-        sword : false,
+        sword : {
+            BACK_RIGHT : "FRONT_RIGHT",
+            BACK_LEFT  : "FRONT_LEFT",
+        },
     },
     
     hits : "same",
