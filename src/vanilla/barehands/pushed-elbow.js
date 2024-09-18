@@ -9,7 +9,7 @@ module.exports = {
         },
 
         sword : {
-            BACK_RIGHT : "BACK_LEFT",
+            BACK_LEFT : "BACK_RIGHT",
         },
     },
     
